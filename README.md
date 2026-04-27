@@ -102,9 +102,24 @@ Our mechanical framework relies on:
 
 ---
 
+## Event: A Dark Conspiracy Campaign
+
+The engine has been adapted for the **A Dark Conspiracy** campaign, originally released in 1997 and [now restored for 6th edition](https://karaknornwargaming.blogspot.com/p/a-dark-conspiracy.html) by _Karak Norn Wargaming Club_.
+
+### ⚙️ How to Enable the Campaign Rules
+The engine has been specifically adapted to handle the unique **Stolen Relics** and **Amazon Mercenaries** rules of the Lustrian conflict.
+
+1. Create a new **Force** in your roster editor.
+2. Navigate to the `Campaign/Scenario rules` section.
+3. Select `Campaign: A Dark Conspiracy - 30th Anniversary`.
+
+_Effect_: This unlocks the Stolen Relics logic, allowing your faction access to specific Magic Items from the Lizardmen Army Book (LZ-AB), representing the looted treasures of Huatl and Antoch. It also unlocks the [semi-official Amazon Mercenaries rules written by Andy Hoare](https://karaknornwargaming.blogspot.com/2026/03/about-amazons-in-whfb-6th.html).
+
+---
+
 ## 🐛 Issue Tracking & Errata Submissions
 
-The Karak Norn Wargaming Club actively maintains this repository and processes bug fixes regularly. To ensure the absolute accuracy of this archive, we encourage community cross-referencing against the official 6th Edition physical texts.
+The _Karak Norn Wargaming Club_ actively maintains this repository and processes bug fixes regularly. To ensure the absolute accuracy of this archive, we encourage community cross-referencing against the official 6th Edition physical texts.
 
 If you identify a data entry error, point cost discrepancy, or missing rule interaction, please report it so it can be rectified:
 - **GitHub Issue Tracker (Preferred)**: Open a new issue directly in this repository for transparent tracking and version control.
