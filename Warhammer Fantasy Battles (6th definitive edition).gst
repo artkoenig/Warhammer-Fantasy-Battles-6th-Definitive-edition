@@ -2732,8 +2732,7 @@ Therefore, the enemy Armour save is reduced by an additional -1. For example, an
 - Bretonnians do not have their Army Battle Standard Bearer.
 - Tomb Kings must have a Liche Priest as the Hero. He will also act as the General.
 - Tomb Kings may have more than one Chariot.
-- A Vampire Thrall may lead a Vampire Counts army.
-</description>
+- A Vampire Thrall may lead a Vampire Counts army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3080,7 +3079,7 @@ The spell cannot affect Undead targets, Chaos Daemons or Unbreakable units. Unit
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
-            <condition type="equalTo" value="500" field="limit::ecfa-8486-4f6c-c249" scope="roster" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="500" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
         <modifier type="add" value="The army must consist of at least TWO units but no more than FOUR units" field="error">
@@ -3093,6 +3092,11 @@ The spell cannot affect Undead targets, Chaos Daemons or Unbreakable units. Unit
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="add" value="You must include at least ONE infantry unit of 10+ models." field="error">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="force" childId="6ad6-f54e-1867-00a7" shared="true" includeChildSelections="true" childName="BP Infantry 10+"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>

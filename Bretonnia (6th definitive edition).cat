@@ -1379,6 +1379,19 @@
           <comment>The Army of the King (BR-AB, p.79)</comment>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="9572-ac32-c59e-134c" name="Peasant Bowmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1556,6 +1569,19 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="6566-bd4f-e769-2999" name="Questing Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1872,6 +1898,17 @@
           <conditions>
             <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9baa-5682-a28d-8c4e" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>

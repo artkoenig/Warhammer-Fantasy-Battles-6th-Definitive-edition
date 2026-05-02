@@ -388,6 +388,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -667,6 +678,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry id="6b45-b2ad-dcdf-d3f4" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
@@ -759,6 +781,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1172,6 +1205,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -4039,6 +4083,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="0-1 Huntsmen" hidden="true" id="2599-8ce8-f00b-019e" collective="false">
@@ -4113,6 +4168,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -4251,6 +4317,19 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Crossbowmen" hidden="true" id="4bfb-e413-43cb-4cf5" collective="false">
       <infoLinks>
@@ -4355,6 +4434,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry id="e90d-82fc-b484-efa0" name="0-1 Charnel Guard" hidden="true" collective="false" import="true" type="unit" publicationId="8e66-3042-1d6b-fa6b" page="79">
@@ -4453,6 +4543,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -9806,6 +9907,17 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7464-5732-5430-242d" includeChildSelections="false"/>
@@ -11495,6 +11607,17 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Special" hidden="false" id="aa9e-e696-bf62-1ab1" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -11884,6 +12007,17 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Hand Weapon" hidden="false" id="9860-6490-46dd-2e43" type="selectionEntry" targetId="abdb-bbd0-41b2-5dff">
@@ -12054,6 +12188,17 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <comment>BLOOD DRAGONS</comment>

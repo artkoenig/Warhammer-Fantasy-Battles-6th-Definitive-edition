@@ -907,6 +907,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry id="a92b-15a2-017d-0b25" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
@@ -1098,6 +1109,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -1403,6 +1425,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <modifierGroups>
@@ -2186,6 +2219,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2308,6 +2352,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
           <comment>&quot;2+ Lothern Sea Rangers (Shadow Warriors)&quot; (SoC, p.94)</comment>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -2467,6 +2522,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2579,6 +2645,17 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3790,6 +3867,19 @@ In addition, roll a D6 for each magic item belonging to a model from a Chaos, Sk
         <infoLink id="fc068f29-51d2-4c22-996c-888a3946b1fa" name="Handmaiden" hidden="false" targetId="a496-11a4-4023-75fc" type="profile"/>
         <infoLink id="a1a42c89-484e-4692-9841-3edd3e53518d" name="Maiden Guard" hidden="false" targetId="e1ca-d32f-cf5d-9b61" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="2c21-3410-bf27-5cb6" name="Korhil, Hunter Captain of the White Lions" hidden="false" collective="false" import="true" type="unit" publicationId="c659-7e88-cb23-5934" page="12">
       <modifiers>
@@ -4129,6 +4219,17 @@ Poisoned weapons and other attacks lose any special benefits, but otherwise cou
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>

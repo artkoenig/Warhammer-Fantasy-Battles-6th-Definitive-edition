@@ -483,6 +483,17 @@
             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1275-eef1-e965-00fb" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8a-c9cb-4849-4680" type="min"/>
@@ -1532,6 +1543,17 @@
             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1275-eef1-e965-00fb" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="abeb-24ae-e1d4-855e" name="Tomb Blades" hidden="false" targetId="faa9-669f-d6d0-3810" type="rule"/>
@@ -1669,6 +1691,19 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="fc8a-6cdd-1437-91dd" name="Carrion" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>

@@ -1925,6 +1925,17 @@ OR Great Weapon until EoC</characteristic>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f130-ff1b-2f7b-e49f" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2120,6 +2131,17 @@ OR Great Weapon until EoC</characteristic>
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="da11-3c95-580e-1a4f" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f130-ff1b-2f7b-e49f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2355,6 +2377,17 @@ OR Great Weapon until EoC</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2543,6 +2576,17 @@ OR Great Weapon until EoC</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2727,6 +2771,17 @@ OR Great Weapon until EoC</characteristic>
             </conditionGroup>
           </conditionGroups>
           <comment>If no Slayer King</comment>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <entryLinks>
@@ -3213,6 +3268,17 @@ OR Great Weapon until EoC</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -3386,6 +3452,17 @@ OR Great Weapon until EoC</characteristic>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="ba06-a708-72aa-794b" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="afe2-7534-0b67-5ee9" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f130-ff1b-2f7b-e49f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3694,6 +3771,17 @@ OR Great Weapon until EoC</characteristic>
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="fe66-8f64-704f-dc84" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="37f8-30a3-8720-6b2c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -6121,6 +6209,17 @@ see Whirlwind of Death</characteristic>
             <repeat value="1" repeats="1" field="selections" scope="force" childId="b454-4868-7ec4-39e8" shared="true" roundUp="false" includeChildSelections="true"/>
           </repeats>
         </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Wards of Grimnir" hidden="false" id="8048-9b80-e922-e35f" type="selectionEntry" targetId="d7dd-8332-1cc7-5d56">
@@ -6506,6 +6605,17 @@ see Whirlwind of Death</characteristic>
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f130-ff1b-2f7b-e49f" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <entryLinks>
