@@ -2255,7 +2255,18 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="b21d-fafd-33f2-3ff0">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="b21d-fafd-33f2-3ff0">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="038e-dd7b-f346-178d" name="Wraith" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2356,7 +2367,18 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="b889-4cfd-8982-e48b">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="b889-4cfd-8982-e48b">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="b5d8-db21-a4b7-9e94" name="Necromancer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3308,6 +3330,12 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="4369-4ef3-2a81-0ba9">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="b574-208f-3c26-0f54" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
@@ -3633,6 +3661,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
       </infoLinks>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="force" shared="true" id="d72d-5648-1e88-add3" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="4369-4ef3-2a81-0ba9">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <modifierGroups>
         <modifierGroup type="and">
@@ -9811,10 +9842,21 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="33ca-8daa-88e1-47f6">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Swains" id="6ae6-d6aa-5183-4124" hidden="false" type="rule" targetId="bab0-0ed5-d2d8-9a00"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="33ca-8daa-88e1-47f6">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Army of Sylvania" hidden="true" id="b48b-4a69-80f1-5d47">
       <categoryLinks>
@@ -11920,6 +11962,9 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7937-44e4-9703-dd15" includeChildSelections="false"/>
         <constraint type="min" value="0" field="selections" scope="force" shared="true" id="3d9d-764e-6661-91ed" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="3ada-4b40-e820-d4bf">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <modifierGroups>
         <modifierGroup type="and">
@@ -11935,6 +11980,14 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
           </conditions>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier type="set" value="125" field="3ada-4b40-e820-d4bf">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="The Army of the Lichemaster" hidden="true" id="2d69-e7b1-e2c1-92bd">
       <categoryLinks>

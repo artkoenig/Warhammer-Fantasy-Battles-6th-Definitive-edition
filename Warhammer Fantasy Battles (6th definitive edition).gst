@@ -611,6 +611,7 @@ Quatar</comment>
     <selectionEntry id="abdb-bbd0-41b2-5dff" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdef-ba9b-d6ce-5b14" type="min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e28e-dbb4-b8ad-d4ab" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
         <infoLink id="1091-5b16-bd29-c7f0" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>

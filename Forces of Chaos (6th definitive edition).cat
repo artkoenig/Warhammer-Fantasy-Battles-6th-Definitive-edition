@@ -1417,6 +1417,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="d645-a67c-fa28-a16d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="138c-07cb-7b6d-bd69" name="Wargor" hidden="false" targetId="50e2-88ea-f6df-4c47" type="profile"/>
@@ -1688,6 +1694,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d645-a67c-fa28-a16d">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="76b2-cbf1-dd49-faf9" name="Bray Shaman" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1700,6 +1711,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="a547-365f-122d-42dc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -1865,6 +1882,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a547-365f-122d-42dc">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="b56c-4c3f-f2fc-9985" name="Bestigor Herd" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -3980,6 +4002,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="a7be-b6c2-4ca6-b0db">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="c94d-737d-d340-a26b" name="Exalted Champion" hidden="false" targetId="3317-0299-de13-ca7e" type="profile"/>
@@ -4194,6 +4222,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a7be-b6c2-4ca6-b0db">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="d774-53cf-6ff3-7da7" name="Exalted Daemon" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -4206,6 +4239,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="d470-9dba-cdd0-55dc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -4399,6 +4438,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d470-9dba-cdd0-55dc">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="edd1-a9db-4d73-4e6c" name="Aspiring Champion of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -4411,6 +4455,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="f5f7-be15-e7bb-1b00">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -4616,6 +4666,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f5f7-be15-e7bb-1b00">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="e4fa-8cfb-828f-4013" name="Sorcerer of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -4628,6 +4683,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="c6fc-6323-680d-b1be">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -4777,6 +4838,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c6fc-6323-680d-b1be">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="f001-9e3c-2102-8b7d" name="Marauders Of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -8313,6 +8379,12 @@ Place the small template with the central hole over the point of impact. Anythin
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="93f4-7522-86e9-7d45" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="5016-70e0-7bf0-3d26">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="7aab-eb4c-48fb-4d98" name="Daemonic Herald" hidden="false" targetId="1026-3056-66bc-560a" type="profile"/>
@@ -8564,6 +8636,11 @@ Place the small template with the central hole over the point of impact. Anythin
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="5016-70e0-7bf0-3d26">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Arbaal, the Undefeated" hidden="false" id="2c0d-ddd2-e220-9bec" publicationId="eef3-24a3-1f08-2597" page="8-9">
       <categoryLinks>
@@ -9520,7 +9597,18 @@ Always Strikes Last</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="4e36-1cc6-588f-a47e">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="4e36-1cc6-588f-a47e">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Giant Chaos Spawn" hidden="false" id="7483-f5ee-3339-a469" page="PDF/warhammerchaospawn.pdf" publicationId="be5b-2ad1-4ab5-bc1e">
       <costs>
@@ -9986,6 +10074,9 @@ In addition, if he fights with sword and shield in a challenge, any special rule
       <comment>by Tom Carley from Facebook WHFB 6th group</comment>
       <constraints>
         <constraint type="max" value="0" field="selections" scope="force" shared="true" id="a3d1-36d6-4370-1f17" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="999e-e21b-bf31-f666">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <modifiers>
         <modifier type="set" value="-1" field="a3d1-36d6-4370-1f17">
@@ -9996,6 +10087,12 @@ In addition, if he fights with sword and shield in a challenge, any special rule
         <modifier type="add" value="This unit has been proposed by the community.
 There&apos;s no guarantee of balance.
 REQUEST YOUR OPPONENT FOR PERMISSION." field="warning"/>
+        <modifier type="set" value="125" field="999e-e21b-bf31-f666">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Forces of Chaos Army Rules" hidden="false" id="5a27-b4af-c3d0-3e22" publicationId="d750-ac7f-7465-d6d1" page="55" defaultAmount="1">

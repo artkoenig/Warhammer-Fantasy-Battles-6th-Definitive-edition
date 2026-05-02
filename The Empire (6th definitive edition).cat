@@ -4599,10 +4599,21 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="8105-9e7c-b07c-2789" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="88ac-d1fa-7c81-3fa3">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="af047f62-72bb-403c-a75f-808f645eaf0e" name="Captain" hidden="false" targetId="72c7-c857-79a2-8e87" type="profile"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="88ac-d1fa-7c81-3fa3">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="5f78-90db-8c6a-0470" name="Warrior Priest" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -4786,7 +4797,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="7ce5-a7be-cd43-71ff">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="7ce5-a7be-cd43-71ff">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="3666-381b-3945-111f" name="Master Engineer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -4898,7 +4920,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="760b-d540-f39c-15b5">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="760b-d540-f39c-15b5">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="faaf-0d0c-b94e-042b" name="Battle Wizard" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -4998,10 +5031,21 @@
           </conditions>
           <comment>Cult of Ulric (CR-04)</comment>
         </modifier>
+        <modifier type="set" value="125" field="9a11-17c5-8960-5a53">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="a606e071-e00c-4bf7-a9d9-e5aebe35acd5" name="Battle Wizard" hidden="false" targetId="2741-6439-c30c-7b93" type="profile"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="9a11-17c5-8960-5a53">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="b827-f3b2-5b94-6fde" name="Luthor Huss" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6827,6 +6871,12 @@ Magic Resistance (3)
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="6850-88f7-3f69-5a3d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoGroups>
         <infoGroup name="Special rules" id="91c8-c731-3bb5-e3d7" hidden="false">
@@ -6840,6 +6890,11 @@ Magic Resistance (3)
       <infoLinks>
         <infoLink id="86fb18ee-916a-420d-a0e2-7aa1ab94813e" name="Priest of Ulric" hidden="false" targetId="1661-2f53-9752-349e" type="profile"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="6850-88f7-3f69-5a3d">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="4549-742f-f75e-0c88" name="0-1 Grand Master of the Knights of the White Wolf" hidden="true" collective="false" import="true" type="unit" publicationId="cc59-6466-b62e-cf5b" page="10">
       <infoLinks>
@@ -7261,12 +7316,23 @@ Magic Resistance (3)
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="a164-9066-9274-d47c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Crush the Weak" id="c7e4-d30d-fac4-9992" hidden="false" type="rule" targetId="d1ff-f09f-d11e-dfeb"/>
         <infoLink name="Commanding Presence" id="46fd-76b3-b67b-3349" hidden="false" type="rule" targetId="53b6-9c1a-63a1-58c1"/>
         <infoLink id="7eba5781-1bca-4c63-8fc3-058f8d5cf3ee" name="Seneschal" hidden="false" targetId="ef84-d590-90cb-4261" type="profile"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a164-9066-9274-d47c">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="50b0-6df4-6e20-fa58" name="Warriors of Ulric" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>

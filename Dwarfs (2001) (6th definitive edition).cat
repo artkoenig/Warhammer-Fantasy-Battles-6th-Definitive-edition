@@ -783,6 +783,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="5b2c-4b5e-0979-afb5">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -796,6 +802,11 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="5b2c-4b5e-0979-afb5">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="ae11-5c38-0585-ce6c" name="Rune Smith" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -893,10 +904,21 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="0621-7062-41ad-5485">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Runesmith" id="7ed1-9277-832f-93fb" hidden="false" type="profile" targetId="379c-b5d6-575a-ce17"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="0621-7062-41ad-5485">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="a514-439d-0f96-939b" name="Engineer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1039,7 +1061,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="ebe8-f257-792d-033f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="ebe8-f257-792d-033f">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="dc0f-da6d-3a5e-5623" name="Dragon Slayer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1110,7 +1143,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="adf4-9a2b-ef59-2857">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="adf4-9a2b-ef59-2857">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="59e6-66a7-3314-4bd7" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3004,6 +3048,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="bcd2-50aa-feb2-66a8">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -3018,6 +3068,11 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="bcd2-50aa-feb2-66a8">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="ad90-2b25-e902-22ad" name="Flame Cannon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3081,6 +3136,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="751b-01c7-200d-ffac">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -3099,6 +3160,9 @@
       </modifierGroups>
       <constraints>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f24e-8301-7d28-59d0"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="751b-01c7-200d-ffac">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Thorek Ironbrow, Dwarf Runelord" hidden="false" id="11e0-5134-1ed2-82e8" page="50-51" publicationId="6265-1d51-76e2-4fe2">
@@ -3749,9 +3813,18 @@ see Whirlwind of Death</characteristic>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="4f36-662f-50dd-55fe" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="748a-a952-8a7e-bda2">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="df4f-f32a-2fc7-7025" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="748a-a952-8a7e-bda2">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
     </selectionEntry>
     <selectionEntry id="42d1-a242-d404-580e" name="Brotherhood of Grimnir" hidden="true" collective="false" import="true" type="unit">
@@ -5520,10 +5593,21 @@ x2 Rune of Iron (5+ Ward save)</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="22b1-4841-84c1-7c98" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="c4e8-4c33-3a99-c5fb">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Stolen Relics of Lustria" hidden="false" id="ff71-5c08-8c2b-7700" type="selectionEntryGroup" targetId="6c7f-186d-91a7-64de"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c4e8-4c33-3a99-c5fb">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Fire Thrower" hidden="true" id="105d-f188-4cb7-a9e1" page="57" publicationId="47df-63de-c83a-675a">
       <costs>

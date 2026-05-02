@@ -1296,6 +1296,19 @@ _S. Wood Elf Army Book page 62_</description>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="30b5-52ac-e186-484c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="30b5-52ac-e186-484c">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="ee34-7ed2-6baa-c955" name="Spellslinger" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1412,6 +1425,19 @@ _S. Wood Elf Army Book page 62_</description>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="f3c3-c736-311d-8084">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f3c3-c736-311d-8084">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="9abc-a17f-5e82-6c57" name="Branchwraith" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1453,6 +1479,19 @@ _S. Wood Elf Army Book page 62_</description>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="d746-c1cc-69f0-5d5a">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d746-c1cc-69f0-5d5a">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="acf4-0d54-550f-4fdd" name="Glade Guard" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>

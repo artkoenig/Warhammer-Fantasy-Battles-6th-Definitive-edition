@@ -708,6 +708,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="b08e-7d1c-83e8-c5a1">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="e1e6-268a-5b23-9814" name="Tomb Prince" hidden="false" targetId="d450-215a-2fda-38c6" type="profile"/>
@@ -816,6 +822,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="b08e-7d1c-83e8-c5a1">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="78f9-33ae-0bae-bbcd" name="Liche Priest" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -823,6 +834,12 @@
           <conditions>
             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1275-eef1-e965-00fb" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="125" field="f8c6-46b9-4a8c-07b1">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -930,6 +947,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f8c6-46b9-4a8c-07b1">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="cd59-482f-c5dd-1578" name="Icon Bearer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -943,9 +965,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="c1b6-102f-00e4-be0c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6acb-9107-6c18-0668" type="max"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c1b6-102f-00e4-be0c">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <infoLinks>
         <infoLink id="fd39-9405-6e00-85a0" name="Icon Bearer" hidden="false" targetId="b648-79a5-9c96-2416" type="profile"/>

@@ -881,6 +881,19 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="b6a2-f7f5-bdd9-e488">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="125" field="b6a2-f7f5-bdd9-e488">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaos Dwarf Hero" hidden="false" id="c41d-b526-e705-6b6e" publicationId="756d-4758-8a13-1d8a" collective="false">
       <infoLinks>
@@ -1054,6 +1067,19 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="fd08-7b2a-fa76-ea17">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="125" field="fd08-7b2a-fa76-ea17">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaos Dwarf Sorcerer" hidden="false" id="3413-869c-b958-70f8" collective="false">
       <infoLinks>
@@ -1112,6 +1138,19 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d969-01e4-a5c1-665f">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="125" field="d969-01e4-a5c1-665f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hobgoblin Hero" hidden="false" id="247f-0461-296b-d5cd" publicationId="756d-4758-8a13-1d8a" collective="false">
       <categoryLinks>
@@ -1254,10 +1293,26 @@ A single character in the front rank will not effect the unit’s fire</characte
           </modifiers>
         </infoLink>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="52bf-aa72-ade2-a740">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="125" field="52bf-aa72-ade2-a740">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bull Centaur Lord" hidden="false" id="077a-6f4e-bdc2-b42d" publicationId="756d-4758-8a13-1d8a" collective="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="44cd-f173-2daf-b204" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a119-68b6-d723-7b31">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <infoLinks>
         <infoLink name="Ignore Orc &amp; Goblins panic" id="99d6-8a34-1d23-7755" hidden="false" targetId="5322-be33-9974-a502" type="rule"/>
@@ -1371,10 +1426,21 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="a119-68b6-d723-7b31">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaos Dwarf Lord" hidden="false" id="1aac-0b11-5e9e-1171" publicationId="756d-4758-8a13-1d8a" collective="false">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6660-6c60-f84b-3905" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="888f-26f8-0848-3d8b">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <infoLinks>
         <infoLink name="Ignore Orc &amp; Goblins panic" id="4c4c-21c1-0bef-5c8d" hidden="false" targetId="5322-be33-9974-a502" type="rule"/>
@@ -1557,6 +1623,14 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="888f-26f8-0848-3d8b">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaos Dwarf Sorcerer Lord" hidden="false" id="21b2-0919-b2f3-4735" collective="false">
       <infoLinks>
@@ -1663,6 +1737,19 @@ A single character in the front rank will not effect the unit’s fire</characte
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="ac6f-21bc-809f-ebca">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="125" field="ac6f-21bc-809f-ebca">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bull Centaurs" hidden="false" id="fe23-86c6-ba7b-3a73" publicationId="756d-4758-8a13-1d8a" collective="false">
       <infoLinks>

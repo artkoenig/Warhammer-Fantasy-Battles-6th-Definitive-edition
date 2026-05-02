@@ -286,7 +286,18 @@
           </conditionGroups>
           <comment>Swedish Comp System</comment>
         </modifier>
+        <modifier type="set" value="125" field="2972-561e-f50f-2e08">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="2972-561e-f50f-2e08">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="1efc-5470-e01d-d037" name="Prophetess of the Lady" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -383,7 +394,18 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="71f4-c4f9-7365-bc8e">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="71f4-c4f9-7365-bc8e">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="2674-4f8e-d872-f448" name="Paladin" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -664,6 +686,19 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="125" field="e0af-b9fb-9300-7b3f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="e0af-b9fb-9300-7b3f">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="9f03-3ab3-72d8-3a69" name="Damsel of the Lady" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -760,6 +795,19 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="8410-298a-7316-70f7">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="8410-298a-7316-70f7">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="129d-6f70-2b8a-2cf0" name="Knight Errant" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2684,6 +2732,9 @@
       </costs>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="force" shared="true" id="49e3-c542-6bff-9805" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="3e8e-7fbd-df17-3534">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -2710,6 +2761,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="3e8e-7fbd-df17-3534">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>

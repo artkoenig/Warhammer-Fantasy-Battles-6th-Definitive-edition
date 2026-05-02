@@ -342,6 +342,19 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="125" field="610e-a572-3f89-1fd2">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="610e-a572-3f89-1fd2">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kislev Kossars" hidden="false" id="bef7-138a-424e-9cc3">
       <categoryLinks>
@@ -1085,11 +1098,22 @@ If this test is failed, they suffer an additional wound, with no Armour or Ward 
         <modifier type="set" value="Kislevite Shaman" field="name"/>
         <modifier type="add" value="{this} is commonly added for pure-Kislev armies in Tournaments.
 This addition is not official, discuss with your opponent beforehand." field="warning"/>
+        <modifier type="set" value="125" field="653c-db84-1a06-c648">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <comment>&gt; (L) Kislev Allied Contingents
 &gt; (1) Full Kislev armies may be fielded following the rules for other armies in sections (A) through (K) above.
 &gt; (a) If you are brave enough to field a full Kislev army you may field Hireling Wizards (not Hireling Wizard Lords!) using the options and points costs from the Dogs of War army list. Each Hireling Wizard will use up one of your hero slots as normal.
 &gt; All Hireling Wizards in a full Kislev Army must use the Lore of Ice found in the Kislev Allied Contingent rules. Note that the General of your army must be a Kislev Boyar.</comment>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="653c-db84-1a06-c648">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <sharedProfiles>

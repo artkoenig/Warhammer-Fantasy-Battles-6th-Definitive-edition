@@ -389,7 +389,18 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="5013-f9f4-e03b-94d5" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="73b0-905f-f230-93a8">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="73b0-905f-f230-93a8">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="c733-61ea-1425-1253" name="Cold One Chariots" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -903,10 +914,21 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="8782-a598-7c54-3dba">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="The Dark Art" hidden="false" id="633b-9a88-04f6-d48f" type="selectionEntry" targetId="7327-f083-68b1-f5ae"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="8782-a598-7c54-3dba">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="bd43-41c0-298e-22be" name="Noble" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1245,6 +1267,12 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="15a7-07c4-40dc-a1f9">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="5c2e1a49-8ece-4726-8d67-81eb7b45df58" name="Noble" hidden="false" targetId="228a-f3ab-a796-d92d" type="profile">
@@ -1301,6 +1329,11 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="15a7-07c4-40dc-a1f9">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="b6ba-f748-beec-07e8" name="Sorceress" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1457,9 +1490,18 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="4b5b-aebb-1526-91bb" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="cb4f-f631-0b09-f7f4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="62f9-5cd4-ed5f-f0e1" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="cb4f-f631-0b09-f7f4">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
     </selectionEntry>
     <selectionEntry id="c64e-5686-3531-2032" name="Beastmaster" hidden="false" collective="false" import="true" type="unit">
@@ -1637,7 +1679,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="299d-c134-2a1a-43dd">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="299d-c134-2a1a-43dd">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="f3c1-d9c4-9a7b-0fe9" name="Assassin" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1829,7 +1882,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="85e2-cf56-87e2-0adb">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="85e2-cf56-87e2-0adb">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="f615-4919-4e3b-a2e8" name="Corsairs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2911,6 +2975,9 @@
     <selectionEntry id="424f-9a77-2a02-4cec" name="War Hydra" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ce-55af-2de8-23be" type="max"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f210-5b8b-86c7-9466">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <categoryLinks>
         <categoryLink id="2dac-489d-093d-4b68" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -3188,6 +3255,12 @@ Check &quot;Allow experimental rules?&quot; to disable this message." field="war
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="f210-5b8b-86c7-9466">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Breath fire" id="3b07-579d-9ca5-1141" hidden="false" type="profile" targetId="2e1e-a6a0-3022-be5d"/>
@@ -3196,6 +3269,9 @@ Check &quot;Allow experimental rules?&quot; to disable this message." field="war
     <selectionEntry id="e83d-6513-8fad-ebff" name="Cauldron Of Blood" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4a-1cbd-2df5-eec4" type="max"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="b986-bda5-0bcc-9b2c">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <infoLinks>
         <infoLink id="43c3-0256-fc96-7ca1" name="Hate High Elves" hidden="false" targetId="cc26-8206-5d40-1626" type="rule"/>
@@ -3315,6 +3391,12 @@ Check &quot;Allow experimental rules?&quot; to disable this message." field="war
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="b986-bda5-0bcc-9b2c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -5174,7 +5256,18 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="5013-f9f4-e03b-94d5" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="283e-9e28-d483-c484">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="283e-9e28-d483-c484">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="The Cult of Slaanesh (rules)" hidden="true" id="14a5-8d9c-6fde-f9df">
       <categoryLinks>
@@ -5311,9 +5404,18 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="5013-f9f4-e03b-94d5" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="682a-3a50-75ea-68c0">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b746-b7d0-bfab-adf1" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="682a-3a50-75ea-68c0">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <infoLinks>
         <infoLink id="e901c2cf-661e-4ebf-8d5b-fe7eb5855879" name="Aspiring Champion" hidden="false" targetId="ee73-f4ae-2ebd-0877" type="profile">
@@ -6653,6 +6755,12 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="5013-f9f4-e03b-94d5" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="e9a2-2b6a-b76c-b00d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Mark of Slaanesh (Lord)" hidden="false" id="7f4d-f5da-7be7-833f" type="selectionEntry" targetId="fa63-d29d-10c7-5f93">
@@ -6667,6 +6775,11 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
           </constraints>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="e9a2-2b6a-b76c-b00d">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

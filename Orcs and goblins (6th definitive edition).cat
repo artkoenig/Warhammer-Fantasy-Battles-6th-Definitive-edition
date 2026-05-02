@@ -2255,7 +2255,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="137d-0a2a-e477-e1a8">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="137d-0a2a-e477-e1a8">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="6279-4d0a-6dce-f2f3" name="Orc Bigboss" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2506,7 +2517,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="5bab-07f7-2c97-e5fc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="5bab-07f7-2c97-e5fc">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="d49c-e990-280d-3d1f" name="Savage Orc Bigboss" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2524,6 +2546,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="0078-1321-058b-f560">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -2717,6 +2745,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="0078-1321-058b-f560">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="e4cf-8043-5127-dd26" name="Orc  Shaman" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2869,7 +2902,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="aa9f-8fdf-8be0-340a">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="aa9f-8fdf-8be0-340a">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="3648-1f5c-5e1d-0711" name="Savage Orc  Shaman" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2887,6 +2931,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="fbac-2810-1331-2233">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -3006,6 +3056,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="fbac-2810-1331-2233">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="8c8f-3fba-e337-fd2f" name="Goblin Bigboss" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3238,7 +3293,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="e27b-ccff-2692-49fd">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="e27b-ccff-2692-49fd">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="a5de-7467-2916-1cbc" name="Night Goblin Bigboss" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3436,7 +3502,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="33d4-4cf2-909c-28fa">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="33d4-4cf2-909c-28fa">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="554e-660d-0005-d122" name="Goblin Shaman" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3578,7 +3655,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="30e6-a448-0e05-b675">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="30e6-a448-0e05-b675">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="49d8-c654-c27f-7324" name="Night Goblin Shaman" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3684,7 +3772,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="f33d-9c5d-1af0-82dc">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f33d-9c5d-1af0-82dc">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="ac23-b9d3-4046-23b7" name="Orc Boyz" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6375,9 +6474,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="a12c-ee31-526c-20a5">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186c-6345-5b25-5aa2" type="max"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a12c-ee31-526c-20a5">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
       <categoryLinks>
         <categoryLink id="ba88-49bd-cb48-e5cb" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
@@ -8016,9 +8124,18 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="03cc-8a3f-abd4-3c03" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="9ec9-e230-0a9f-3ac9">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9b7f-b087-1d2f-18d6" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="9ec9-e230-0a9f-3ac9">
+          <comment>BP</comment>
+        </constraint>
       </constraints>
     </selectionEntry>
     <selectionEntry id="0f2e-7f69-0ba5-952c" name="Black Orc Warboss" hidden="false" collective="false" import="true" type="unit">

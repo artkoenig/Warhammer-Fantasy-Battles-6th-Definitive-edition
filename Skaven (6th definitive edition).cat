@@ -1371,6 +1371,12 @@
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac5-0165-8a9e-8942" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="d44a-57db-72af-0bb4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="34d5-e84b-212e-4ebf" name="Chieftan" hidden="false" targetId="1a46-b681-e8b0-d443" type="profile"/>
@@ -1545,6 +1551,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d44a-57db-72af-0bb4">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="7d5d-c99a-32e5-7094" name="Plague Priest" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1560,6 +1571,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="d7dd-f1d1-b2a6-db6f">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -1697,6 +1714,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="d7dd-f1d1-b2a6-db6f">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="e60b-74f8-178e-14a3" name="Master Moulder" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1712,6 +1734,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="89ae-e55f-e6ce-7744">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -1790,6 +1818,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="89ae-e55f-e6ce-7744">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="fffc-5182-dcea-0e63" name="Warlock Engineer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1808,6 +1841,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="c6b3-b25c-6ff1-8c1c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -1989,6 +2028,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c6b3-b25c-6ff1-8c1c">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="a63b-d86d-54d3-552f" name="Assassin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2004,6 +2048,12 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="a6ed-6cce-94c0-b2da">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -2069,6 +2119,11 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a6ed-6cce-94c0-b2da">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="2619-1e49-4d4c-f32c" name="0-1 Stormvermin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -4623,6 +4678,12 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac5-0165-8a9e-8942" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="473e-de08-4a8f-40af">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="4cf7-c43b-d99a-ec89" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
@@ -4717,6 +4778,11 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
       <infoLinks>
         <infoLink id="45aa571d-1589-4212-acaa-4b18c1e6efec" name="Stinking Thing" hidden="false" targetId="69c6-a1ff-ecb4-55e4" type="profile"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="473e-de08-4a8f-40af">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="6049-2ac1-cf8b-5b0e" name="Festering Chantor" publicationId="415d-9fbb-df83-ad27" page="62" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -4724,6 +4790,12 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
           <conditions>
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac5-0165-8a9e-8942" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="125" field="727d-6c45-99a9-7665">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -4892,6 +4964,11 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="727d-6c45-99a9-7665">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="5244-4cee-0b99-bef8" name="Plague Lord" publicationId="415d-9fbb-df83-ad27" page="62" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -5164,6 +5241,12 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="f676-063e-b5af-d36c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="faa0-3965-c9ee-d587" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
@@ -5303,6 +5386,11 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="f676-063e-b5af-d36c">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="c5c5-f481-d1b5-1f34" name="Warlock Master" publicationId="f804-741f-2593-2dec" page="77" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -5684,6 +5772,12 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="125" field="e366-6f1e-5bfd-c8bb">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="a9dc-cf71-d015-9184" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
@@ -5822,6 +5916,11 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="e366-6f1e-5bfd-c8bb">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="bc50-412f-add6-f710" name="Master Mutator" publicationId="f804-741f-2593-2dec" page="78" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -5925,6 +6024,12 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="125" field="8c7b-83c7-188a-99a3">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -6046,6 +6151,11 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="8c7b-83c7-188a-99a3">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="d0aa-b183-877e-e731" name="Rat Riders" publicationId="00d8-bc10-9f9a-edb3" page="80" hidden="true" collective="false" import="true" type="unit">
       <modifiers>

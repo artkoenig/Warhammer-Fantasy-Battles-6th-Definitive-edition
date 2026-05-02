@@ -831,6 +831,19 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="40e1-93e1-8031-ba4e">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="40e1-93e1-8031-ba4e">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="c9ce-c817-1d25-962d" name="Saurus Scar-Veteran" publicationId="3a49-dd2e-fcaa-cdb1" page="59" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -976,6 +989,19 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="a698-5dd7-6ac4-8af4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a698-5dd7-6ac4-8af4">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="a67f-4641-9bbd-68f8" name="Skink Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="59" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1085,6 +1111,19 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="125" field="4045-16f6-abd6-bd2d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="4045-16f6-abd6-bd2d">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="2258-e16e-24dd-6e85" name="Saurus Warriors" publicationId="3a49-dd2e-fcaa-cdb1" page="60" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
@@ -1508,7 +1547,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="5a5d-ee04-9643-5e03" name="Jungle Swarms" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5a5d-ee04-9643-5e03" name="0-1 Jungle Swarms" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c285-09ea-c1c0-af8d" type="max"/>
       </constraints>

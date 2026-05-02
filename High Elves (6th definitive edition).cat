@@ -687,7 +687,18 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="818c-be3f-b7ff-850c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="818c-be3f-b7ff-850c">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="556f-91d6-d29c-112b" name="Mage" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -788,7 +799,18 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="125" field="c5bd-8dc1-adfd-0531">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c5bd-8dc1-adfd-0531">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="aace-2dc3-7a8e-4589" name="Archers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
