@@ -5503,7 +5503,7 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Warrior" id="af3e-c926-4e27-701e" hidden="false" targetId="602f-40ae-14de-f5f8" type="profile">
+            <infoLink name="Warrior of Chaos" id="af3e-c926-4e27-701e" hidden="false" targetId="602f-40ae-14de-f5f8" type="profile">
               <modifiers>
                 <modifier type="decrement" value="1" field="f1be-e66c-d5e1-673c">
                   <conditionGroups>
@@ -7958,6 +7958,9 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
         <entryLink id="5783-dcfa-e56a-7912" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
         <entryLink id="2bbe-1da0-d09c-9465" name="Soul Shadows Standard" hidden="false" collective="false" import="true" targetId="b2e8-fefa-e753-689e" type="selectionEntry"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="1962-7ce0-6d2e-c9e8" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="03a9-fbd3-0653-c8de" name="Poisons" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
@@ -8136,6 +8139,9 @@ In addition, a monster that is beaten in hand to hand combat by Rakarth is assum
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="f9b2-3500-fbf4-1f99" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Weapons (HoC)" id="a32b-ff8d-318c-be99" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>

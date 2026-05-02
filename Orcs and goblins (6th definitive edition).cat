@@ -13006,6 +13006,9 @@ See [PDF, p.X]" field="error">
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="0787-6716-b8d3-e62b" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6203-6513-d07b-6c5f" name="Magic Armour (Goblin)" hidden="false" collective="false" import="true">
       <modifiers>
@@ -13171,6 +13174,9 @@ See [PDF, p.X]" field="error">
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="c607-5bd2-09c4-04e5" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="150f-e2fe-acfb-6092" name="Magical Standard (Goblins)" hidden="false" collective="false" import="true">
       <entryLinks>
@@ -13195,6 +13201,9 @@ See [PDF, p.X]" field="error">
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="ff8a-1208-38cc-7018" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6566-3982-6715-5d45" name="Big Waaagh" hidden="false" collective="false" import="true">
       <entryLinks>

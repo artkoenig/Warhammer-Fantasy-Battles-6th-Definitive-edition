@@ -5494,6 +5494,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
       <entryLinks>
         <entryLink import="true" name="War Banner" hidden="false" id="ba6b-f333-7da8-5ffa" type="selectionEntry" targetId="f327-567f-ef99-0403"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="7cc5-9aef-2432-088f" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6150-3dae-687d-6461" name="Plaques" hidden="false" collective="false" import="true" collapsible="true">
       <entryLinks>

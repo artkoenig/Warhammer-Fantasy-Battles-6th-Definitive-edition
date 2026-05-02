@@ -3388,6 +3388,9 @@ A single character in the front rank will not effect the unit’s fire</characte
         <entryLink id="c4cd-b9c1-77d9-7b57" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
         <entryLink id="b363-03a9-149c-a726" name="Banner of Slavery" hidden="false" collective="false" import="true" targetId="5654-d555-5ed4-5388" type="selectionEntry"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="8bb4-8633-f528-477d" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Arcane Items (RH + Common)" id="8eb4-acd2-0ac3-9b75" hidden="false" collapsible="true">
       <constraints>

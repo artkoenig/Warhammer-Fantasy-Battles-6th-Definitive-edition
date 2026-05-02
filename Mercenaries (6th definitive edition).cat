@@ -10631,6 +10631,9 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         </modifier>
       </modifiers>
       <comment>aDC</comment>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="9d2c-4a15-7ce7-bca1" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Talismans (Relics of Lustria)" id="dbf5-90ca-b928-d111" hidden="true" collective="false" import="true" collapsible="true">
       <constraints>

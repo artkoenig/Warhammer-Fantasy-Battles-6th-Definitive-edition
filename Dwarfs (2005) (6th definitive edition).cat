@@ -6530,6 +6530,9 @@ see Whirlwind of Death</characteristic>
         <entryLink import="true" name="Major Runes (Standards)" hidden="false" id="86d7-bdcf-e6b0-a705" type="selectionEntryGroup" targetId="8a88-165b-92c2-0a0e"/>
         <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="03ae-9c9a-bcfa-2aa2" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="f2fc-921b-f413-f37f" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Major Runes (Weapons)" id="7206-06f6-8749-2746" hidden="false">
       <entryLinks>

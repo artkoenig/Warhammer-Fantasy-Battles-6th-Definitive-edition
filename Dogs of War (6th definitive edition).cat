@@ -4237,6 +4237,9 @@ We have tested them in the Prologue tournament and we think they are balanced as
       <entryLinks>
         <entryLink id="e4f7-1b30-90fe-27b9" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="d5f7-f30a-a415-1b65" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b59d-d5be-988b-d10f" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
@@ -4330,6 +4333,9 @@ We have tested them in the Prologue tournament and we think they are balanced as
         </modifier>
       </modifiers>
       <comment>aDC</comment>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="453c-f992-d621-d1e4" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

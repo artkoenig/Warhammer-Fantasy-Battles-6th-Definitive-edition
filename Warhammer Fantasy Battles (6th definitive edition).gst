@@ -369,6 +369,7 @@ Quatar</comment>
         </modifier>
       </modifiers>
     </categoryEntry>
+    <categoryEntry name="BP Infantry 10+" id="6ad6-f54e-1867-00a7" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b893-4403-5590-827a" name="." hidden="true"/>

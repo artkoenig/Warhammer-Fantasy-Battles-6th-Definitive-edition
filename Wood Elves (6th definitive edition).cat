@@ -3421,6 +3421,9 @@ The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="43f4-6883-039a-6d47" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="580f-1d21-16a7-c3f4" name="Enchanted Items" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
@@ -3543,6 +3546,9 @@ The first time Orion declares a charge, he sounds the Horn of the Wild Hunt. All
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="3846-16e5-1cd2-a474" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4cc8-e25f-5392-6a11" name="Mounts" hidden="false" collective="false" import="true">
       <entryLinks>

@@ -4563,6 +4563,9 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="2f77-024b-1bc4-721e" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Talismans (BR-AB + Common)" id="c76d-e154-0e9e-3928" hidden="false" collapsible="true">
       <constraints>

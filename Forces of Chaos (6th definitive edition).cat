@@ -13452,6 +13452,9 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
         <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="d641-d2a8-b409-1416" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
       </entryLinks>
       <comment>BoC + HoC</comment>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="1c47-9bed-d7ea-527f" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Mutations" id="4086-3c31-b5b6-90e7" hidden="false" publicationId="cc59-6466-b62e-cf5b" page="88-91" collapsible="true">
       <entryLinks>

@@ -5757,6 +5757,9 @@ Range 36&quot;, causes one wound per shot and grants Armour Rolls as normal, can
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="3462-7083-8b6d-17ea" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Lore of High Magic" id="71b4-fc3e-92cd-f192" hidden="false" page="21" publicationId="a40f-696a-94e8-ecfb" collapsible="true">
       <entryLinks>

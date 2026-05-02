@@ -2076,6 +2076,9 @@ Enemy in contact loses D3 attacks until EoT.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="0700-f4aa-983c-9091" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="be5e-0c92-4eec-1335" name="Big Names" hidden="false" collective="false" import="true">
       <constraints>

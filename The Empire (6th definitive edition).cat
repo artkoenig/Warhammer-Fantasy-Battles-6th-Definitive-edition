@@ -11960,6 +11960,9 @@ No model in base contact may cast spells (including friendly models) or use Boun
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="042d-4958-1512-fd14" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e9a6-1d90-fba1-755e" name="Enchanted Items" hidden="false" collective="false" import="true">
       <constraints>
@@ -13068,6 +13071,9 @@ No model in base contact may cast spells (including friendly models) or use Boun
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="77cd-cdc0-92b5-d9ad" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="fe36-f178-d739-69d0" name="Talismans (CoU)" hidden="true" collective="false" import="true">
       <constraints>

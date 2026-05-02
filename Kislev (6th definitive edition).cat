@@ -132,7 +132,11 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
         </entryLink>
         <entryLink import="true" name="Battle Standard Bearer" hidden="false" id="be1f-77ae-0980-76a7" type="selectionEntry" targetId="e9ad-f1ce-aebf-6d23">
           <entryLinks>
-            <entryLink import="true" name="War Banner" hidden="false" id="17cb-dd05-419d-f0ab" type="selectionEntry" targetId="f327-567f-ef99-0403"/>
+            <entryLink import="true" name="War Banner" hidden="false" id="17cb-dd05-419d-f0ab" type="selectionEntry" targetId="f327-567f-ef99-0403">
+              <categoryLinks>
+                <categoryLink name="Magical Standard" hidden="false" id="e1a9-064a-a2a3-eb90" targetId="942b-0309-8845-e11c" primary="false"/>
+              </categoryLinks>
+            </entryLink>
             <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="7e74-bbbf-d305-b6c4" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
           </entryLinks>
           <modifiers>

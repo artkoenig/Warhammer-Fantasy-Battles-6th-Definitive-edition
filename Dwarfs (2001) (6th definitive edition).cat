@@ -7037,6 +7037,9 @@ and the Rune of iron (6+ ward save)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="7f89-b12f-6aee-9005" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="e904-8cb3-c678-4da9" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a024-f925-6f6e-44f1" name="Engineering Runes" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>

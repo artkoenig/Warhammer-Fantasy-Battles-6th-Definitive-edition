@@ -9681,6 +9681,9 @@ no armour saves.</description>
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Magical Standard" hidden="false" id="8bfc-8ca9-8bc3-26a7" targetId="942b-0309-8845-e11c" primary="false"/>
+      </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e4b1-5857-9d82-17de" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
