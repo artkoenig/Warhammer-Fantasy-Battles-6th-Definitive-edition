@@ -218,10 +218,80 @@
       </modifiers>
     </categoryEntry>
     <categoryEntry id="d024-d25b-a9b4-73b6" name="Lord" hidden="false"/>
-    <categoryEntry id="c16b-f319-2c62-2c12" name="Heroes" hidden="false"/>
-    <categoryEntry id="64bf-efb4-9978-26df" name="Core" hidden="false"/>
-    <categoryEntry id="43cc-fc3f-35a7-8d03" name="Special" hidden="false"/>
-    <categoryEntry id="e94b-6a54-8779-cd60" name="Rare" hidden="false"/>
+    <categoryEntry id="c16b-f319-2c62-2c12" name="Heroes" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="81a8-870f-2200-8bfb"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="81a8-870f-2200-8bfb">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="64bf-efb4-9978-26df" name="Core" hidden="false">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="605c-2c3e-d330-2bb2"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="605c-2c3e-d330-2bb2">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="43cc-fc3f-35a7-8d03" name="Special" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ca62-54da-9a97-3377"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="ca62-54da-9a97-3377">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+        <modifier type="set" value="0" field="ca62-54da-9a97-3377">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="e94b-6a54-8779-cd60" shared="true" childName="Rare" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="e94b-6a54-8779-cd60" name="Rare" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ae68-8b99-6830-6c55"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="ae68-8b99-6830-6c55">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="43cc-fc3f-35a7-8d03" shared="true" childName="Special" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="ae68-8b99-6830-6c55">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
     <categoryEntry id="b0b1-5266-2bcd-f592" name="Detachment" hidden="false"/>
     <categoryEntry id="7a1c-d611-c2dc-def1" name="Characters" hidden="false"/>
     <categoryEntry id="a37e-7207-de6d-acb0" name="General" hidden="false">
@@ -236,6 +306,14 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6935-5f06-39d4-5f45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2a1d-03a1-b48c-64ad" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="2a1d-03a1-b48c-64ad">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="army_list_AB_exp" id="13c9-df14-b630-451b" hidden="true"/>
     <categoryEntry name="army_list_webGW" id="98ff-bf1f-2fc8-3027" hidden="true">
@@ -245,6 +323,52 @@ Quatar</comment>
     </categoryEntry>
     <categoryEntry name="army_list_LUS" id="6771-bf67-e180-ca90" hidden="true"/>
     <categoryEntry name="army_list_SoC" id="76d5-dcdf-1fae-ab1e" hidden="true"/>
+    <categoryEntry name="War Machine" id="f672-d9d4-a601-479a" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="8be7-a669-c00b-625d"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="8be7-a669-c00b-625d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Chariot" id="d36d-5455-9f4d-3100" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4b43-5d4e-94ca-1fd5"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="4b43-5d4e-94ca-1fd5">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9945-8537-0944-c67b" shared="true" childName="Tomb Kings" includeChildSelections="true">
+                  <comment>&quot;Tomb Kings may have more than one Chariot&quot;</comment>
+                </condition>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Magical Standard" id="942b-0309-8845-e11c" hidden="false">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="30bf-4c62-23fb-6143"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="30bf-4c62-23fb-6143">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" childName="Border Patrols rules" includeChildSelections="true"/>
+          </conditions>
+          <comment>Border Patrols</comment>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b893-4403-5590-827a" name="." hidden="true"/>
@@ -2588,6 +2712,28 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
       <description>Certain weapons, most notably blackpowder weapons such as handguns, are even better at penetrating armour than their Strength value suggests.
 Therefore, the enemy Armour save is reduced by an additional -1. For example, an Armour piercing weapon that has Strength 4 would have a -2 Armour save modifier rather than -1.</description>
     </rule>
+    <rule name="Border Patrols" id="a874-f34c-6bf6-5c83" hidden="false" publicationId="cc59-6466-b62e-cf5b" page="97">
+      <description>### Special limitations:
+
+- You must choose an army of not more than 500 points.
+- You must have a SINGLE Hero to lead the force, but the Hero may not be an Army Battle Standard Bearer.
+- The army must consist of at least TWO units but no more than FOUR units.
+- You must have at least ONE Core choice.
+- You may take ONE choice of either Special or Rare units, but not both.
+- You must include at least ONE infantry unit of 10+ models.
+- No unit may contain more than 25 models.
+- No unit may carry a magical standard.
+- No single model may cost more than 125 points.
+- An army may have no more than ONE chariot or war machine. This also applies to choices that allow more than one item per pick, like Goblin Wolf Chariots. You may only buy ONE per choice,
+
+### Army specific notes:
+
+- Bretonnians do not have their Army Battle Standard Bearer.
+- Tomb Kings must have a Liche Priest as the Hero. He will also act as the General.
+- Tomb Kings may have more than one Chariot.
+- A Vampire Thrall may lead a Vampire Counts army.
+</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5556-38ea-b278-4a8f" name="Hand Weapon" publicationId="315e-e3c4-08af-fd51" page="91" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -2919,4 +3065,35 @@ The spell cannot affect Undead targets, Chaos Daemons or Unbreakable units. Unit
       </characteristics>
     </profile>
   </sharedProfiles>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Border Patrols rules" hidden="true" id="4e15-0353-165f-5528" defaultAmount="1">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbfc-d43f-396d-09cc" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Border Patrols" id="32b8-aa25-d842-a4ca" hidden="false" type="rule" targetId="a874-f34c-6bf6-5c83"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Special list rules" hidden="false" id="fd54-fb51-2021-d3cd" targetId="32f1-197f-d719-a393" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="500" field="limit::ecfa-8486-4f6c-c249" scope="roster" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="The army must consist of at least TWO units but no more than FOUR units" field="error">
+          <comment>BP: The army must consist of at least TWO units but no more than FOUR units</comment>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="force" childId="unit" shared="true" includeChildSelections="false" childName="unit"/>
+                <condition type="lessThan" value="2" field="selections" scope="force" childId="unit" shared="true" includeChildSelections="false" childName="unit"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </selectionEntries>
 </gameSystem>

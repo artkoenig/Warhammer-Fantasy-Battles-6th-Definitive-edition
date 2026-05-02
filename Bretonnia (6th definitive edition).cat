@@ -2630,13 +2630,33 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="49e3-c542-6bff-9805" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="49e3-c542-6bff-9805" includeChildSelections="false"/>
       </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="49e3-c542-6bff-9805">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="49e3-c542-6bff-9805">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="notEqualTo" value="500" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
