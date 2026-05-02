@@ -32,18 +32,7 @@ To use this data for list building, you do not need to download the files manual
 To use this data for list building, you do not need to download the files manually. Simply add this repository to your app of choice:
 
 ### For New Recruit (Recommended)
-1. Open [New Recruit](https://www.newrecruit.eu/).
-![alt text](tutorial/image-0.png)
-2. Go to your **Click here to try it now!** settings.
-![alt text](tutorial/image-1.png)
-3. Click on **Add more games**. At the bottom, search for `Add from GitHub`.
-![alt text](tutorial/image-2.png)
-4. Add the version `Latest Commit (Head)` if you want the newest updates. 
-   Add the version `Latest Release` if you want the last stable version.
-![alt text](tutorial/image-3.png)
-5. Add this exact URL:
-   `lexicanum-imperialis/Warhammer-Fantasy-Battles-6th-Definitive-edition`
-6. Now select the **WHFB 6th** game system and create your lists!
+Click in the image ![alt text](image.png) or click [HERE](https://www.newrecruit.eu/app/MySystems?addSystem=lexicanum-imperialis/Warhammer-Fantasy-Battles-6th-Definitive-edition&ref=main).
 
 ---
 
