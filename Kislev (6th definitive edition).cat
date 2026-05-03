@@ -199,7 +199,7 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
     <entryLink import="true" name="Boris Ursus, the Red Tzar" hidden="false" id="4919-ba56-1507-82dc" type="selectionEntry" targetId="75a2-3b98-aff3-27b4"/>
   </entryLinks>
   <forceEntries>
-    <forceEntry name="Standard (KS-AB)" id="000c-fbf9-7091-f7db" hidden="false" publicationId="000c-fbf9-7091-f7db" page="64">
+    <forceEntry name="Standard (KS-AB)" id="8963-e7e3-6ea1-6eec" hidden="false" publicationId="000c-fbf9-7091-f7db" page="64">
       <categoryLinks>
         <categoryLink name="Experimental rules" hidden="false" id="7554-b75d-1c54-8de2" targetId="4fed-b911-e6e0-927b" primary="false"/>
         <categoryLink name="Special list rules" hidden="false" id="730e-624a-1d50-08d7" targetId="32f1-197f-d719-a393" primary="true"/>
@@ -211,29 +211,14 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
         <categoryLink name="Special" hidden="false" id="18ae-8af5-8321-47b9" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink name="Rare" hidden="false" id="5ea0-f380-cada-8927" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
+      <comment> </comment>
     </forceEntry>
   </forceEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="PLACEHOLDER" id="f679-10e0-4452-7962" hidden="true">
-      <entryLinks>
-        <entryLink import="true" name="Relics of Lustria" hidden="false" id="482a-73c3-e2c1-6147" type="selectionEntryGroup" targetId="cac6-8b8c-b9c6-f7fa">
-          <modifiers>
-            <modifier type="append" value="Relics of Lustria" field="name" join="  + ">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <comment>aDC</comment>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <infoLinks>
     <infoLink name="Human" id="8e97-c366-05eb-1025" hidden="false" type="profile" targetId="0dc6-73f5-9c78-d0a4">
       <modifiers>
         <modifier type="set" value="Ungol Horse Archer" field="name"/>
-        <modifier type="set" value="4" field="4a8b-0c8e-3daf-7901"/>
+        <modifier type="decrement" value="4" field="4a8b-0c8e-3daf-7901"/>
         <modifier type="set" value="6" field="f1be-e66c-d5e1-673c"/>
       </modifiers>
     </infoLink>
@@ -719,8 +704,7 @@ If this test is failed, they suffer an additional wound, with no Armour or Ward 
               <modifiers>
                 <modifier type="set" value="Ungol Horse Archer" field="name"/>
                 <modifier type="increment" value="1" field="4a8b-0c8e-3daf-7901"/>
-                <modifier type="decrement" value="1" field="f1be-e66c-d5e1-673c"/>
-                <modifier type="decrement" value="4" field="f1be-e66c-d5e1-673c"/>
+                <modifier type="decrement" value="5" field="f1be-e66c-d5e1-673c"/>
               </modifiers>
             </infoLink>
           </infoLinks>
