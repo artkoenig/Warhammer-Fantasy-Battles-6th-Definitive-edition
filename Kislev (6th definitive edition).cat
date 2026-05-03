@@ -211,7 +211,6 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
         <categoryLink name="Special" hidden="false" id="18ae-8af5-8321-47b9" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink name="Rare" hidden="false" id="5ea0-f380-cada-8927" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
-      <comment> </comment>
     </forceEntry>
   </forceEntries>
   <infoLinks>
@@ -219,7 +218,8 @@ The Glacial Barrier continues to exist until it is dispelled, destroyed as above
       <modifiers>
         <modifier type="set" value="Ungol Horse Archer" field="name"/>
         <modifier type="decrement" value="4" field="4a8b-0c8e-3daf-7901"/>
-        <modifier type="set" value="6" field="f1be-e66c-d5e1-673c"/>
+        <modifier type="decrement" value="1" field="4a8b-0c8e-3daf-7901"/>
+        <modifier type="increment" value="1" field="f1be-e66c-d5e1-673c"/>
       </modifiers>
     </infoLink>
   </infoLinks>
@@ -704,7 +704,8 @@ If this test is failed, they suffer an additional wound, with no Armour or Ward 
               <modifiers>
                 <modifier type="set" value="Ungol Horse Archer" field="name"/>
                 <modifier type="increment" value="1" field="4a8b-0c8e-3daf-7901"/>
-                <modifier type="decrement" value="5" field="f1be-e66c-d5e1-673c"/>
+                <modifier type="decrement" value="1" field="f1be-e66c-d5e1-673c"/>
+                <modifier type="decrement" value="4" field="f1be-e66c-d5e1-673c"/>
               </modifiers>
             </infoLink>
           </infoLinks>
