@@ -2741,7 +2741,14 @@ Therefore, the enemy Armour save is reduced by an additional -1. For example, an
 - Bretonnians do not have their Army Battle Standard Bearer.
 - Tomb Kings must have a Liche Priest as the Hero. He will also act as the General.
 - Tomb Kings may have more than one Chariot.
-- A Vampire Thrall may lead a Vampire Counts army.</description>
+- A Vampire Thrall may lead a Vampire Counts army.
+
+
+### House rules:
+- Ogre Kingdoms Hero limits increased to 150 pts
+- Ogre Kingdoms may have a Maneater/Bruiser or ogre unit champion as General.
+- Dogs of War do not have their Paymaster.
+- Dogs of War may have 1 Regiment of Renown. No other patrols may have RoR.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
