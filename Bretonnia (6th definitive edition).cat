@@ -1026,10 +1026,18 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="1" field="2118-9889-ee00-6a58">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
+          </conditions>
+          <comment>Errantry Fervour (SoC, p.90)</comment>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="3f3b-a058-295e-9046" name="Knights of the Realm" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9c2-08f7-b725-fc4f" type="min"/>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9c2-08f7-b725-fc4f" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="7a4e-818a-8591-8bac" name="Purebreed Warhorse" hidden="false" targetId="178a-cce9-03bb-8c64" type="rule"/>
@@ -1084,9 +1092,9 @@
         <cost name="SC Infantry Pts" typeId="4055-9b3e-989c-dbd8" value="0"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="0" field="f9c2-08f7-b725-fc4f">
+        <modifier type="set" value="1" field="f9c2-08f7-b725-fc4f">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="10e2-baf2-e758-c27e" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
