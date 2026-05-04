@@ -4508,11 +4508,11 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0df-993d-3750-63f1" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="8040-889e-8281-f6a4" name="Banner of the Lady" hidden="false" collective="false" import="true" targetId="76ee-2d01-c510-d8e9" type="selectionEntry"/>
-        <entryLink id="a51e-3eb2-9bbb-d258" name="Valorous Standard" hidden="false" collective="false" import="true" targetId="5abf-6594-b34e-1755" type="selectionEntry"/>
-        <entryLink id="6f98-e16f-94b2-069f" name="Banner of Defence" hidden="false" collective="false" import="true" targetId="fe78-d0b7-d8d6-15a2" type="selectionEntry"/>
-        <entryLink id="de21-9d6c-0a2a-60b4" name="Twilight Banner" hidden="false" collective="false" import="true" targetId="ee42-2ebd-4d24-7e2c" type="selectionEntry"/>
-        <entryLink id="ef7d-22f1-da63-74c2" name="Conqueror&apos;s Tapestry" hidden="false" collective="false" import="true" targetId="ba96-4c1c-bb0e-596b" type="selectionEntry"/>
+        <entryLink id="8040-889e-8281-f6a4" name="Banner of the Lady" hidden="true" collective="false" import="true" targetId="76ee-2d01-c510-d8e9" type="selectionEntry"/>
+        <entryLink id="a51e-3eb2-9bbb-d258" name="Valorous Standard" hidden="true" collective="false" import="true" targetId="5abf-6594-b34e-1755" type="selectionEntry"/>
+        <entryLink id="6f98-e16f-94b2-069f" name="Banner of Defence" hidden="true" collective="false" import="true" targetId="fe78-d0b7-d8d6-15a2" type="selectionEntry"/>
+        <entryLink id="de21-9d6c-0a2a-60b4" name="Twilight Banner" hidden="true" collective="false" import="true" targetId="ee42-2ebd-4d24-7e2c" type="selectionEntry"/>
+        <entryLink id="ef7d-22f1-da63-74c2" name="Conqueror&apos;s Tapestry" hidden="true" collective="false" import="true" targetId="ba96-4c1c-bb0e-596b" type="selectionEntry"/>
         <entryLink id="c8ef-e6c7-3b8d-a65d" name="Errantry Banner" hidden="false" collective="false" import="true" targetId="11f2-47db-45fa-2c62" type="selectionEntry">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2c24-db48-7e54-e66e"/>
@@ -4538,7 +4538,7 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
             </modifierGroup>
           </modifierGroups>
         </entryLink>
-        <entryLink id="3d04-0563-a17a-3aa5" name="Banner of Chalons" hidden="false" collective="false" import="true" targetId="cd54-e462-6b64-cef7" type="selectionEntry"/>
+        <entryLink id="3d04-0563-a17a-3aa5" name="Banner of Chalons" hidden="true" collective="false" import="true" targetId="cd54-e462-6b64-cef7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Arcane Items (BR-AB + Common)" id="689e-7c36-c0dd-9d25" hidden="false" collapsible="true">
@@ -4958,7 +4958,8 @@ Every enemy standard captured by the unit possessing the Conqueror&apos;s Tapest
     </rule>
     <rule id="390f-b25e-5be3-6ab1" name="Errantry Banner" publicationId="143d-ca87-8001-00a0" page="63" hidden="false">
       <description>(Knights Errant unit only) This tattered banner has been across the length and breadth of the Old World and beyond, whipped by the arctic winds of the Boil Country and bleached by the burning sun of Araby. It Instills its bearers with fiery awe and holy strength.
-All Knights Errant in the unit get a +1 Strength bonus on any turn they charge (no effect on steeds or characters). However, a unit with this banner suffers -2 to its Ld for any Impetuous tests.</description>
+All Knights Errant in the unit get a +1 Strength bonus on any turn they charge (no effect on steeds or characters).
+However, a unit with this banner suffers -2 to its Ld for any Impetuous tests.</description>
     </rule>
     <rule id="0867-043b-5c9e-d2fc" name="Banner of Chalons" publicationId="143d-ca87-8001-00a0" page="63" hidden="false">
       <description>This magnificent banner is kept furled until the last Instant before a charge. When unfurlled in all its glory foes become awestruck and are unable to tear their eyes from it.
