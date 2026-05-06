@@ -2511,7 +2511,6 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
         <infoLink id="ada0905e-8ad0-426f-9842-7c89c535f615" name="Phoenix Guard" hidden="false" targetId="755b-1132-d9c6-4686" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="40b4-ea3e-ccdf-e643" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
         <categoryLink id="5c92-7eec-2c93-f5e9" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
