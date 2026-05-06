@@ -2631,7 +2631,12 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1720-b64e-5074-dd7f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="27a6-4577-0ee3-3e91" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry"/>
+        <entryLink id="27a6-4577-0ee3-3e91" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2a9-c3e9-4969-44ac" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b18a-84bf-6998-ad24" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
