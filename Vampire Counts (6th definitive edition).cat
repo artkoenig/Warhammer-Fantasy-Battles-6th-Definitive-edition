@@ -25379,7 +25379,7 @@ Wights only</characteristic>
         <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
       </characteristics>
     </profile>
-    <profile id="feac-c0a8-0243-181f" name="Nightmare" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="feac-c0a8-0243-181f" name="Ethereal Nightmare" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
@@ -27418,7 +27418,7 @@ Regeneration</characteristic>
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
       </characteristics>
     </profile>
     <profile name="Sethep" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="f1d5-8d42-a525-07e4" publicationId="3813-abc7-2dcb-380c" page="89">
