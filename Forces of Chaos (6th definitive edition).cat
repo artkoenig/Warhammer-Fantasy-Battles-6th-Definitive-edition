@@ -13881,7 +13881,7 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
             <categoryLink id="16ed-f302-44fd-7cdf" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
           </costs>
         </entryLink>
@@ -13890,7 +13890,7 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
             <categoryLink id="1dcc-94c5-472b-6524" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
           </costs>
         </entryLink>
         <entryLink id="dd82-3818-4fb6-3bba" name="Hero of Slaanesh" hidden="false" collective="false" import="true" targetId="f0ee-970e-9ef8-d511" type="selectionEntry">
@@ -13903,7 +13903,7 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
             <categoryLink id="2389-0a86-db30-5aa4" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70"/>
           </costs>
         </entryLink>
       </entryLinks>
