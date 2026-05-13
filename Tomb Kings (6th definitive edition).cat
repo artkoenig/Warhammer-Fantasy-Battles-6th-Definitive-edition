@@ -2152,7 +2152,7 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5992-892b-07f0-9ab3" name="Allow experimental rules?" hidden="false" collective="false" import="true" targetId="8b76-92c4-23f9-54b1" type="selectionEntry">
+    <entryLink id="5992-892b-07f0-9ab3" name="Allow experimental rules?" hidden="false" collective="false" import="true" targetId="8b76-92c4-23f9-54b1" type="selectionEntry" defaultAmount="1">
       <modifiers>
         <modifier type="set" field="c14e-9a54-427c-d35a" value="1">
           <conditions>
@@ -2164,7 +2164,7 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
         <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c14e-9a54-427c-d35a" type="min"/>
       </constraints>
     </entryLink>
-    <entryLink id="7f48-9790-6079-e1c6" name="Allow special characters?" hidden="false" collective="false" import="true" targetId="8923-5946-7b10-8957" type="selectionEntry">
+    <entryLink id="7f48-9790-6079-e1c6" name="Allow special characters?" hidden="false" collective="false" import="true" targetId="8923-5946-7b10-8957" type="selectionEntry" defaultAmount="1">
       <modifiers>
         <modifier type="set" field="9d92-c18c-174c-d236" value="1">
           <conditions>
