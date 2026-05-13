@@ -221,7 +221,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="self" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
           <comment>&lt; 2000 pts</comment>
         </modifier>
