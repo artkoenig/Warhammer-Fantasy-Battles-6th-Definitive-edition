@@ -5752,6 +5752,9 @@
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
               </costs>
+              <entryLinks>
+                <entryLink import="true" name="Unholy Icon" hidden="false" id="fe79-0d1f-eb0c-3e6c" type="selectionEntry" targetId="19ea-dbba-bcca-eaa2"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5997,6 +6000,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4d0-35eb-6e8d-83c0" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Unholy Icon" hidden="false" id="7ad8-debc-8482-8a82" type="selectionEntry" targetId="19ea-dbba-bcca-eaa2"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6232,6 +6238,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="debb-84d6-e81c-8db9" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Unholy Icon" hidden="false" id="0c87-ad00-2321-834b" type="selectionEntry" targetId="19ea-dbba-bcca-eaa2"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6422,6 +6431,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26ff-caf8-c0bc-614d" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Unholy Icon" hidden="false" id="f7cf-d347-c65a-da13" type="selectionEntry" targetId="19ea-dbba-bcca-eaa2"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -13377,6 +13389,27 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
         <infoLink name="Tentacle" id="0cf7-66f6-6666-83af" hidden="false" type="rule" targetId="1277-50bb-a7e8-a734"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Unholy Icon" hidden="true" id="19ea-dbba-bcca-eaa2">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6f8-a351-1988-42d0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3169-43ee-ee16-6170" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Unholy Icons" id="6c9f-dc44-bc8d-b7c8" hidden="false" type="rule" targetId="044a-f855-90cf-f614"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="93f4-7522-86e9-7d45" shared="true" includeChildSelections="true" childName="Daemonic Legion (SoC)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6493-36be-1169-e364" name="Marks of Chaos (Regiments)" hidden="false" collective="false" import="true" defaultSelectionEntryId="85bd-d5ea-9ff2-48d6" collapsible="true">
@@ -15031,6 +15064,9 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </rule>
     <rule name="Shadow-shroud" id="a99d-3261-1a63-1d4f" hidden="false" page="26" publicationId="d2ec-1dc7-f0d5-acbb">
       <description>All enemy shooting aimed at Be&apos;lakor, or any unit in his army, suffer -1 to hit.</description>
+    </rule>
+    <rule name="Unholy Icons" id="044a-f855-90cf-f614" hidden="false" publicationId="d2ec-1dc7-f0d5-acbb" page="27">
+      <description>In a Daemonic Legion, one unit Standard Bearer can be given an Unholy Icon for the cost of +50 pts. This is effectively a Daemonic Gift that confers to the unit the same effect of Diabolic Splendour, giving +1 to the Ward save of all the members of the unit, making it 4+ (does not apply to characters joining the unit).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
