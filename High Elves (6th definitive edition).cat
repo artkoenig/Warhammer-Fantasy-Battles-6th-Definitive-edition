@@ -238,23 +238,33 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
       <entryLinks>
         <entryLink import="true" name="General" hidden="true" id="2b37-955c-579e-8b40" type="selectionEntry" targetId="1b7c-2c90-6d96-28c9">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="e205-86d0-c25f-b326" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e205-86d0-c25f-b326" includeChildSelections="true"/>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="7ec9-e576-c21a-5561" includeChildSelections="true"/>
           </constraints>
           <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
           <modifiers>
-            <modifier type="set" value="1" field="e205-86d0-c25f-b326">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
-              </conditions>
-              <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
-            </modifier>
             <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
-              </conditions>
               <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
             </modifier>
           </modifiers>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
+                </modifier>
+                <modifier type="set" value="1" field="7ec9-e576-c21a-5561">
+                  <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
+                </modifier>
+                <modifier type="set" value="1" field="e205-86d0-c25f-b326">
+                  <comment>&quot;The Sea Lord Aislinn&quot; (SoC, p.94)</comment>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </entryLink>
       </entryLinks>
       <costs>
@@ -3030,10 +3040,10 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry id="a4dc-9040-d98e-7bc1" name="Intrigue at Court" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a4dc-9040-d98e-7bc1" name="Intrigue at Court" hidden="true" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-9fac-fd29-f213" type="min"/>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d748-d47c-8922-74e3" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-9fac-fd29-f213" type="min"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d748-d47c-8922-74e3" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Special list rules" hidden="false" id="6a8e-273e-50be-7639" targetId="32f1-197f-d719-a393" primary="true"/>
@@ -3044,29 +3054,70 @@ In addition, Aislinn rules his vessels with an iron hand; and is automatically t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2"/>
       </costs>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
+      <infoLinks>
+        <infoLink id="d9456d23-9ef1-4baf-8613-cadf97de3350" name="Intrigue at Court" hidden="false" targetId="27d6-7f5f-bd69-c668" type="rule"/>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="1" field="d748-d47c-8922-74e3"/>
+            <modifier type="set" value="false" field="hidden"/>
+            <modifier type="set" value="1" field="3130-9fac-fd29-f213"/>
+          </modifiers>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="fc1b-d92c-9b94-f1e1" shared="true" includeChildSelections="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="bc11-d14e-4c78-1496" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="fc1b-d92c-9b94-f1e1" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="bc11-d14e-4c78-1496" shared="true" includeChildSelections="true"/>
               </conditions>
               <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="f42c-be6f-8a5d-7199" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f42c-be6f-8a5d-7199" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </conditionGroup>
           </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier type="add" value="{this} is not allowed if the Sea Lord is selected" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f42c-be6f-8a5d-7199" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="remove" value="a37e-7207-de6d-acb0" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f42c-be6f-8a5d-7199" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f42c-be6f-8a5d-7199" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1951-b0c9-254a-bcff" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
-      <infoLinks>
-        <infoLink id="d9456d23-9ef1-4baf-8613-cadf97de3350" name="Intrigue at Court" hidden="false" targetId="27d6-7f5f-bd69-c668" type="rule"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry id="d022-a291-0841-3b56" name="Imrik, Dragon Prince of Caledor" hidden="false" collective="false" import="true" type="unit" page="64" publicationId="a40f-696a-94e8-ecfb">
       <infoLinks>
