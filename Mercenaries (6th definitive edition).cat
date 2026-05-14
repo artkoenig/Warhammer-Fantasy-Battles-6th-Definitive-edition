@@ -6264,7 +6264,7 @@ Vampires dies when wounded, no regeneration.</characteristic>
         <infoLink name="Thick-skinned" id="458e-4d60-d33a-2bf4" hidden="false" type="profile" targetId="8ab1-dd33-6415-2b3e"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Emperor Fire Dragon" hidden="true" id="d7e3-ae46-6606-7806" publicationId="046d-88bc-e852-2147" page="PDF/dragemp.pdf">
+    <selectionEntry type="unit" import="true" name="Emperor Fire Dragon" hidden="false" id="d7e3-ae46-6606-7806" publicationId="046d-88bc-e852-2147" page="PDF/dragemp.pdf">
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="960"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
@@ -6272,7 +6272,6 @@ Vampires dies when wounded, no regeneration.</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink name="Experimental rules" hidden="false" id="aab6-e498-dc77-1dee" targetId="4fed-b911-e6e0-927b" primary="false"/>
-        <categoryLink name="Rare" hidden="false" id="ce03-ecab-9add-293d" targetId="e94b-6a54-8779-cd60" primary="false"/>
         <categoryLink name="Regiment of Renown" hidden="false" id="52b6-7a7f-acd1-a347" targetId="ee09-9a50-ad78-9c32" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -6322,7 +6321,7 @@ Vampires dies when wounded, no regeneration.</characteristic>
         </modifier>
         <modifier type="add" value="Please enable &quot;Allow experimental rules?&quot;" field="error">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="force" childId="8b76-92c4-23f9-54b1" shared="true" includeChildSelections="true"/>
+            <condition type="lessThan" value="1" field="selections" scope="force" childId="8b76-92c4-23f9-54b1" shared="true" includeChildSelections="true" childName="Allow experimental rules?"/>
           </conditions>
         </modifier>
         <modifier type="set" value="false" field="hidden">
