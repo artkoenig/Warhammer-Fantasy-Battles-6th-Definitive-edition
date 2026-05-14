@@ -3362,6 +3362,9 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd5-9cd4-e18f-9210" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b35-e1b9-ea0a-7102" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -4107,10 +4110,13 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dc9-a022-c834-2158" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4559-382b-a633-040b" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16"/>
               </costs>
             </entryLink>
             <entryLink id="327e-4b36-b581-7649" name="Dragon of Chaos" hidden="false" collective="false" import="true" targetId="f638-6690-ba43-3e58" type="selectionEntry" sortIndex="8">
@@ -4582,6 +4588,9 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640d-6975-1523-286a" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d182-5586-e1eb-89b1" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -4767,10 +4776,13 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971b-cd29-56c2-4a7e" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1b0-2838-50de-3d66" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="24"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16"/>
               </costs>
             </entryLink>
             <entryLink id="43c4-f2b9-68db-371d" name="Daemonic Mount" hidden="false" collective="false" import="true" targetId="428e-ba34-513b-9f65" type="selectionEntry" sortIndex="3">
