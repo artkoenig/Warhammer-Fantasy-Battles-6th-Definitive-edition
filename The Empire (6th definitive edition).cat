@@ -1874,7 +1874,7 @@
       <infoLinks>
         <infoLink id="b968-23a8-1f42-6af7" name="Elite" hidden="false" targetId="15ce-32a2-92e2-1279" type="profile">
           <modifiers>
-            <modifier type="set" value="4" field="b690-4bc0-bb73-267b">
+            <modifier type="increment" value="1" field="b690-4bc0-bb73-267b">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1899,9 +1899,14 @@
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Black Knight of Morr" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight Griffon" field="name">
                   <conditionGroups>
@@ -1909,6 +1914,7 @@
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="2eb1-3844-71d9-22ab" shared="true" includeChildSelections="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="2685-64b9-8818-b0b1" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="76c1-dbe4-cde0-a3db" shared="true" includeChildSelections="true" childName="Knights Griffon (Flavour)"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1919,20 +1925,27 @@
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="dfad-d77b-9156-e917" shared="true" includeChildSelections="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="27de-d9a5-19f0-eba6" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="43c3-856a-db1a-7293" shared="true" includeChildSelections="true" childName="Knights of the Blazing Sun (Flavour)"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight of the Twin-Tailed Orb" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight Panther" field="name">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="7ed6-2858-667c-4d92" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="9fa1-6b59-0f61-5356" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="5b35-830f-c55e-7210" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
@@ -1943,35 +1956,61 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="fadf-e269-2309-035c" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="883c-73aa-09fa-bfff" shared="true" includeChildSelections="true" childName="Reiksguard Knights (Flavour)"/>
                         <condition type="atLeast" value="1" field="selections" scope="self" childId="e474-301b-4e41-61c6" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight of Mannan" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight of the Gold Lion" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c239-fa50-4cfc-f238" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="e83a-c850-bd80-06ba" shared="true" includeChildSelections="true" childName="Knights of the Gold Lion (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="c239-fa50-4cfc-f238" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight of the Black Bear" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="cf1a-543c-feed-d458" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="cf1a-543c-feed-d458" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="db32-8172-97bf-3c46" shared="true" includeChildSelections="true" childName="Knights of the Black Bear (Flavour)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Templar" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="8801-735a-084c-43b5" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="8801-735a-084c-43b5" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="3efd-344a-3a7e-ac0f" shared="true" includeChildSelections="true" childName="Templars of the Everlasting Light (Flavour)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="Knight Jaguar" field="name">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <comment>Rename :)</comment>
@@ -2024,7 +2063,7 @@
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
               </conditions>
             </modifier>
             <modifier type="increment" value="1" field="abd1-90ab-2b66-ecff">
@@ -2066,7 +2105,7 @@
             </modifier>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2137,7 +2176,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Custom Knightly Order (WD#310(UK)" hidden="false" id="e628-04ab-0a07-b37c" type="selectionEntry" targetId="0bd1-8b50-44e0-6fc7">
+            <entryLink import="true" name="Custom Knightly Order (WD#310(UK)" hidden="false" id="e628-04ab-0a07-b37c" type="selectionEntry" targetId="0bd1-8b50-44e0-6fc7" sortIndex="4">
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
@@ -2151,33 +2190,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7944-27db-49ec-7bbd" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="21ca-c541-0b3d-6d4d" includeChildSelections="false"/>
-          </constraints>
-          <comment>+++++++++++++++++++++++</comment>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Knightly Orders (EM-AB)" id="3918-9830-1fe5-1e5d" hidden="false" sortIndex="1">
-              <entryLinks>
-                <entryLink import="true" name="0-1 Knights of the White Wolf" hidden="false" id="8685-ea3d-4b1b-0f20" type="selectionEntry" targetId="32c2-bfbe-88b1-8425">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="d1ca-0d07-b9d2-0ff1" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="1" field="34b4-6b42-c8a2-0089">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="d2eb-6fe3-7349-f03d" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="34b4-6b42-c8a2-0089" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            <entryLink import="true" name="Knightly Orders (EM-AB)" hidden="false" id="09bc-26ce-a460-5c6f" type="selectionEntryGroup" targetId="67e2-dacd-c9c2-ee29" sortIndex="1">
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
@@ -2185,8 +2198,13 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7944-27db-49ec-7bbd" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="21ca-c541-0b3d-6d4d" includeChildSelections="false"/>
+          </constraints>
+          <comment>+++++++++++++++++++++++</comment>
           <modifiers>
             <modifier type="set" value="1" field="21ca-c541-0b3d-6d4d">
               <conditionGroups>
@@ -2236,7 +2254,7 @@
                 <infoLink name="Elite Champion" id="7310-540c-a461-d9e9" hidden="false" targetId="73cc-0129-e7fe-ea53" type="profile">
                   <modifiers>
                     <modifier type="set" value="First Knight" field="name"/>
-                    <modifier type="set" value="4" field="b690-4bc0-bb73-267b">
+                    <modifier type="increment" value="1" field="b690-4bc0-bb73-267b">
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
@@ -2267,7 +2285,7 @@
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="1e3a-4402-70e8-2b08">
@@ -2275,7 +2293,7 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="force" childId="d2eb-6fe3-7349-f03d" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2319,7 +2337,7 @@
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="f0ce-7b2e-0be1-9dd1">
@@ -2327,7 +2345,7 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="force" childId="d2eb-6fe3-7349-f03d" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2354,12 +2372,12 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="1" field="f78b-9ad2-c515-7c0a">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8685-ea3d-4b1b-0f20" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2397,29 +2415,45 @@
           <comment>Rename :D</comment>
           <modifiers>
             <modifier type="set" value="Knights Jaguar" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Black Knights of Morr" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Knights of the Blazing Sun" field="name">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="dfad-d77b-9156-e917" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="43c3-856a-db1a-7293" shared="true" includeChildSelections="true" childName="Knights of the Blazing Sun (Flavour)"/>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="27de-d9a5-19f0-eba6" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" value="Knights of the Twin-Tailed Orb" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Knights Griffon" field="name">
               <conditionGroups>
@@ -2427,6 +2461,7 @@
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="2eb1-3844-71d9-22ab" shared="true" includeChildSelections="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="2685-64b9-8818-b0b1" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="76c1-dbe4-cde0-a3db" shared="true" includeChildSelections="true" childName="Knights Griffon (Flavour)"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2436,6 +2471,7 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="7ed6-2858-667c-4d92" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="9fa1-6b59-0f61-5356" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="5b35-830f-c55e-7210" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
@@ -2446,30 +2482,51 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="fadf-e269-2309-035c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="883c-73aa-09fa-bfff" shared="true" includeChildSelections="true" childName="Reiksguard Knights (Flavour)"/>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="e474-301b-4e41-61c6" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" value="Sons of Mannan" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Knights of the Black Bear" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="cf1a-543c-feed-d458" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="cf1a-543c-feed-d458" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="db32-8172-97bf-3c46" shared="true" includeChildSelections="true" childName="Knights of the Black Bear (Flavour)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Knights of the Gold Lion" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="c239-fa50-4cfc-f238" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="e83a-c850-bd80-06ba" shared="true" includeChildSelections="true" childName="Knights of the Gold Lion (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c239-fa50-4cfc-f238" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Templars of the Everlasting Light" field="name">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="8801-735a-084c-43b5" shared="true" includeChildSelections="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="8801-735a-084c-43b5" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="3efd-344a-3a7e-ac0f" shared="true" includeChildSelections="true" childName="Templars of the Everlasting Light (Flavour)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="Custom Knighty Order" field="name">
               <conditions>
@@ -3907,6 +3964,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Knightly Orders (EM-AB)" hidden="true" id="e0e2-47fd-a9b8-385a" type="selectionEntryGroup" targetId="e893-779d-ac1b-f899">
+              <comment>TODO: unlock if any Knights selection of the same order</comment>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -5830,7 +5890,8 @@ Makes sense to allow it with the &quot;other&quot; Reiksguard, but it&apos;s not
       <selectionEntryGroups>
         <selectionEntryGroup name="Knightly Order" id="9671-dac7-b4be-4230" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Custom Knightly Order (WD#310(UK)" hidden="false" id="4c5d-bea4-cc68-ac61" type="selectionEntry" targetId="0bd1-8b50-44e0-6fc7"/>
+            <entryLink import="true" name="Custom Knightly Order (WD#310(UK)" hidden="false" id="4c5d-bea4-cc68-ac61" type="selectionEntry" targetId="0bd1-8b50-44e0-6fc7" sortIndex="4"/>
+            <entryLink import="true" name="Knightly Orders (EM-AB)" hidden="false" id="f7a6-daed-64b0-07e2" type="selectionEntryGroup" targetId="67e2-dacd-c9c2-ee29" sortIndex="1"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b2da-d0f2-aacb-6ce5" includeChildSelections="false"/>
@@ -5838,23 +5899,6 @@ Makes sense to allow it with the &quot;other&quot; Reiksguard, but it&apos;s not
           </constraints>
           <comment>MAIN ORDER OF THE LIST</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Knightly Orders (EM-AB)" id="67e2-dacd-c9c2-ee29" hidden="false" sortIndex="1">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Knights of the White Wolf" hidden="false" id="9f9b-5a33-9c07-93e6" page="25" publicationId="b61c-34ec-3be0-1b38">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19f1-8d2e-b1a7-f1f1" includeChildSelections="false"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Cavalry hammer " id="38c2-9a21-b74f-bce1" hidden="false" type="rule" targetId="7833-9ec2-9012-935d"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
-                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
-                  </costs>
-                  <comment>EM-AB</comment>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Knightly Orders (CJ#43)" id="642c-6119-9d6d-bc7c" hidden="false" page="11-14" publicationId="9eb2-99ea-4657-d0a4" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8106-568e-dbed-b558" includeChildSelections="false"/>
@@ -11700,7 +11744,7 @@ No model in base contact may cast spells (including friendly models) or use Boun
         <infoLink name="Wealthy" id="e695-0749-6150-0a5a" hidden="false" type="rule" targetId="4ecb-17fb-1a23-9ed5"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Custom Knightly Order (WD#310(UK)" hidden="false" id="0bd1-8b50-44e0-6fc7">
+    <selectionEntry type="upgrade" import="true" name="Custom Knightly Order (WD#310(UK)" hidden="true" id="0bd1-8b50-44e0-6fc7">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Knightly advantages" hidden="false" id="e82b-32bf-6032-2d30">
           <entryLinks>
@@ -11834,6 +11878,13 @@ No model in base contact may cast spells (including friendly models) or use Boun
       <constraints>
         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9ff4-e65c-ebb1-1f3c" includeChildSelections="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="cc03-e8fe-c143-6863" shared="true" includeChildSelections="true" childName="Allow experimental rules from White-Dwarf and Citadel Journal issues"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="0-1 Knights of the White Wolf" hidden="false" id="32c2-bfbe-88b1-8425" page="25" publicationId="b61c-34ec-3be0-1b38">
       <constraints>
@@ -12343,6 +12394,94 @@ No model in base contact may cast spells (including friendly models) or use Boun
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sons of Mannan (Flavour)" hidden="false" id="1988-9965-3d90-448b">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a68-7220-4238-1ce3" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="a6bb-a043-5993-e386" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Black Knights of Morr (Flavour)" hidden="false" id="1e4a-5c77-ca2f-9b3c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4522-58fe-f3d8-79f6" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="fbf9-52dd-5353-34dc" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights Griffon (Flavour)" hidden="false" id="1300-fea7-b1b0-10d6">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56d9-9e49-30bc-62fd" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="c6bb-e131-eeea-c975" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights Panther (Flavour)" hidden="false" id="e42b-09aa-098e-2416">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21a1-d370-af78-7ced" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="60a3-953d-cb78-02d1" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights of the Blazing Sun (Flavour)" hidden="false" id="13ab-741f-c1ac-ac2a">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfd7-d30e-6e55-899f" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="2cce-fec7-9b58-ed62" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights of the Twin-Tailed Orb (Flavour)" hidden="false" id="11dc-3b97-4649-d682">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1819-c8ea-50ef-2f56" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="8af2-e83d-ddc4-5433" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights of the Black Bear (Flavour)" hidden="false" id="6ecf-3af2-f44d-288b">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2561-8bef-af55-fd94" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="66d4-e738-bc19-00bf" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights of the Gold Lion (Flavour)" hidden="false" id="2ca7-46da-f66f-ce7e">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d80-8d8e-4382-c886" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="dd68-9eda-e8a7-fef0" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Templars of the Everlasting Light (Flavour)" hidden="false" id="4db6-f55d-979c-6407">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f7b-12b4-41f6-7162" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="c4a6-5776-f546-76cb" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reiksguard Knights (Flavour)" hidden="false" id="08a8-5699-8b7f-e28f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9f8-54c3-2192-94a0" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="0878-d920-666f-cf02" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knights Jaguar (Flavour)" hidden="false" id="8a2f-f145-ca72-4252">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d6d-acae-ff4d-49e2" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Knights of the Order (Flavour)" id="8334-24ba-f166-371e" hidden="false" type="rule" targetId="d02e-8a77-fda0-d8c8"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7e1a-728d-7c04-6dc8" name="State Magic Banners" hidden="true" collective="false" import="true" collapsible="true">
@@ -12758,7 +12897,7 @@ No model in base contact may cast spells (including friendly models) or use Boun
         <entryLink id="43f9-1262-0a18-c9d0" name="Soulfire" hidden="false" collective="false" import="true" targetId="030b-f7ef-7656-2afc" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Knightly Orders (CJ#43)" id="d454-fa90-afa7-fa48" hidden="false" page="11-14" publicationId="9eb2-99ea-4657-d0a4">
+    <selectionEntryGroup name="Knightly Orders (CJ#43)" id="d454-fa90-afa7-fa48" hidden="true" page="11-14" publicationId="9eb2-99ea-4657-d0a4">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a51e-d04a-de5d-664f" includeChildSelections="false"/>
       </constraints>
@@ -13008,8 +13147,15 @@ No model in base contact may cast spells (including friendly models) or use Boun
         </entryLink>
       </entryLinks>
       <comment>CJ#43</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="cc03-e8fe-c143-6863" shared="true" includeChildSelections="true" childName="Allow experimental rules from White-Dwarf and Citadel Journal issues"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Knightly Orders (WD#310(UK))" id="4dfe-f8e3-0e1b-e859" hidden="false">
+    <selectionEntryGroup name="Knightly Orders (WD#310(UK))" id="4dfe-f8e3-0e1b-e859" hidden="true" collapsible="true">
       <comment>WD#310(UK)</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8229-e22a-c17d-f16a" includeChildSelections="false"/>
@@ -13112,6 +13258,13 @@ No model in base contact may cast spells (including friendly models) or use Boun
           </constraints>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="cc03-e8fe-c143-6863" shared="true" includeChildSelections="true" childName="Allow experimental rules from White-Dwarf and Citadel Journal issues"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Signature Weapon" id="7195-9f86-b364-0a4f" hidden="false">
       <entryLinks>
@@ -13286,7 +13439,7 @@ No model in base contact may cast spells (including friendly models) or use Boun
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Knightly Orders (CJ#43)" id="0028-c66b-de73-8a32" hidden="false" page="11-14" publicationId="9eb2-99ea-4657-d0a4">
+    <selectionEntryGroup name="Knightly Orders (CJ#43)" id="0028-c66b-de73-8a32" hidden="true" page="11-14" publicationId="9eb2-99ea-4657-d0a4">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5881-22a7-c058-d56d" includeChildSelections="false"/>
       </constraints>
@@ -13397,6 +13550,13 @@ No model in base contact may cast spells (including friendly models) or use Boun
         </entryLink>
       </entryLinks>
       <comment>GRAND TEMPLAR - CJ#43</comment>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="8b76-92c4-23f9-54b1" shared="true" includeChildSelections="true" childName="Allow experimental rules?"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup id="d5ac-7bfc-359c-a4e3" name="Prayers of Ulric" hidden="false" collective="false" import="true">
       <entryLinks>
@@ -13631,6 +13791,94 @@ No model in base contact may cast spells (including friendly models) or use Boun
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Knightly Orders (EM-AB)" id="67e2-dacd-c9c2-ee29" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Knights of the White Wolf" hidden="false" id="9f9b-5a33-9c07-93e6" page="25" publicationId="b61c-34ec-3be0-1b38" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19f1-8d2e-b1a7-f1f1" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c762-138d-82ae-db15" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Cavalry hammer " id="38c2-9a21-b74f-bce1" hidden="false" type="rule" targetId="7833-9ec2-9012-935d"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+          <comment>EM-AB</comment>
+          <modifiers>
+            <modifier type="set" value="1" field="c762-138d-82ae-db15">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d2eb-6fe3-7349-f03d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d1ca-0d07-b9d2-0ff1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Templars of the Everlasting Light (Flavour)" hidden="false" id="3efd-344a-3a7e-ac0f" type="selectionEntry" targetId="4db6-f55d-979c-6407" sortIndex="11"/>
+        <entryLink import="true" name="Sons of Mannan (Flavour)" hidden="false" id="29c2-ee5b-8dd2-e958" type="selectionEntry" targetId="1988-9965-3d90-448b" sortIndex="10"/>
+        <entryLink import="true" name="Black Knights of Morr (Flavour)" hidden="false" id="2696-ca6b-b45d-7ce1" type="selectionEntry" targetId="1e4a-5c77-ca2f-9b3c" sortIndex="3"/>
+        <entryLink import="true" name="Knights Griffon (Flavour)" hidden="false" id="76c1-dbe4-cde0-a3db" type="selectionEntry" targetId="1300-fea7-b1b0-10d6" sortIndex="4"/>
+        <entryLink import="true" name="Knights Jaguar (Flavour)" hidden="false" id="9fa1-6b59-0f61-5356" type="selectionEntry" targetId="e42b-09aa-098e-2416" sortIndex="5"/>
+        <entryLink import="true" name="Knights of the Black Bear (Flavour)" hidden="false" id="db32-8172-97bf-3c46" type="selectionEntry" targetId="6ecf-3af2-f44d-288b" sortIndex="6"/>
+        <entryLink import="true" name="Knights of the Blazing Sun (Flavour)" hidden="false" id="43c3-856a-db1a-7293" type="selectionEntry" targetId="13ab-741f-c1ac-ac2a" sortIndex="7"/>
+        <entryLink import="true" name="Knights of the Gold Lion (Flavour)" hidden="false" id="e83a-c850-bd80-06ba" type="selectionEntry" targetId="2ca7-46da-f66f-ce7e" sortIndex="8"/>
+        <entryLink import="true" name="Knights of the Twin-Tailed Orb (Flavour)" hidden="false" id="a7c2-2fa3-1c4c-1406" type="selectionEntry" targetId="11dc-3b97-4649-d682" sortIndex="9"/>
+        <entryLink import="true" name="Reiksguard Knights (Flavour)" hidden="false" id="883c-73aa-09fa-bfff" type="selectionEntry" targetId="08a8-5699-8b7f-e28f" sortIndex="2"/>
+        <entryLink import="true" name="Knights Jaguar (Flavour)" hidden="false" id="3e9a-16f4-43bb-1441" type="selectionEntry" targetId="8a2f-f145-ca72-4252"/>
+      </entryLinks>
+      <comment>EM-AB</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Knightly Orders (EM-AB)" id="e893-779d-ac1b-f899" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Knights of the White Wolf" hidden="false" id="aa00-5471-b99f-e39c" page="25" publicationId="b61c-34ec-3be0-1b38" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca56-03a3-08b1-058d" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d544-6f0f-2980-56a7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Cavalry hammer " id="2ce2-94cc-d4f5-384b" hidden="false" type="rule" targetId="7833-9ec2-9012-935d"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+          <comment>EM-AB</comment>
+          <modifiers>
+            <modifier type="set" value="1" field="d544-6f0f-2980-56a7">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d2eb-6fe3-7349-f03d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d1ca-0d07-b9d2-0ff1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Templars of the Everlasting Light (Flavour)" hidden="false" id="3951-d660-831b-bb2f" type="selectionEntry" targetId="4db6-f55d-979c-6407" sortIndex="11"/>
+        <entryLink import="true" name="Sons of Mannan (Flavour)" hidden="false" id="fc44-9f4f-a5c1-f423" type="selectionEntry" targetId="1988-9965-3d90-448b" sortIndex="10"/>
+        <entryLink import="true" name="Black Knights of Morr (Flavour)" hidden="false" id="2dbe-48fc-10f5-d1c6" type="selectionEntry" targetId="1e4a-5c77-ca2f-9b3c" sortIndex="3"/>
+        <entryLink import="true" name="Knights Griffon (Flavour)" hidden="false" id="bae3-01a6-70bd-90d1" type="selectionEntry" targetId="1300-fea7-b1b0-10d6" sortIndex="4"/>
+        <entryLink import="true" name="Knights Panther (Flavour)" hidden="false" id="0af0-b5e7-f06b-1f97" type="selectionEntry" targetId="e42b-09aa-098e-2416" sortIndex="5"/>
+        <entryLink import="true" name="Knights of the Black Bear (Flavour)" hidden="false" id="118f-b57d-0459-ea45" type="selectionEntry" targetId="6ecf-3af2-f44d-288b" sortIndex="6"/>
+        <entryLink import="true" name="Knights of the Blazing Sun (Flavour)" hidden="false" id="7200-7700-c238-f14b" type="selectionEntry" targetId="13ab-741f-c1ac-ac2a" sortIndex="7"/>
+        <entryLink import="true" name="Knights of the Gold Lion (Flavour)" hidden="false" id="bfd8-dd85-6621-1149" type="selectionEntry" targetId="2ca7-46da-f66f-ce7e" sortIndex="8"/>
+        <entryLink import="true" name="Knights of the Twin-Tailed Orb (Flavour)" hidden="false" id="0491-267c-b932-9dbf" type="selectionEntry" targetId="11dc-3b97-4649-d682" sortIndex="9"/>
+        <entryLink import="true" name="Reiksguard Knights (Flavour)" hidden="false" id="da80-d4e9-7687-a11f" type="selectionEntry" targetId="08a8-5699-8b7f-e28f" sortIndex="2"/>
+        <entryLink import="true" name="Knights Jaguar (Flavour)" hidden="false" id="e08f-80bd-460a-583c" type="selectionEntry" targetId="8a2f-f145-ca72-4252"/>
+      </entryLinks>
+      <comment>GRAND TEMPLAR EM-AB</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -14174,6 +14422,9 @@ Valten may not be your army General unless he has the highest Leadership value i
     <rule name="Prayers of Sigmar (Arch Lector)" id="44ad-e95c-7a72-c5dc" hidden="false" publicationId="0ea7-2a59-bcdf-f4ce" page="85">
       <description>Warrior Priests are granted exceptional powers by their divine patron. Not as powerful as the spells of the Battle Wizards, these Prayers are still very valuable on the battlefield.
 Once per Empire Magic phase, a Warrior Priest is allowed to use TWO prayer chosen from the Prayers of Sigmar list. Prayers are cast exactly like Bound spells from magic items, with a Power Level of 4. They can be cast on the Priest himself or on any one character or unit champion within 12&quot; of the Priest. Prayers never affect a model&apos;s steed, and cannot be cast on Knights of the White Wolf or their Grand Master. Note that a Warrior Priest is never considered to be a Wizard.</description>
+    </rule>
+    <rule name="Knights of the Order (Flavour)" id="d02e-8a77-fda0-d8c8" hidden="false">
+      <description>This unit of Knights are members of an Order. This is purely cosmetic and has no relevante over the tabletop.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
