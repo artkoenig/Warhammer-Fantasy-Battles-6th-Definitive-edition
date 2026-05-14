@@ -10441,6 +10441,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Tzeentch" hidden="false" id="88cf-af6f-4f20-15c9" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="8cb0-65ea-cd8a-c528" name="Doombull Of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10454,6 +10457,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Tzeentch" hidden="false" id="a21b-7a33-f534-29a7" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="7b7d-a133-0091-820c" name="Hero of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10529,6 +10535,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Tzeentch" hidden="false" id="ade2-8554-db83-1b4d" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="d5e2-00e0-fbb6-e338" name="Minotaurs of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10554,6 +10563,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Tzeentch" hidden="false" id="ceeb-0c08-3021-ffd3" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="7349-3243-effe-59d8" name="Lord of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10616,6 +10628,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Khorne" hidden="false" id="efcb-e812-b165-57cb" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="ab4a-0362-891d-a013" name="Minotaurs of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10641,6 +10656,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Khorne" hidden="false" id="6db6-0f60-be14-5632" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="3484-989a-dcbb-cb53" name="Regiment of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10666,6 +10684,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Khorne" hidden="false" id="d743-8d0e-839f-1391" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="5828-e3e0-b18b-2669" name="Hero of Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10722,6 +10743,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Khorne" hidden="false" id="ad6c-4fca-157a-eb27" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="9d4e-2569-e41a-32ae" name="Lord of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10784,6 +10808,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="c8ad-2370-6d6f-835b" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="e8cf-c3f3-392e-d467" name="Doombull Of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10797,6 +10824,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="a3fb-1fa2-c019-1692" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="bd6c-b9b1-03f8-273d" name="Hero of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10877,6 +10907,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="1b46-040c-3f55-faae" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="30cb-7f1b-760f-418c" name="Minotaurs of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10902,6 +10935,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="8639-0140-48db-e692" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="0aa1-edf9-6a31-417e" name="Lord of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10964,6 +11000,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Slaanesh" hidden="false" id="205f-8139-99f5-eb8f" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="785e-dace-ffd3-5f88" name="Doombull Of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -10977,6 +11016,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Slaanesh" hidden="false" id="151c-7c93-5b57-1fdb" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="0f8d-ad08-9225-26a3" name="Regiment of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -11002,6 +11044,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Slaanesh" hidden="false" id="ee24-6056-2b8e-6391" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="23c1-340d-fabf-74a9" name="Minotaurs of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -11027,6 +11072,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Slaanesh" hidden="false" id="ba30-1c95-a5c3-154e" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="34a6-820e-cc1b-fa7d" name="Axes Of Khorgor" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -12791,6 +12839,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Khorne" hidden="false" id="4069-8aff-65f2-3a2d" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="cba9-9927-36ac-519c" name="Exalted Daemon of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -12804,6 +12855,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Tzeentch" hidden="false" id="dda2-1a5f-070a-c009" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="372c-9f25-bf52-53e3" name="Exalted Daemon of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -12817,6 +12871,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Slaanesh" hidden="false" id="edf2-db11-2270-5569" targetId="9333-d169-d123-1353" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="07ba-97fe-aa3e-b453" name="Exalted Daemon of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -12830,6 +12887,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="471c-e6f0-a698-8b52" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chosen" hidden="false" id="365d-3b3c-4094-b18a" collective="false">
       <modifiers>
@@ -12897,6 +12957,9 @@ Two units of Plaguebearers allow you to field up to two units of Nurglings, up t
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Nurgle" hidden="false" id="678a-4c66-2227-3e81" targetId="de30-bd00-67a7-5a25" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="d1dc-2130-49fa-373d">
       <constraints>
@@ -13436,7 +13499,7 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
         <infoLink id="8697-ecad-d3f2-ad5e" name="Daemon Prince of Khorne" hidden="false" targetId="f02e-4e79-552e-68dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e804-a97f-2905-af4b" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
+        <categoryLink name="Khorne" hidden="false" id="609f-9977-aa56-f5a6" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
@@ -13452,10 +13515,26 @@ Treat any obstacles that are not higher than the Mammoths knees as open ground.
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7ed-0ab4-a3bd-e6fd" includeChildSelections="false"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Regiment of Tzeentch" hidden="false" id="674e-ca13-0bb4-f158" type="selectionEntry" targetId="1bbf-25a9-fd0b-8317"/>
-        <entryLink import="true" name="Regiment of Khorne" hidden="false" id="d59b-098d-ddd9-7d0f" type="selectionEntry" targetId="3484-989a-dcbb-cb53"/>
-        <entryLink import="true" name="Regiment of Nurgle" hidden="false" id="1f17-bcae-52c7-df1f" type="selectionEntry" targetId="dccb-9c38-8ca6-3ad7"/>
-        <entryLink import="true" name="Regiment of Slaanesh" hidden="false" id="bc9b-eafb-ce6b-6254" type="selectionEntry" targetId="0f8d-ad08-9225-26a3"/>
+        <entryLink import="true" name="Regiment of Tzeentch" hidden="false" id="674e-ca13-0bb4-f158" type="selectionEntry" targetId="1bbf-25a9-fd0b-8317">
+          <categoryLinks>
+            <categoryLink name="Tzeentch" hidden="false" id="0697-5835-8cd6-8ce9" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Regiment of Khorne" hidden="false" id="d59b-098d-ddd9-7d0f" type="selectionEntry" targetId="3484-989a-dcbb-cb53">
+          <categoryLinks>
+            <categoryLink name="Khorne" hidden="false" id="9f3d-1fb3-ac25-a51c" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Regiment of Nurgle" hidden="false" id="1f17-bcae-52c7-df1f" type="selectionEntry" targetId="dccb-9c38-8ca6-3ad7">
+          <categoryLinks>
+            <categoryLink name="Nurgle" hidden="false" id="7ea2-5e39-b49e-3f1d" targetId="de30-bd00-67a7-5a25" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Regiment of Slaanesh" hidden="false" id="bc9b-eafb-ce6b-6254" type="selectionEntry" targetId="0f8d-ad08-9225-26a3">
+          <categoryLinks>
+            <categoryLink name="Slaanesh" hidden="false" id="3f02-dc24-319f-b3fb" targetId="9333-d169-d123-1353" primary="false"/>
+          </categoryLinks>
+        </entryLink>
         <entryLink import="true" name="Mark of Chaos Undivided" hidden="false" id="7373-4eba-2b49-acfb" type="selectionEntry" targetId="c7ff-31af-939e-0fbd"/>
       </entryLinks>
     </selectionEntryGroup>
