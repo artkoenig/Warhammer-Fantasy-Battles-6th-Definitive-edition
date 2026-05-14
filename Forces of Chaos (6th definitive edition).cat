@@ -2808,6 +2808,9 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c7c-4a6e-8999-88d7" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5989-fb5a-71e9-03f1" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3536,7 +3539,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </entryLink>
-            <entryLink id="15b6-fcec-c2a6-9e2c" name="Mark of Khorne (Daemon Prince)" hidden="false" collective="false" import="true" targetId="4899-99bd-39f0-149a" type="selectionEntry">
+            <entryLink id="15b6-fcec-c2a6-9e2c" name="Daemon Prince of Khorne" hidden="false" collective="false" import="true" targetId="4899-99bd-39f0-149a" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="c2e3-d351-8703-315d" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
               </categoryLinks>
