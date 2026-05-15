@@ -100,6 +100,7 @@
 - [x] Manbiters (WD#310-UK, p.95 & )
 - [x] Giants of Albion (CR-04, p.67)
 - [x] Josef Bugman (CJ#44)
+- [x] Magic Items from GW Italy (2005 and 2006)
 
 ### Dark Elves
 - [x] Malekith, the Witch King

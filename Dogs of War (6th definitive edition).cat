@@ -127,6 +127,10 @@
             <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="12ba-222a-7580-b716" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
             <entryLink id="7772-6a08-c1c1-933f" name="Magic Talismans (Relics of Lustria)" hidden="false" collective="false" import="true" targetId="dbf5-90ca-b928-d111" type="selectionEntryGroup"/>
             <entryLink id="521d-a52c-f309-2639" name="Magic Armour (Common)" hidden="false" collective="false" import="true" targetId="9ec4-7d00-6bb0-6b68" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magic Weapons (Dogs of War)" hidden="false" id="dd06-0000-0000-0001" type="selectionEntryGroup" targetId="dd07-0000-0000-0001"/>
+            <entryLink import="true" name="Magic Armour (Dogs of War)" hidden="false" id="dd06-0000-0000-0006" type="selectionEntryGroup" targetId="dd07-0000-0000-0002"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="dd06-0000-0000-0007" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink import="true" name="Magic Talismans (Dogs of War)" hidden="false" id="dd06-0000-0000-0008" type="selectionEntryGroup" targetId="dd07-0000-0000-0004"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -136,7 +140,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2701-72dc-c0ba-7912" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2701-72dc-c0ba-7912" name="Weapons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6afe-48f9-773b-2a5d" type="max"/>
           </constraints>
@@ -191,7 +195,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0e8d-1857-ca1d-49cc" name="Ranged Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0e8d-1857-ca1d-49cc" name="Ranged Weapons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8581-b9e9-9742-9e87" type="max"/>
           </constraints>
@@ -244,7 +248,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7d33-3699-f378-4f2f" name="Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7d33-3699-f378-4f2f" name="Armour" hidden="false" collective="false" import="true" collapsible="true">
           <modifiers>
             <modifier type="increment" field="d0d9-8e6d-0fbe-913d" value="1">
               <conditions>
@@ -369,8 +373,11 @@
             <entryLink import="true" name="Potion of Pavona [DOGS OF WAR]" hidden="false" id="1dfe-f329-edcc-982a" type="selectionEntry" targetId="cf056eb4-904d-48f0-a67c-1a7f53e27b64"/>
             <entryLink import="true" name="Lucrezzia&apos;s Kiss [DOGS OF WAR]" hidden="false" id="e65e-7c85-531d-880b" type="selectionEntry" targetId="ed4a50ea-a688-403f-a9d2-3ce4486a5ad7"/>
             <entryLink import="true" name="Magic Armour (Relics of Lustria)" hidden="false" id="5ddb-eee8-51de-e16d" type="selectionEntryGroup" targetId="d8b2-93bf-2e16-7896"/>
-            <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="75f9-27fd-1610-8cc8" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
             <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="2413-ecfd-d5de-b1c0" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
+            <entryLink import="true" name="Magic Weapons (Dogs of War)" hidden="false" id="dd06-0000-0000-0002" type="selectionEntryGroup" targetId="dd07-0000-0000-0001"/>
+            <entryLink import="true" name="Magic Armour (Dogs of War)" hidden="false" id="dd06-0000-0000-000b" type="selectionEntryGroup" targetId="dd07-0000-0000-0002"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="dd06-0000-0000-000c" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink import="true" name="Magic Talismans (Dogs of War)" hidden="false" id="dd06-0000-0000-000d" type="selectionEntryGroup" targetId="dd07-0000-0000-0004"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -635,12 +642,17 @@
           <entryLinks>
             <entryLink id="c7af-c5ed-3f40-c0f0" name="Magic Armour (Common)" hidden="false" collective="false" import="true" targetId="9ec4-7d00-6bb0-6b68" type="selectionEntryGroup"/>
             <entryLink id="cb2a-dbf4-497c-9554" name="Magic Weapons (Common)" hidden="false" collective="false" import="true" targetId="419c-63bf-e887-06c7" type="selectionEntryGroup"/>
-            <entryLink id="4ff8-b0b3-c6da-da34" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
+            <entryLink id="4ff8-b0b3-c6da-da34" name="Magic Talismans (Relics of Lustria)" hidden="false" collective="false" import="true" targetId="dbf5-90ca-b928-d111" type="selectionEntryGroup"/>
             <entryLink import="true" name="Potion of Pavona [DOGS OF WAR]" hidden="false" id="8da6-8c9e-3acd-cc16" type="selectionEntry" targetId="cf056eb4-904d-48f0-a67c-1a7f53e27b64"/>
             <entryLink import="true" name="Lucrezzia&apos;s Kiss [DOGS OF WAR]" hidden="false" id="fadd-eb3f-39f8-2f8e" type="selectionEntry" targetId="ed4a50ea-a688-403f-a9d2-3ce4486a5ad7"/>
             <entryLink import="true" name="Magic Armour (Relics of Lustria)" hidden="false" id="f5ca-5211-0358-401f" type="selectionEntryGroup" targetId="d8b2-93bf-2e16-7896"/>
-            <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="222b-1ed0-5837-cc1c" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
             <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="a9e7-9e0a-be4b-11f5" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
+            <entryLink import="true" name="Magic Weapons (Dogs of War)" hidden="false" id="dd06-0000-0000-0003" type="selectionEntryGroup" targetId="dd07-0000-0000-0001"/>
+            <entryLink import="true" name="Magic Armour (Dogs of War)" hidden="false" id="dd06-0000-0000-0010" type="selectionEntryGroup" targetId="dd07-0000-0000-0002"/>
+            <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="dd06-0000-0000-0011" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
+            <entryLink import="true" name="Magic Talismans (Dogs of War)" hidden="false" id="dd06-0000-0000-0012" type="selectionEntryGroup" targetId="dd07-0000-0000-0004"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="57e4-1599-6312-28e5" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink id="3f81-9e1e-0ad9-b489" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -919,13 +931,19 @@
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8011-e361-15ad-096d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6775-59cf-bf56-9ac0" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
+            <entryLink id="6775-59cf-bf56-9ac0" name="Magic Talismans (Relics of Lustria)" hidden="false" collective="false" import="true" targetId="dbf5-90ca-b928-d111" type="selectionEntryGroup"/>
             <entryLink id="4089-7c9a-5f34-11df" name="Arcane Items (Common)" hidden="false" collective="false" import="true" targetId="b5c7-4bd0-8497-7c99" type="selectionEntryGroup"/>
             <entryLink import="true" name="Potion of Pavona [DOGS OF WAR]" hidden="false" id="9f41-61eb-4c23-956b" type="selectionEntry" targetId="cf056eb4-904d-48f0-a67c-1a7f53e27b64"/>
             <entryLink import="true" name="Lucrezzia&apos;s Kiss [DOGS OF WAR]" hidden="false" id="bcc1-06b3-8642-b30e" type="selectionEntry" targetId="ed4a50ea-a688-403f-a9d2-3ce4486a5ad7"/>
             <entryLink import="true" name="Arcane Items (Relics of Lustria)" hidden="false" id="22e6-1286-738a-e622" type="selectionEntryGroup" targetId="9bff-59ad-43df-a403"/>
             <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="19db-ed4c-ac80-317a" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
-            <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="d388-e003-5b11-9d4c" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
+            <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="dd06-0000-0000-0004" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="dd06-0000-0000-0016" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink import="true" name="Magic Talismans (Dogs of War)" hidden="false" id="dd06-0000-0000-0017" type="selectionEntryGroup" targetId="dd07-0000-0000-0004"/>
+            <entryLink import="true" name="Arcane Items (Dogs of War)" hidden="false" id="dd06-0000-0000-0018" type="selectionEntryGroup" targetId="dd07-0000-0000-0005"/>
+            <entryLink import="true" name="Magic Weapons (Dogs of War)" hidden="false" id="0466-fc51-9378-ba7d" type="selectionEntryGroup" targetId="dd07-0000-0000-0001"/>
+            <entryLink import="true" name="Magic Weapons (Common)" hidden="false" id="8162-f820-9f2b-658e" type="selectionEntryGroup" targetId="8171-d883-19d8-6450"/>
+            <entryLink id="cb48-2b31-79a7-8426" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -1056,7 +1074,14 @@
             <entryLink import="true" name="Potion of Pavona [DOGS OF WAR]" hidden="false" id="7153-a9c1-7ac7-029b" type="selectionEntry" targetId="cf056eb4-904d-48f0-a67c-1a7f53e27b64"/>
             <entryLink import="true" name="Lucrezzia&apos;s Kiss [DOGS OF WAR]" hidden="false" id="ac0e-e458-4002-cb43" type="selectionEntry" targetId="ed4a50ea-a688-403f-a9d2-3ce4486a5ad7"/>
             <entryLink import="true" name="Arcane Items (Relics of Lustria)" hidden="false" id="5dc5-0799-27bd-a21d" type="selectionEntryGroup" targetId="9bff-59ad-43df-a403"/>
-            <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="79b1-6c75-02f3-21ca" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
+            <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="dd06-0000-0000-0005" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
+            <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="dd06-0000-0000-001b" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
+            <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="dd06-0000-0000-001c" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
+            <entryLink import="true" name="Arcane Items (Dogs of War)" hidden="false" id="dd06-0000-0000-001d" type="selectionEntryGroup" targetId="dd07-0000-0000-0005"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="f784-feca-25a8-e708" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink import="true" name="Magic Weapons (Dogs of War)" hidden="false" id="371d-dbe7-227c-e6f0" type="selectionEntryGroup" targetId="dd07-0000-0000-0001"/>
+            <entryLink import="true" name="Magic Weapons (Common)" hidden="false" id="b048-2828-2f33-8a39" type="selectionEntryGroup" targetId="8171-d883-19d8-6450"/>
+            <entryLink import="true" name="Magic Talismans (Dogs of War)" hidden="false" id="47b7-d91a-c463-782b" type="selectionEntryGroup" targetId="dd07-0000-0000-0004"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -3305,13 +3330,19 @@ We have tested them in the Prologue tournament and we think they are balanced as
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e4-54b2-37e0-2c3c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9c71-4c83-1700-ebf6" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
+            <entryLink id="9c71-4c83-1700-ebf6" name="Magic Weapons (Relics of Lustria)" hidden="false" collective="false" import="true" targetId="11e7-7d5d-b0fa-1f34" type="selectionEntryGroup"/>
             <entryLink id="12e1-209d-5d07-b9cc" name="Arcane Items (Common)" hidden="false" collective="false" import="true" targetId="b5c7-4bd0-8497-7c99" type="selectionEntryGroup"/>
             <entryLink import="true" name="Potion of Pavona [DOGS OF WAR]" hidden="false" id="6663-fb01-baa7-ff35" type="selectionEntry" targetId="cf056eb4-904d-48f0-a67c-1a7f53e27b64"/>
             <entryLink import="true" name="Lucrezzia&apos;s Kiss [DOGS OF WAR]" hidden="false" id="53fe-08e9-93d3-b61c" type="selectionEntry" targetId="ed4a50ea-a688-403f-a9d2-3ce4486a5ad7"/>
-            <entryLink import="true" name="Arcane Items (Relics of Lustria)" hidden="false" id="238a-eac1-cc16-6631" type="selectionEntryGroup" targetId="9bff-59ad-43df-a403"/>
-            <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="d18b-c046-8407-c574" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
-            <entryLink import="true" name="Magic Banners (Relics of Lustria)" hidden="false" id="2e81-746b-d9fc-6e29" type="selectionEntryGroup" targetId="6747-35dd-32ed-961a"/>
+            <entryLink import="true" name="Arcane Items (Dogs of War)" hidden="false" id="238a-eac1-cc16-6631" type="selectionEntryGroup" targetId="dd07-0000-0000-0005"/>
+            <entryLink import="true" name="Enchanted Items (Dogs of War)" hidden="false" id="d18b-c046-8407-c574" type="selectionEntryGroup" targetId="dd07-0000-0000-0003"/>
+            <entryLink import="true" name="Arcane Items (Relics of Lustria)" hidden="false" id="5c86-0d7e-ea8c-5586" type="selectionEntryGroup" targetId="9bff-59ad-43df-a403"/>
+            <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="30c3-590a-10d7-7267" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
+            <entryLink id="1ba8-0a9c-c1da-e1ea" name="Magic Talismans (Common)" hidden="false" collective="false" import="true" targetId="b59d-d5be-988b-d10f" type="selectionEntryGroup"/>
+            <entryLink id="8f87-cb0f-6742-bcf8" name="Magic Talismans (Dogs of War)" hidden="false" collective="false" import="true" targetId="dd07-0000-0000-0004" type="selectionEntryGroup"/>
+            <entryLink id="9ddb-7edb-bfd9-b2f3" name="Magic Talismans (Relics of Lustria)" hidden="false" collective="false" import="true" targetId="dbf5-90ca-b928-d111" type="selectionEntryGroup"/>
+            <entryLink id="079c-4d36-69f8-dcfb" name="Magic Weapons (Common)" hidden="false" collective="false" import="true" targetId="419c-63bf-e887-06c7" type="selectionEntryGroup"/>
+            <entryLink id="fd28-343b-493f-1550" name="Magic Weapons (Dogs of War)" hidden="false" collective="false" import="true" targetId="dd07-0000-0000-0001" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
@@ -4852,6 +4883,256 @@ We have tested them in the Prologue tournament and we think they are balanced as
         <categoryLink name="Magical Standard" hidden="false" id="453c-f992-d621-d1e4" targetId="942b-0309-8845-e11c" primary="false"/>
       </categoryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0001" name="Magic Weapons (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0001" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0001" name="Brace of Pistols of Sartosa (Magic Weapon)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0001" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Brace of Pistols of Sartosa" typeId="7889-42d9-70a0-3ea9" typeName="Weapon" hidden="false" id="dd02-0000-0000-0001">
+              <characteristics>
+                <characteristic name="Range" typeId="3107-4d1e-9a51-6564">8</characteristic>
+                <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+                <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
+                <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Pistol. Multiple Shots (2). Armour Piercing. Magic attacks. May repeat to-wound rolls.</characteristic>
+                <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0001" name="Brace of Pistols of Sartosa" hidden="false" targetId="dd01-0000-0000-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd03-0000-0000-0002" name="Pike of Remas (Magic Weapon)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0002" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Pike of Remas" typeId="7889-42d9-70a0-3ea9" typeName="Weapon" hidden="false" id="dd02-0000-0000-0002">
+              <characteristics>
+                <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC only</characteristic>
+                <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User +1</characteristic>
+                <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
+                <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Counts as a Tilean pike. Fights in four ranks. Always strikes first. +1 Strength. Mounted enemies (horse, chariot or monster) cannot voluntarily charge the bearer.</characteristic>
+                <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0002" name="Pike of Remas" hidden="false" targetId="dd01-0000-0000-0002" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="505b-cf3d-db0c-8488" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0002" name="Magic Armour (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0002" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0003" name="Great Armour of Miragliano (Magic Armour)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0003" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Great Armour of Miragliano" typeId="f681-9937-db53-f1d8" typeName="Armour" hidden="false" id="dd02-0000-0000-0003">
+              <characteristics>
+                <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">4</characteristic>
+                <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Characters on foot only. 5+ Ward Save. -1 Movement, -3 Initiative. May not use weapons that require two hands.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0003" name="Great Armour of Miragliano" hidden="false" targetId="dd01-0000-0000-0003" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd03-0000-0000-0004" name="Bright Helm of Myrmidia (Magic Armour)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0004" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Bright Helm of Myrmidia" typeId="f681-9937-db53-f1d8" typeName="Armour" hidden="false" id="dd02-0000-0000-0004">
+              <characteristics>
+                <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">6</characteristic>
+                <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">May be worn in addition to normal armour. Enemies in base-to-base contact suffer -2 WS. Wearer Hates all models in Tomb Kings armies.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0004" name="Bright Helm of Myrmidia" hidden="false" targetId="dd01-0000-0000-0004" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="9519-9bba-bfd9-2193" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0003" name="Enchanted Items (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0003" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0005" name="Crown of Luccini (Enchanted Item)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0005" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Crown of Luccini" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="dd02-0000-0000-0005">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Mercenary General only. +1 Leadership. Troops within 12&quot; use modified Ld. If wearer killed, enemy gets +100 VP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0005" name="Crown of Luccini" hidden="false" targetId="dd01-0000-0000-0005" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="114e-0f0e-0dbc-074b" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0004" name="Magic Talismans (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0004" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0006" name="Estalian Cloak (Talisman)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0006" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Estalian Cloak" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="dd02-0000-0000-0006">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bearer and his unit gain Magic Resistance (1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0006" name="Estalian Cloak" hidden="false" targetId="dd01-0000-0000-0006" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="014c-153c-e80b-a624" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0005" name="Arcane Items (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0005" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0007" name="Staff of Lightnings (Arcane Item)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0007" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Staff of Lightnings" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="dd02-0000-0000-0007">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Bound Spell (Power Level 5). Magic missile, 24&quot; range, D3+1 S6 hits + 1 S4 hit on bearer. On a post-use roll of 1, loses power for rest of battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0007" name="Staff of Lightnings" hidden="false" targetId="dd01-0000-0000-0007" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd03-0000-0000-0008" name="Book of the Mage (Arcane Item)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0008" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Book of the Mage" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="dd02-0000-0000-0008">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Mage knows one additional randomly generated spell from a lore of the bearer&apos;s choice (from the remaining 7 lores).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0008" name="Book of the Mage" hidden="false" targetId="dd01-0000-0000-0008" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="c33e-5d97-b0e2-40c0" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd07-0000-0000-0006" name="Magic Banners (Dogs of War)" hidden="false" collective="false" import="true" collapsible="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd08-0000-0000-0006" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dd03-0000-0000-0009" name="Banner of Steel (Magic Banner)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd04-0000-0000-0009" type="max"/>
+          </constraints>
+          <profiles>
+            <profile name="Banner of Steel" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="dd02-0000-0000-0009">
+              <characteristics>
+                <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One use only. Declare at start of any turn. Unit gets +1 Armour Save until end of that turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd05-0000-0000-0009" name="Banner of Steel" hidden="false" targetId="dd01-0000-0000-0009" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Experimental rules" hidden="false" id="7e82-0bc5-701f-7eeb" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Black Banner of Muktarhin" id="e9cc-b768-a076-77e4" hidden="false">
@@ -4965,6 +5246,33 @@ To represent this, when Lorenzo is in the front rank of any infantry regiment (i
     </rule>
     <rule name="Independent Models" id="6f4b-155c-576e-a93d" hidden="false" page="67" publicationId="cc59-6466-b62e-cf5b">
       <description>Hengus, Cachtorr and Bologs are individual models and move independently, though they may not join regiments. The enemy is awarded Victory points separately for each model slain. Hengus is worth 100 points and each Giant is worth 175 points.</description>
+    </rule>
+    <rule name="Brace of Pistols of Sartosa" id="dd01-0000-0000-0001" hidden="false">
+      <description>Counts as a Brace of Pistols. The bearer may repeat to-wound rolls. His ranged and close combat attacks count as magic.</description>
+    </rule>
+    <rule name="Pike of Remas" id="dd01-0000-0000-0002" hidden="false">
+      <description>Counts as a Tilean pike. Bearer has +1 Strength. Mounted enemies (horse, chariot or monster) cannot voluntarily charge if they would contact in Base to Base with the bearer of the Pike.</description>
+    </rule>
+    <rule name="Great Armour of Miragliano" id="dd01-0000-0000-0003" hidden="false">
+      <description>Only characters on foot. Gives the wearer a 4+ armour save and a 5+ ward save. The Great Armour is so heavy that the wearer has -1 Movement and -3 Initiative, and may not use weapons that require two hands.</description>
+    </rule>
+    <rule name="Bright Helm of Myrmidia" id="dd01-0000-0000-0004" hidden="false">
+      <description>The Helm gives a 6+ armour save, and may be worn in addition to normal armour. Enemies in base to base contact suffer -2 WS. Wearer hates all models in a Tomb Kings army.</description>
+    </rule>
+    <rule name="Crown of Luccini" id="dd01-0000-0000-0005" hidden="false">
+      <description>Mercenary General only. +1 Leadership. If the wearer is the general, troops within 12&quot; can use his modified leadership. If the wearer is killed, the enemy gets +100 Victory Points.</description>
+    </rule>
+    <rule name="Estalian Cloak" id="dd01-0000-0000-0006" hidden="false">
+      <description>Bearer and his unit gains Magic Resistance (1).</description>
+    </rule>
+    <rule name="Staff of Lightnings" id="dd01-0000-0000-0007" hidden="false">
+      <description>Bound Spell, Power Level 5. Contains a spell that, if not dispelled, generates a magic missile with a 24&quot; range that causes D3+1 Strength 6 hits, and a single Strength 4 hit to the bearer. After every use roll a die. On a 1, the staff loses temporarily its powers and may not be used for the rest of the battle.</description>
+    </rule>
+    <rule name="Book of the Mage" id="dd01-0000-0000-0008" hidden="false">
+      <description>The mage knows one additional spell, randomly generated from one of the remaining 7 lores. The lore is chosen by the bearer.</description>
+    </rule>
+    <rule name="Banner of Steel" id="dd01-0000-0000-0009" hidden="false">
+      <description>Declare that you are using the powers of the banner at the start of any turn, yours or the enemy&apos;s. The unit gets +1 Armour Save until the end of that turn. One use only.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
