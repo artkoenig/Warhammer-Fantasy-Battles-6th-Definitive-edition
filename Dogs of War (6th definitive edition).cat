@@ -1407,14 +1407,6 @@
         <categoryLink name="Heroes" hidden="false" id="fe51-97eb-7dc2-8187" targetId="c16b-f319-2c62-2c12" primary="false"/>
         <categoryLink name="Characters" hidden="false" id="ee4b-7e68-8fe6-ef7b" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
-      <infoLinks>
-        <infoLink name="Warhorse" id="1e8b-c4a3-e579-5bd9" hidden="false" type="profile" targetId="2ed2-6b46-07d6-3c75">
-          <modifiers>
-            <modifier type="set" value="6" field="2d45-18fe-9eb3-b113"/>
-            <modifier type="set" value="Horse" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <selectionEntries>
         <selectionEntry type="unit" import="true" name="Pay Chest" hidden="false" id="b775-e845-adde-3449" sortIndex="2">
           <infoLinks>
@@ -1422,6 +1414,23 @@
             <infoLink name="Pay Chest" id="5c46-188e-9055-e35c" hidden="false" type="profile" targetId="a794-bf02-dcc3-f48d"/>
           </infoLinks>
           <profiles>
+            <profile name="Horse" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="1e8b-c4a3-e579-5bd9" page="110" publicationId="91c2-b862-8010-87bb">
+              <characteristics>
+                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+                <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+                <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+                <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+                <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+                <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+                <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+                <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+                <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
+              </characteristics>
+            </profile>
             <profile name="Sheikh Yadosh" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="320e-92fb-d667-b5fe" page="110" publicationId="91c2-b862-8010-87bb">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
@@ -1471,10 +1480,10 @@
                 <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
                 <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
-                <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">4</characteristic>
+                <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">3</characteristic>
                 <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
                 <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
-                <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+                <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1543,6 +1552,25 @@ To represent this, every attack from this unit counts as magical, thus able to w
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8a6-3270-b010-eaf7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e47-84e9-ca25-642d" includeChildSelections="false"/>
           </constraints>
+          <profiles>
+            <profile name="Bodyguard" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="f1a2-b3c4-d5e6-f7a8" page="110" publicationId="91c2-b862-8010-87bb">
+              <characteristics>
+                <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+                <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+                <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+                <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+                <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+                <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+                <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+                <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+                <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+                <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">5</characteristic>
+                <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+                <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+                <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules>
             <rule name="Paymasters Bodyguard" id="abe3-f5f5-f5bc-1818" hidden="false" publicationId="24dc-55f2-f387-3bc6" page="71">
               <description>As long as the Paymaster is alive and with the unit, the Bodyguard are stubborn</description>
@@ -1584,9 +1612,9 @@ To represent this, every attack from this unit counts as magical, thus able to w
                     <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
                     <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
                     <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">5</characteristic>
-                    <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+                    <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">5</characteristic>
                     <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
-                    <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+                    <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="4" field="b690-4bc0-bb73-267b"/>
