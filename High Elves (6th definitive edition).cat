@@ -5834,17 +5834,13 @@ Range 36&quot;, causes one wound per shot and grants Armour Rolls as normal, can
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-b667-22b5-35d0" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Biting Blade" hidden="false" id="43cd-7e6c-7ab0-5058" type="selectionEntry" targetId="74fc-c90b-250e-6b87"/>
         <entryLink import="true" name="Sword of Hoeth" hidden="false" id="5d4d-0771-a01e-8831" type="selectionEntry" targetId="cc92-c1d3-a685-c7e9"/>
-        <entryLink import="true" name="Sword of Battle" hidden="false" id="15b6-4d51-0364-9212" type="selectionEntry" targetId="6e5a-eeea-ec67-3632"/>
         <entryLink import="true" name="Reaver Bow" hidden="false" id="ad0b-e561-d122-7959" type="selectionEntry" targetId="421a-7f81-9f7d-1aaf"/>
         <entryLink import="true" name="Bow of the Seafarer" hidden="false" id="a941-f328-bfae-f781" type="selectionEntry" targetId="3293-6ef4-df5e-589d"/>
         <entryLink import="true" name="Foe Bane" hidden="false" id="4846-28bc-e927-8f5c" type="selectionEntry" targetId="8c5f-946f-58c5-ef6e"/>
         <entryLink import="true" name="Blade of Leaping Gold" hidden="false" id="45e0-dae4-a2a6-2a0e" type="selectionEntry" targetId="d603-4271-7c97-a797"/>
         <entryLink import="true" name="Blade of Sea Gold" hidden="false" id="04d3-d439-7311-2d08" type="selectionEntry" targetId="c201-0662-ec1f-77e1"/>
         <entryLink import="true" name="Blade of Darting Steel" hidden="false" id="44e4-ccb0-339f-c208" type="selectionEntry" targetId="171b-ad6a-9abe-2cc7"/>
-        <entryLink import="true" name="Sword of Might" hidden="false" id="b085-ca96-cdf0-0d69" type="selectionEntry" targetId="8c56-9be1-c4a9-5afe"/>
-        <entryLink import="true" name="Sword of Striking" hidden="false" id="186a-98f3-dda8-e4d3" type="selectionEntry" targetId="6b55-e847-311d-d6ca"/>
         <entryLink import="true" name="Blade of the Phoenix" hidden="false" id="fe83-561b-bd7d-acb9" type="selectionEntry" targetId="aa64-d418-ce28-69e8"/>
         <entryLink import="true" name="Sword of Ages" hidden="false" id="f28b-774f-dad1-a59b" type="selectionEntry" targetId="dc5d-5b3e-cccb-2342"/>
         <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="62f7-457b-431e-66ff" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
