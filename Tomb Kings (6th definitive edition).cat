@@ -649,9 +649,14 @@
     <selectionEntry id="78f9-33ae-0bae-bbcd" name="Liche Priest" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1275-eef1-e965-00fb" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1275-eef1-e965-00fb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="14fb-dd39-08e7-cbde" shared="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="125" field="f8c6-46b9-4a8c-07b1">
           <conditions>

@@ -6302,12 +6302,12 @@ Range 36&quot;, causes one wound per shot and grants Armour Rolls as normal, can
       <modifiers>
         <modifier type="increment" value="1" field="4033-85e0-10dc-c00b">
           <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="f969-0b28-b1cf-bb02" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="77c7-b077-a262-d4d1" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Power Stone (only one use)"/>
           </repeats>
         </modifier>
         <modifier type="increment" value="1" field="4033-85e0-10dc-c00b">
           <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="989e-9d22-7fea-19b5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="4543-ff1d-2480-d4d0" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Dispel Scroll (one use only)"/>
           </repeats>
         </modifier>
         <modifier type="append" value="Relics of Lustria" field="name" join="  + ">
