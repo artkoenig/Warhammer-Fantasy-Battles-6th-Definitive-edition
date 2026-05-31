@@ -653,7 +653,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="1275-eef1-e965-00fb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="lessThan" value="1" field="selections" scope="parent" childId="14fb-dd39-08e7-cbde" shared="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

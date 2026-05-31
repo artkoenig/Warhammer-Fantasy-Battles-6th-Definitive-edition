@@ -368,6 +368,13 @@
         <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="7fca-63fb-63d2-9dad" includeChildSelections="true"/>
       </constraints>
       <comment>basic comp categories</comment>
+      <modifiers>
+        <modifier type="set" value="1" field="7fca-63fb-63d2-9dad">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry id="64bf-efb4-9978-26df" name="Core" hidden="false">
       <constraints>
