@@ -10562,11 +10562,6 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="1" field="8461-3eab-e5ac-1636">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="add" value="Please enable &quot;Allow special characters?&quot;" field="error">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="force" childId="8923-5946-7b10-8957" shared="true" includeChildSelections="true"/>
@@ -10576,6 +10571,38 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="8461-3eab-e5ac-1636">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Army of the Lichemaster (WD#309-UK)"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="{this} is both mandatory and not allowed under 2k games.
+Please discuss with your rival and/or activate the house rules under Campaign/A_dark_conspiracy" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -12081,7 +12108,7 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
         <categoryLink name="Experimental rules" hidden="false" id="0881-975b-4d18-7e90" targetId="4fed-b911-e6e0-927b" primary="false"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="60a8-5b49-6b81-7c84" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="60a8-5b49-6b81-7c84" includeChildSelections="false"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup name="Equipment" id="0a9b-e113-15fc-788a" hidden="false">
@@ -12140,6 +12167,38 @@ The unit can charge an enemy within 8&quot; if opportunity permits and the same
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="60a8-5b49-6b81-7c84">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Army of the Lichemaster (WD#309-UK)"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="{this} is both mandatory and not allowed under 2k games.
+Please discuss with your rival and/or activate the house rules under Campaign/A_dark_conspiracy" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>

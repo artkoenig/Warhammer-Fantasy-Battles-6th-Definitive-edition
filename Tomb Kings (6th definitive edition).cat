@@ -2072,9 +2072,25 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
           </conditionGroups>
         </modifier>
         <modifier type="set" field="5a6c-99d4-303a-a085" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1275-eef1-e965-00fb" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1275-eef1-e965-00fb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -2090,6 +2106,17 @@ The Queen moves with the swiftness of a striking asp, and will always strikes fi
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="{this} is both mandatory and not allowed under 2k games.
+Please discuss with your rival and/or activate the house rules under Campaign/A_dark_conspiracy" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>

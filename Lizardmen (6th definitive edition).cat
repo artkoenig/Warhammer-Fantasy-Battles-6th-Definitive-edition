@@ -3293,9 +3293,41 @@ Tehenhauin may only join units of Jungle Swarms (not Lesser Swarms), and is coun
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="1" field="2054-43bb-5a80-b23c">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f7d4-7faf-8470-ee0d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Red Host (LUS)"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="{this} is both mandatory and not allowed under 2k games.
+Please discuss with your rival and/or activate the house rules under Campaign/A_dark_conspiracy" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="2054-43bb-5a80-b23c" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="2054-43bb-5a80-b23c" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
         <infoLink id="98e41ff0-168a-4ef1-a695-0a4056807e3c" name="Tehenhauin" hidden="false" targetId="92e3-8ddc-d257-f192" type="profile"/>

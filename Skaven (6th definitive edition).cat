@@ -3628,20 +3628,42 @@ The patronage of Warlord Gnawdwell means that Queek is very well equipped for a 
             <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac5-0165-8a9e-8942" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="add" value="Please enable &quot;Allow special characters?&quot;" field="error">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="force" childId="8923-5946-7b10-8957" shared="true" includeChildSelections="true"/>
-          </conditions>
+        <modifier type="add" value="{this} is both mandatory and not allowed under 2k games.
+Please discuss with your rival and/or activate the house rules under Campaign/A_dark_conspiracy" field="error">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="1" field="2709-92f7-9936-f5e1">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="2ac5-0165-8a9e-8942" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Bubonic Court of Nurglitch (LUS)"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="not">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="14fb-dd39-08e7-cbde" shared="true" includeChildSelections="true" childName="Campaign: A Dark Conspiracy - 30th anniversary"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="add" value="Please enable &quot;Allow special characters?&quot;" field="error">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="force" childId="8923-5946-7b10-8957" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -3738,18 +3760,13 @@ This unremarkable-ooking sceptre throbs with the essence of every disease indige
       <modifierGroups>
         <modifierGroup type="and">
           <comment>Disable</comment>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="lessThan" value="2000" field="limit::ecfa-8486-4f6c-c249" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
           <modifiers>
             <modifier type="set" value="0" field="2709-92f7-9936-f5e1"/>
             <modifier type="set" value="true" field="hidden"/>
           </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
+          </conditions>
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
