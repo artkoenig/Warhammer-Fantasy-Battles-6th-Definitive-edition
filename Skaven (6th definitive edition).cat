@@ -6036,7 +6036,7 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
         <categoryLink id="85fd-eb02-8b18-4de1" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="62db-5daa-4d2c-43fd" name="Magic Selection" hidden="false" collective="false" import="true" type="upgrade" sortIndex="3">
+        <selectionEntry id="62db-5daa-4d2c-43fd" name="Magic Selection" hidden="false" collective="false" import="true" type="upgrade" sortIndex="3" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e74-7b8e-f58e-3f6c" type="max"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d853-6267-0d39-797e" includeChildSelections="false"/>
@@ -6143,7 +6143,7 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="db3d-ea45-62fb-f833" name="Weapons" hidden="false" collective="false" import="true" sortIndex="4">
+        <selectionEntryGroup id="db3d-ea45-62fb-f833" name="Weapons" hidden="false" collective="false" import="true" sortIndex="4" collapsible="true">
           <entryLinks>
             <entryLink id="52ba-84c7-2a80-ec4a" name="Flail" hidden="false" collective="false" import="true" targetId="2eb9-be12-caec-57e8" type="selectionEntry">
               <constraints>
@@ -6177,53 +6177,16 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Level" id="0d9a-9af3-0976-c9b0" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Magic level" id="3422-5a06-e69f-5ec3" hidden="false" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e31e-621f-5f5b-afaa" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66c7-937c-69d8-331e" includeChildSelections="false"/>
+          </constraints>
           <entryLinks>
             <entryLink import="true" name="Magic Level 2" hidden="false" id="1344-54cc-3a16-2e43" type="selectionEntry" targetId="fbc2-5115-f240-7367">
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
               </costs>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="76b2-167f-6005-0568" includeChildSelections="false"/>
-              </constraints>
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="158f-d753-59e2-9ad2" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="10" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 1</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="fc28-3af2-d37a-d07e" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="40" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 4</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="cb6c-c69a-5c73-97e8" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="30" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 3</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="fbc2-5115-f240-7367" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="20" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 2</comment>
-                </modifierGroup>
-              </modifierGroups>
               <entryLinks>
                 <entryLink import="true" name="4. Pestilent Breath" hidden="false" id="e403-5428-9ef7-c812" collective="false" targetId="5ded-10a9-fa08-3184" type="selectionEntry"/>
                 <entryLink import="true" name="6. Plague" hidden="false" id="0d73-6ec9-35e9-1f55" collective="false" targetId="0e16-b607-44f9-c413" type="selectionEntry"/>
@@ -6233,55 +6196,11 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
               </costs>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8231-0cae-f29c-4d0f" includeChildSelections="false"/>
-              </constraints>
-              <modifierGroups>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="158f-d753-59e2-9ad2" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="10" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 1</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="fc28-3af2-d37a-d07e" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="40" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 4</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="cb6c-c69a-5c73-97e8" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="30" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 3</comment>
-                </modifierGroup>
-                <modifierGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="fbc2-5115-f240-7367" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="decrement" value="20" field="ecfa-8486-4f6c-c249"/>
-                  </modifiers>
-                  <comment>Compensate Warpstone Tokens - LVL 2</comment>
-                </modifierGroup>
-              </modifierGroups>
               <entryLinks>
                 <entryLink import="true" name="5. Death Frenzy" hidden="false" id="5f45-8609-0270-1a6a" collective="false" targetId="0bb7-0b73-8408-cc47" type="selectionEntry"/>
               </entryLinks>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a348-bcc7-60ec-42d9" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6297,8 +6216,6 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="145"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2"/>
       </costs>
       <modifierGroups>
         <modifierGroup type="and">
@@ -8585,6 +8502,9 @@ no armour saves.</description>
                   <comment>&quot;It must be clear that the lists presented here are intended to be fun and are in no way as balanced as the main list. Players should therefore agree with their opponent before the game whether or not they can make use of these lists.&quot; (SK-AB, p.76)</comment>
                 </condition>
                 <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f0b-5346-a3bc-b5fe" type="instanceOf">
+                  <comment>&quot;Needless to say, this army is strange enough to require your opponent&apos;s consent&quot;. (WD#311-UKp.113)</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ac5-0165-8a9e-8942" type="instanceOf" childName="Bubonic Court of Nurglitch (LUS)">
                   <comment>&quot;Needless to say, this army is strange enough to require your opponent&apos;s consent&quot;. (WD#311-UKp.113)</comment>
                 </condition>
               </conditions>
