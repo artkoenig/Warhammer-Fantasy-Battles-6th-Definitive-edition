@@ -8210,7 +8210,7 @@ Magic Resistance (3)
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons and Armour" id="8e8c-eb8b-e7d0-3830" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Shield" hidden="false" id="0fea-ba54-8f15-edcd" collective="false" targetId="50e2-1873-a856-03e7" type="selectionEntry">
+            <entryLink import="true" name="Shield" hidden="false" id="0fea-ba54-8f15-edcd" collective="false" targetId="50e2-1873-a856-03e7" type="selectionEntry" sortIndex="4">
               <modifiers>
                 <modifier type="increment" value="1" field="ecfa-8486-4f6c-c249">
                   <repeats>
@@ -8222,7 +8222,7 @@ Magic Resistance (3)
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="984e-aef2-6321-67e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Light Armour" hidden="false" id="13ad-e277-f790-e3a3" collective="false" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+            <entryLink import="true" name="Light Armour" hidden="false" id="13ad-e277-f790-e3a3" collective="false" targetId="055f-8e4e-f170-35d2" type="selectionEntry" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6dd5-80cc-d99c-0bf6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -8234,11 +8234,45 @@ Magic Resistance (3)
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Hand Weapon" hidden="false" id="6b7d-5584-a173-49d0" collective="false" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+            <entryLink import="true" name="Hand Weapon" hidden="false" id="6b7d-5584-a173-49d0" collective="false" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry" sortIndex="5">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0cc-83af-39cf-5325" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cad-9a07-4d51-2a91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Two Hand Weapons" hidden="false" id="0980-4de1-7ee7-26f7" type="selectionEntry" targetId="36a8-7bbb-d204-0314" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0549-dde0-7876-28d3" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="2" field="ecfa-8486-4f6c-c249">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d4b-ac7a-3783-2b85" shared="true" childName="Great Weapon"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Great Weapon" hidden="false" id="2d4b-ac7a-3783-2b85" type="selectionEntry" targetId="1eb7-3f36-8cf7-e0ba" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ab8-cbab-dc75-f645" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="2" field="ecfa-8486-4f6c-c249">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0980-4de1-7ee7-26f7" shared="true" childName="Two Hand Weapons"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -13826,7 +13860,7 @@ No model in base contact may cast spells (including friendly models) or use Boun
         <entryLink import="true" name="Sons of Mannan (Flavour)" hidden="false" id="29c2-ee5b-8dd2-e958" type="selectionEntry" targetId="1988-9965-3d90-448b" sortIndex="10"/>
         <entryLink import="true" name="Black Knights of Morr (Flavour)" hidden="false" id="2696-ca6b-b45d-7ce1" type="selectionEntry" targetId="1e4a-5c77-ca2f-9b3c" sortIndex="3"/>
         <entryLink import="true" name="Knights Griffon (Flavour)" hidden="false" id="76c1-dbe4-cde0-a3db" type="selectionEntry" targetId="1300-fea7-b1b0-10d6" sortIndex="4"/>
-        <entryLink import="true" name="Knights Jaguar (Flavour)" hidden="false" id="9fa1-6b59-0f61-5356" type="selectionEntry" targetId="e42b-09aa-098e-2416" sortIndex="5"/>
+        <entryLink import="true" name="Knights Panther (Flavour)" hidden="false" id="9fa1-6b59-0f61-5356" type="selectionEntry" targetId="e42b-09aa-098e-2416" sortIndex="5"/>
         <entryLink import="true" name="Knights of the Black Bear (Flavour)" hidden="false" id="db32-8172-97bf-3c46" type="selectionEntry" targetId="6ecf-3af2-f44d-288b" sortIndex="6"/>
         <entryLink import="true" name="Knights of the Blazing Sun (Flavour)" hidden="false" id="43c3-856a-db1a-7293" type="selectionEntry" targetId="13ab-741f-c1ac-ac2a" sortIndex="7"/>
         <entryLink import="true" name="Knights of the Gold Lion (Flavour)" hidden="false" id="e83a-c850-bd80-06ba" type="selectionEntry" targetId="2ca7-46da-f66f-ce7e" sortIndex="8"/>
