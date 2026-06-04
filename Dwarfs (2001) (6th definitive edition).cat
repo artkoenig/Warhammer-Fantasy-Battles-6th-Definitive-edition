@@ -7412,14 +7412,12 @@ and the Rune of iron (6+ ward save)</characteristic>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0088-dd9a-ba2c-799e" name="Minor Rune" hidden="false" collective="false" import="true">
-          <infoLinks>
-            <infoLink id="8a66-b910-a6f2-12be" name="RUNE OF SLOWNESS" hidden="false" targetId="527c-af4a-4966-9b6d" type="rule"/>
-          </infoLinks>
           <entryLinks>
             <entryLink id="05c3-dc2a-09f7-7f98" name="RUNE OF COURAGE" hidden="false" collective="false" import="true" targetId="7a5a-f4c6-6584-12e3" type="selectionEntry"/>
             <entryLink id="ad8e-2c33-96d5-d2af" name="RUNE OF KADRIN" hidden="false" collective="false" import="true" targetId="12c4-cbbd-8ff5-d2b4" type="selectionEntry"/>
             <entryLink id="8287-fa1b-38af-fdd5" name="RUNE OF BATTLE" hidden="false" collective="false" import="true" targetId="be32-0a32-929e-2cb9" type="selectionEntry"/>
             <entryLink id="f036-89b7-da5d-0937" name="RUNE OF SANCTUARY" hidden="false" collective="false" import="true" targetId="6daa-f931-2857-fdea" type="selectionEntry"/>
+            <entryLink import="true" name="RUNE OF SLOWNESS" hidden="false" id="bbfb-9a0d-cb89-ec5e" type="selectionEntry" targetId="9a96-f4a6-fa2d-ed04"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
