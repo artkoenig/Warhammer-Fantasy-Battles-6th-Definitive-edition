@@ -751,6 +751,7 @@
         <selectionEntry id="5110-7a43-ca0d-8e2f" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2810-cd30-19bd-9d4e" type="max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac84-6155-29ee-cc92" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
