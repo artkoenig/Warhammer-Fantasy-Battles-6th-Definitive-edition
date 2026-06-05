@@ -12467,6 +12467,30 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
       </modifiers>
       <comment>BLOOD DRAGONS</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Army of the Vampire Coast" hidden="true" id="d0f5-4354-487a-fea0" publicationId="25a7-0c85-4259-7f79">
+      <categoryLinks>
+        <categoryLink name="Special list rules" hidden="false" id="27f4-0dc4-f6db-e5c0" targetId="32f1-197f-d719-a393" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Special rules for Army of the Vampire Coast" id="8b71-3afd-bedb-9588" hidden="false" type="infoGroup" targetId="009c-4c15-26ec-a095"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b10f-450c-610f-a957" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1ebe-0c5c-1ea1-a135" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="b10f-450c-610f-a957">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="1c56-48e6-7c01-5ae9" name="Nightmare" hidden="false" collective="false" import="true" type="upgrade">
@@ -25195,36 +25219,22 @@ Neferata may grant the Blood Kiss only once per battle.</description>
     <rule name="The Laws of Undeath" id="4f19-ae5c-1eb4-9f02" hidden="false">
       <description>All models in the Vampire Counts book (except Ghouls and Bat Swarms which are Alive!) are Undead and have the following special rules:
 
-
-THE GENERAL
-The army must include at least one Wizard who will be the army&apos;s General.
+**The General**: The army must include at least one Wizard who will be the army&apos;s General.
 If the General is destroyed, at the end of the phase when the General is killed and at the beginning of every Undead turn thereafter all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind are allowed against such wounds.
 Note that Characters never suffer wounds because of a destroyed General and units can use the Leadership value of a character leading the unit for this test, as normal.
 Ridden Winged Nightmares and Zombie Dragons do have to take this test, but can use their rider&apos;s Leadership value.
 
+**Break tests**: Undead cannot be broken. Undead units beaten in combat suffer one wound for every point they lost the combat by (no saves allowed).
 
-BREAK TESTS
-Undead cannot be broken. Undead units beaten in combat suffer one wound for every point they lost the combat by (no saves allowed).
+**Battle Standard**: Undead within 12&quot; of their Battle Standard suffer one less wound when defeated in combat.
 
+**Immune to Psychology**: Undead are Immune to Psychology.
 
-BATTLE STANDARD
-Undead within 12&quot; of their Battle Standard suffer one less wound when defeated in combat.
+**charge reactions**: Undead can only react by holding their ground.
 
+**marching**: Undead cannot march move unless they are characters or are within 12&quot; of their General at the start of their Movement phase.
 
-IMMUNE TO PSYCHOLOGY
-Undead are Immune to Psychology.
-
-
-CHARGE REACTIONS
-Undead can only react by holding their ground.
-
-
-MARCHING
-Undead cannot march move unless they are characters or are within 12&quot; of their General at the start of their Movement phase.
-
-
-CAUSE FEAR
-Undead cause fear.</description>
+**Cause fear**: Undead cause Fear.</description>
     </rule>
     <rule id="aee78190-b424-48bd-9400-badbf23270bc" name="Magical Restiance (1)" hidden="false">
       <modifiers>
@@ -28020,6 +28030,27 @@ Characters never suffer wounds because of a destroyed General. Units can use th
 
 
 **Fear**. Undead cause fear (see the Warhammer rulebook).</description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup name="Special rules for Army of the Vampire Coast" id="009c-4c15-26ec-a095" hidden="false" publicationId="25a7-0c85-4259-7f79" page="">
+      <infoLinks>
+        <infoLink name="Undead" id="bf0f-0d08-ac50-9d80" hidden="false" type="rule" targetId="0e726d5e-c950-4518-90ce-d931d6218df0"/>
+        <infoLink name="Immune to Panic" id="feea-ae45-f2fd-99e8" hidden="false" type="rule" targetId="ff2b-8db6-64fa-e9ca"/>
+        <infoLink name="Fear" id="59eb-fd00-32e9-1a1d" hidden="false" type="rule" targetId="1524-2372-4aa0-6881"/>
+        <infoLink name="Braindead" id="fd14-5e33-c646-7208" hidden="false" type="rule" targetId="729f-673e-ce42-1f4c"/>
+        <infoLink name="Aquatic" id="2ee9-a38c-2978-a64b" hidden="false" type="rule" targetId="66a0d61c-8ed6-4d6f-a4e9-9131dbd09716"/>
+      </infoLinks>
+      <rules>
+        <rule name="Army of the Vampire Coast" id="1123-671a-c724-4d47" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
+          <description>ARCH GRAND COMMODORE LUTHOR HARKON
+A Vampire Coast army can only be led by Luthor Harkon. If he is destroyed, the Undead in the army will slowly start to crumble to dust. To represent this, at the end of the phase when the General is killed, and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward Saves) are allowed against such wounds, eg, a Pirate Mob (Ld 2) takes the test and rolls a 7: the unit suffers 5 wounds (7-2=5). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
+
+BLACK POWDER WEAPONS
+The pirates of the Vampire Coast carry a large assortment of black powder weapons, ranging from pistols to Great Cannon - not a normal sight in the retinues of more traditionally minded (and less clinically insane) Vampire Counts. Though Zombies are not normally known for their ability to shoot straight (or at all) Harkon has long ago woven an enchantment that allows them to do just that, though even the misused magics of the Slann have a hard time making soggy and waterlogged black powder weapons discharge with any reliability. All black powder weapons that require a roll to hit will always hit on a roll of 6 if the firer has Ballistic Skill 0, regardless of any modifiers. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target.
+
+UNDEAD
+All units in the Vampire Coast army are Undead and follow the The Laws of Undeath .</description>
         </rule>
       </rules>
     </infoGroup>
