@@ -2015,6 +2015,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2591,6 +2592,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2889,6 +2891,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3227,6 +3230,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <conditionGroup type="or">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3328,6 +3332,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3914,6 +3919,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -4030,6 +4036,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -4880,6 +4887,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -10316,6 +10324,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
@@ -10741,9 +10750,13 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="91ad-b36a-5c77-c4b5" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
         </modifier>
         <modifier type="add" value="Please enable &quot;Allow special characters?&quot;" field="error">
           <conditions>
@@ -10832,6 +10845,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -11042,6 +11056,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -11243,6 +11258,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -11415,6 +11431,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -12591,6 +12608,170 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <categoryLink name="Lord" hidden="false" id="3809-e26d-2360-8293" targetId="d024-d25b-a9b4-73b6" primary="false"/>
         <categoryLink name="Characters" hidden="false" id="f6a2-02bb-6261-f6d0" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="cc50-6a0b-1c09-7d3e" name="Vampire Fleet Captain" hidden="true" collective="false" import="true" type="unit" publicationId="25a7-0c85-4259-7f79" page="65">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="125" field="6d1f-5d8e-aac7-3467">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+          </conditions>
+          <comment>BP</comment>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0962-5ad5-a823-952d" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink id="a27c-c3a7-0b9c-69da" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink name="Vampire" hidden="false" id="5c6e-fd9f-cba8-9239" targetId="017d-3857-a815-782f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipment" id="7f42-3722-2158-a7be" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons" id="35fd-2aa7-d02a-141f" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Two Hand Weapons" hidden="false" id="760e-a024-b8bf-89d7" type="selectionEntry" targetId="36a8-7bbb-d204-0314">
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d860-00fa-5803-8c52" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="unit" childId="2ef7-3efe-a448-423f" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <comment>BSB</comment>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Brace Of Pistols" hidden="false" id="a641-5397-02b8-bd16" type="selectionEntry" targetId="bd00-7ec3-0e5b-0d52">
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed89-6a2e-b296-ac44" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="unit" childId="2ef7-3efe-a448-423f" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <comment>BSB</comment>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Handweapon" hidden="false" id="896f-a32c-dceb-a175" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b1e-c4b7-1318-ef18" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b74e-9a57-6b64-7889" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Hand Weapon" id="7074-d119-0173-7db9" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9204-1138-d1e4-2f4f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Armour" id="a5c4-5d78-391e-d2c9" hidden="true">
+              <entryLinks>
+                <entryLink import="true" name="Light Armour" hidden="false" id="5f6f-5eb3-cf98-f24a" type="selectionEntry" targetId="055f-8e4e-f170-35d2">
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c18-953d-a48f-ff08" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a36b-9379-a11a-f8e0" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
+          <entryLinks>
+            <entryLink id="1f4c-1665-73a8-49d5" name="Magic Standards" hidden="false" collective="false" import="true" targetId="0937-a1bc-b331-8ce1" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a839-746b-a272-f287" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Magic selection" hidden="false" id="41bb-07ef-902e-7201" type="selectionEntryGroup" targetId="53e8-0ce2-eaf6-0163">
+          <constraints>
+            <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="c148-cd87-347e-6527"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="unit" childId="0937-a1bc-b331-8ce1" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>BSB</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="General" hidden="true" id="dbad-a951-9383-c61d" type="selectionEntry" targetId="1b7c-2c90-6d96-28c9">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Wight Blades" id="c5fe-8f36-ccd1-432e" hidden="false" type="rule" targetId="8c78-c9d9-e5ea-0507"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="c456-6da8-2246-62db" includeChildSelections="false"/>
+        <constraint type="max" value="-1" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="6d1f-5d8e-aac7-3467">
+          <comment>BP</comment>
+        </constraint>
+      </constraints>
+      <profiles>
+        <profile name="Vampire Fleet Captain" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="0bb4-3a73-66dc-9358">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+            <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+            <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+            <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+            <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -19723,32 +19904,39 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <infoLink name="Shield of the Ancients" id="1a35-550f-4ccd-e300" hidden="false" type="profile" targetId="7186-0e71-9afc-2243"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sloppy Cruickshank&apos;s  Long-Lost Cutlass " hidden="false" id="a22d-5f90-c6e7-52da" publicationId="25a7-0c85-4259-7f79" page="64">
+    <selectionEntry type="upgrade" import="true" name="Ship&apos;s Colours" hidden="true" id="a22d-5f90-c6e7-52da" publicationId="25a7-0c85-4259-7f79" page="64">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9db-63d8-230a-85fa" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="aac2-61f7-8edb-f4cf" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Sloppy Cruickshank&apos;s Long-Lost Cutlass " id="e962-df40-ed3c-d749" hidden="false" type="profile" targetId="367b-1660-d779-2780"/>
-        <infoLink name="Sloppy Cruickshank&apos;s Long-Lost Cutlass" id="f240-4ec9-c0d4-0d6e" hidden="false" type="rule" targetId="f0c4-b755-3b05-5aef"/>
+        <infoLink name="Ship&apos;s Colours" id="e962-df40-ed3c-d749" hidden="false" type="profile" targetId="1d66-7833-e644-0e0b"/>
+        <infoLink name="Ship&apos;s Colours" id="f240-4ec9-c0d4-0d6e" hidden="false" type="rule" targetId="9a07-3be4-f305-d64d"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lucky Levi&apos;s Hook Hand " hidden="false" id="1b89-f4a2-04dc-4e72" publicationId="25a7-0c85-4259-7f79" page="64">
+    <selectionEntry type="upgrade" import="true" name="Firewater (one use only)" hidden="false" id="1b89-f4a2-04dc-4e72" publicationId="25a7-0c85-4259-7f79" page="64">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db86-733b-7a7b-9eef" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6a2f-71a4-5b79-a4cf" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Lucky Levi&apos;s Hook Hand" id="1a86-9be5-b8af-f7f4" hidden="false" type="profile" targetId="e32b-1308-0495-c649"/>
-        <infoLink name="Lucky Levi&apos;s Hook Hand" id="609f-1232-3d7f-842f" hidden="false" type="rule" targetId="6269-f4f7-ab06-894d"/>
+        <infoLink name="Firewater (one use only)" id="1a86-9be5-b8af-f7f4" hidden="false" type="profile" targetId="f8dd-d75f-c733-cdae"/>
+        <infoLink name="Firewater (one use only)" id="609f-1232-3d7f-842f" hidden="false" type="rule" targetId="d892-34df-67dd-574a"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
@@ -19798,6 +19986,178 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lucky Levi&apos;s Hook Hand " hidden="false" id="4bbc-788e-9dc9-0e5d" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6771-d628-4e17-6ae5" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6369-cf22-ef9f-79e4" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Lucky Levi&apos;s Hook Hand" id="16e0-2ec5-a285-77c7" hidden="false" type="profile" targetId="e32b-1308-0495-c649"/>
+        <infoLink name="Lucky Levi&apos;s Hook Hand" id="6f9c-1dd5-a296-7785" hidden="false" type="rule" targetId="6269-f4f7-ab06-894d"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloody Bill&apos;s Buckler" hidden="false" id="8a2e-5354-f3fe-908d" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c98b-e867-4676-a935" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f834-f90d-efb6-d3fb" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Bloody Bill&apos;s Buckler " id="4492-b62c-cc62-3149" hidden="false" type="profile" targetId="f4e2-e58b-03f3-2f05"/>
+        <infoLink name="Bloody Bill&apos;s Buckler" id="93b8-391a-120b-64f9" hidden="false" type="rule" targetId="bea0-8fbd-bdf7-2f9c"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mad Mullet&apos;s Spyin&apos; Glass" hidden="false" id="5e7f-0725-1e96-1c61" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29c1-8076-c21e-41d5" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="40f8-e934-5be1-74a1" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Mad Mullet&apos;s Spyin&apos; Glass" id="1916-ed95-3fa4-fb0f" hidden="false" type="profile" targetId="9f96-f9cc-068f-de96"/>
+        <infoLink name="Mad Mullet&apos;s Spyin&apos; Glass" id="abc3-d851-91e1-468d" hidden="false" type="rule" targetId="27d5-f091-efbe-6e16"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Black Buckthorn&apos;s Treasure Map" hidden="false" id="b3a6-98e1-9deb-a991" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ad6-45bd-d7ff-2b2c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6427-82e7-0ecc-07e3" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Black Buckthorn&apos;s Treasure Map" id="545c-6032-a3c3-1714" hidden="false" type="profile" targetId="d05d-359f-87b9-d345"/>
+        <infoLink name="Black Buckthorn&apos;s Treasure Map" id="674a-c8c2-d04b-d502" hidden="false" type="rule" targetId="5192-4d8f-4113-df5f"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slann Gold" hidden="false" id="c514-586c-7242-a505" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="106d-1828-2bd0-b67d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8ecd-eff6-7c2a-a151" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Slann Gold" id="6308-1a6b-016f-cf4d" hidden="false" type="profile" targetId="75da-66b0-f4b0-852b"/>
+        <infoLink name="Slann Gold" id="a597-5710-f672-5826" hidden="false" type="rule" targetId="e848-80ad-eb90-b27c"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sloppy Cruickshank&apos;s  Long-Lost Cutlass " hidden="false" id="f77b-5dc9-a9af-ce8e" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfb7-f4c7-dacb-2fd8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9562-ea7f-9f79-197d" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Sloppy Cruickshank&apos;s Long-Lost Cutlass " id="bf55-bb6a-4965-1dc2" hidden="false" type="profile" targetId="367b-1660-d779-2780"/>
+        <infoLink name="Sloppy Cruickshank&apos;s Long-Lost Cutlass" id="d344-9662-e050-1871" hidden="false" type="rule" targetId="f0c4-b755-3b05-5aef"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hard Stuff (one use only)" hidden="false" id="1a18-562e-34b3-cd17" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="337f-29ff-e53d-4193" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2ac6-f45e-b2b9-8952" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Hard Stuff (one use only)" id="bc56-1be8-bb5e-0d22" hidden="false" type="profile" targetId="5427-5a7e-13e5-4423"/>
+        <infoLink name="Hard Stuff (one use only)" id="c11d-7632-9342-14da" hidden="false" type="rule" targetId="9d28-c14e-8b2f-b1b0"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Moonshine (one use only)" hidden="false" id="6885-b6cb-40d7-1618" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a097-b591-b406-b3c6" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2ddc-5009-aa54-bf5a" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Moonshine (one use only)" id="50f2-5fca-2095-5f92" hidden="false" type="profile" targetId="f0bf-1497-242e-fec4"/>
+        <infoLink name="Moonshine (one use only)" id="bd34-8ff2-8867-6174" hidden="false" type="rule" targetId="3594-6b46-66a9-2118"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ex-Parrot" hidden="false" id="00ec-2338-8820-4eac" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4baa-5fce-5778-14e4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5d59-0310-f7a4-66a3" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Ex-Parrot" id="62d7-11dc-6ad1-af4e" hidden="false" type="profile" targetId="9bb5-a409-c828-49f0"/>
+        <infoLink name="Ex-Parrot" id="10a6-6278-6045-0c14" hidden="false" type="rule" targetId="f53c-a6e8-1078-e05e"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dead Man&apos;s Chest" hidden="true" id="281f-0ba2-d84b-e7c8" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94d1-58a5-8214-82a8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cd62-7270-68b5-51c1" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Dead Man&apos;s Chest" id="c5d7-ba02-ac4e-ce05" hidden="false" type="profile" targetId="98b4-e1f2-06a7-6a22"/>
+        <infoLink name="Dead Man&apos;s Chest" id="04f9-235c-b2ee-6bb1" hidden="false" type="rule" targetId="13de-5979-c593-cf49"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gentleman Jenkins&apos; Trusty Compass " hidden="false" id="80af-91f4-7b44-4421" publicationId="25a7-0c85-4259-7f79" page="64">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d52-8547-12f7-bf49" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e776-d3e0-158e-b6a1" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Gentleman Jenkins&apos; Trusty Compass " id="904a-0e78-8def-2e1e" hidden="false" type="profile" targetId="8ece-82e0-134e-fa83"/>
+        <infoLink name="Gentleman Jenkins&apos; Trusty Compass " id="2081-5b19-48ce-021f" hidden="false" type="rule" targetId="5997-3272-cb1f-cdf9"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0937-a1bc-b331-8ce1" name="Magic Standards" hidden="false" collective="false" import="true">
@@ -19809,6 +20169,8 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <entryLink import="true" name="Screaming Banner" hidden="false" id="1933-756c-da33-5906" type="selectionEntry" targetId="de00-7f16-33b8-6c1e"/>
         <entryLink import="true" name="Drakenhof Banner (Magic Standard)" hidden="false" id="cb6d-2bab-291e-8352" type="selectionEntry" targetId="2050-5939-fe82-ed47"/>
         <entryLink import="true" name="War Banner" hidden="false" id="cf93-9c2b-bbf9-5902" type="selectionEntry" targetId="f327-567f-ef99-0403"/>
+        <entryLink import="true" name="Ship&apos;s Colours" hidden="false" id="16a2-0954-a905-2648" type="selectionEntry" targetId="a22d-5f90-c6e7-52da"/>
+        <entryLink import="true" name="Dead Man&apos;s Chest" hidden="false" id="f5bb-b84b-f211-9422" type="selectionEntry" targetId="281f-0ba2-d84b-e7c8"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffa7-0f2f-7f2e-8781" includeChildSelections="false"/>
@@ -20210,20 +20572,23 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
     <selectionEntryGroup name="Magic Items" id="11e6-e9d4-f6e4-c02d" hidden="false" collapsible="true">
       <comment>VC</comment>
       <entryLinks>
-        <entryLink import="true" name="Enchanted Items (VC)" hidden="false" id="e067-9271-8d45-7469" type="selectionEntryGroup" targetId="454b8032-d15e-4a74-a103-c204aa1ac002"/>
+        <entryLink import="true" name="Enchanted Items (Vampire Coast)" hidden="false" id="e067-9271-8d45-7469" type="selectionEntryGroup" targetId="1320-289b-d9cf-9a48"/>
         <entryLink import="true" name="Magic Weapons (VC)" hidden="false" id="afe1-9a75-ceba-5949" type="selectionEntryGroup" targetId="bf27-6ca6-5c3a-3449"/>
         <entryLink import="true" name="Magic Armour (VC)" hidden="false" id="3497-a9d2-58aa-20be" type="selectionEntryGroup" targetId="1bf0-c096-8a65-b43b"/>
-        <entryLink import="true" name="Magic Weapons (Common)" hidden="false" id="fd23-452f-acf9-b3d5" type="selectionEntryGroup" targetId="8171-d883-19d8-6450"/>
-        <entryLink import="true" name="Magic Armour (Common)" hidden="false" id="8af0-a5ee-c7d6-de37" type="selectionEntryGroup" targetId="ed11-243d-9671-7f1c"/>
+        <entryLink import="true" name="Magic Weapons (Vampire Coast)" hidden="false" id="fd23-452f-acf9-b3d5" type="selectionEntryGroup" targetId="e717-0f50-0c96-a2bc"/>
+        <entryLink import="true" name="Magic Armour (Vampire Coast)" hidden="false" id="8af0-a5ee-c7d6-de37" type="selectionEntryGroup" targetId="2434-8359-e241-ca36"/>
         <entryLink import="true" name="Magic Talismans (VC)" hidden="false" id="c29d-d667-a16e-7a6c" type="selectionEntryGroup" targetId="70c0-82cd-31ec-e269"/>
-        <entryLink import="true" name="Magic Talismans (Common)" hidden="false" id="0b16-dd32-8896-31c7" type="selectionEntryGroup" targetId="7dcf-8a09-c9b8-9a88"/>
+        <entryLink import="true" name="Magic Talismans (Vampire Coast)" hidden="false" id="0b16-dd32-8896-31c7" type="selectionEntryGroup" targetId="e267-b26f-1e00-f797"/>
         <entryLink import="true" name="Arcane Items (VC)" hidden="false" id="efb9-a0e7-342c-603b" type="selectionEntryGroup" targetId="2f34-a145-911a-fa00"/>
         <entryLink import="true" name="Arcane Items (Common)" hidden="false" id="0833-dbf2-c2d9-271c" type="selectionEntryGroup" targetId="0d3f-389c-02b2-bb34"/>
+        <entryLink import="true" name="Enchanted Items (VC)" hidden="false" id="f973-3565-224d-0a17" type="selectionEntryGroup" targetId="454b8032-d15e-4a74-a103-c204aa1ac002"/>
+        <entryLink import="true" name="Magic Armour (Common)" hidden="false" id="7ab6-cb66-301c-7fc9" type="selectionEntryGroup" targetId="ed11-243d-9671-7f1c"/>
+        <entryLink import="true" name="Magic Talismans (Common)" hidden="false" id="8c6c-3b5f-df14-1aa1" type="selectionEntryGroup" targetId="7dcf-8a09-c9b8-9a88"/>
+        <entryLink import="true" name="Magic Weapons (Common)" hidden="false" id="1f07-627f-66e5-ed53" type="selectionEntryGroup" targetId="8171-d883-19d8-6450"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic selection" id="53e8-0ce2-eaf6-0163" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Bloodline" hidden="false" id="929f-8b00-e421-8b54" type="selectionEntryGroup" targetId="0719-24b8-19d4-c832"/>
         <entryLink import="true" name="Magic Items" hidden="false" id="14d2-cec2-9b1c-418c" type="selectionEntryGroup" targetId="11e6-e9d4-f6e4-c02d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -22842,6 +23207,72 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
           <repeats>
             <repeat value="1" repeats="1" field="selections" scope="parent" childId="989e-9d22-7fea-19b5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Enchanted Items (Vampire Coast)" id="1320-289b-d9cf-9a48" hidden="false" page="101" publicationId="5dfb-1d05-9140-09b5">
+      <entryLinks>
+        <entryLink import="true" name="Moonshine (one use only)" hidden="false" id="3eec-57d1-e37c-2560" type="selectionEntry" targetId="6885-b6cb-40d7-1618"/>
+        <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="b056-9537-9766-b0de" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
+        <entryLink import="true" name="Gentleman Jenkins&apos; Trusty Compass " hidden="false" id="b7f5-f1d4-d212-2beb" type="selectionEntry" targetId="80af-91f4-7b44-4421"/>
+        <entryLink import="true" name="Mad Mullet&apos;s Spyin&apos; Glass" hidden="false" id="ef75-c340-20e7-adab" type="selectionEntry" targetId="5e7f-0725-1e96-1c61"/>
+        <entryLink import="true" name="Black Buckthorn&apos;s Treasure Map" hidden="false" id="83e1-0c89-a94f-344b" type="selectionEntry" targetId="b3a6-98e1-9deb-a991"/>
+        <entryLink import="true" name="Slann Gold" hidden="false" id="8138-c681-a017-05e0" type="selectionEntry" targetId="c514-586c-7242-a505"/>
+        <entryLink import="true" name="Firewater (one use only)" hidden="false" id="03b5-9590-1b07-4adf" type="selectionEntry" targetId="1b89-f4a2-04dc-4e72"/>
+        <entryLink import="true" name="Hard Stuff (one use only)" hidden="false" id="cd28-75d3-b48f-75a3" type="selectionEntry" targetId="1a18-562e-34b3-cd17"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe18-a110-2d50-bd71" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="append" value="Relics of Lustria" field="name" join="Â  +Â ">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Weapons (Vampire Coast)" id="e717-0f50-0c96-a2bc" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f617-c97b-fdc3-2a5d" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Wharf Rats" hidden="false" id="c95b-73d1-2ff9-0d1b" type="selectionEntry" targetId="7d2c-1176-c645-98c1"/>
+        <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="cf82-b51d-d550-12c1" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
+        <entryLink import="true" name="Bloody Nora" hidden="false" id="336c-d90b-477c-1f01" type="selectionEntry" targetId="4af7-8616-33ce-1fca"/>
+        <entryLink import="true" name="Dirty Serpent" hidden="false" id="1174-3d5f-3749-ed71" type="selectionEntry" targetId="b978-1482-9191-8d6d"/>
+        <entryLink import="true" name="Sloppy Cruickshank&apos;s  Long-Lost Cutlass " hidden="false" id="9f50-bd61-d88c-f260" type="selectionEntry" targetId="a22d-5f90-c6e7-52da"/>
+        <entryLink import="true" name="Lucky Levi&apos;s Hook Hand " hidden="false" id="6349-8b74-0dd6-8ad8" type="selectionEntry" targetId="1b89-f4a2-04dc-4e72"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="append" value="Relics of Lustria" field="name" join="Â  +Â ">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Armour (Vampire Coast)" id="2434-8359-e241-ca36" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca9b-5a24-6c1a-a40a" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Bloody Bill&apos;s Buckler" hidden="false" id="81d0-f514-98af-349b" type="selectionEntry" targetId="8a2e-5354-f3fe-908d"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Talismans (Vampire Coast)" id="e267-b26f-1e00-f797" hidden="false" page="101" publicationId="5dfb-1d05-9140-09b5">
+      <entryLinks>
+        <entryLink import="true" name="Ex-Parrot" hidden="false" id="b969-0d65-416f-fa7e" type="selectionEntry" targetId="00ec-2338-8820-4eac"/>
+        <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="34e6-422b-33bc-620f" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f844-2e9f-e64e-59ab" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="append" value="Relics of Lustria" field="name" join="Â  +Â ">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntryGroup>
@@ -27956,6 +28387,11 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
 </characteristic>
       </characteristics>
     </profile>
+    <profile name="Slann Gold" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="75da-66b0-f4b0-852b" publicationId="25a7-0c85-4259-7f79" page="64">
+      <characteristics>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Lvl 1 Wizard with Lore of Death</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <forceEntries>
     <forceEntry name="Standard (VC-AB)" id="e989-15b8-7eb6-9668" hidden="false" publicationId="8e66-3042-1d6b-fa6b" page="60-68">
@@ -28220,6 +28656,7 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="91ad-b36a-5c77-c4b5" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -28236,6 +28673,7 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
             <conditionGroup type="or">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
