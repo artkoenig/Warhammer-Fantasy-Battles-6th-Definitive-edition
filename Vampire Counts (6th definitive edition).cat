@@ -441,6 +441,16 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="Zombie Deckhand" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="f95b-da01-0578-3bdc">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="5102-e74f-72e3-aff3" name="Braindead" hidden="false" targetId="729f-673e-ce42-1f4c" type="rule"/>
@@ -468,9 +478,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="8" field="ecfa-8486-4f6c-c249">
+            <modifier type="set" value="20" field="6610-c1d7-511e-688d">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </modifier>
             <modifier type="set" value="25" field="9f51-6184-28cc-ec80">
@@ -478,6 +488,11 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
               </conditions>
               <comment>Border Patrols</comment>
+            </modifier>
+            <modifier type="set" value="8" field="ecfa-8486-4f6c-c249">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
@@ -707,6 +722,11 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="Zombie Pirate Deckhand Mob" field="name">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -1691,9 +1711,25 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
     </selectionEntry>
     <selectionEntry id="0f4f-70e6-acdb-bdea" name="Banshee" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="df86-73f1-578b-eacb" name="Banshee" hidden="false" targetId="6af2-c721-3c09-9335" type="profile"/>
+        <infoLink id="df86-73f1-578b-eacb" name="Banshee" hidden="false" targetId="6af2-c721-3c09-9335" type="profile">
+          <modifiers>
+            <modifier type="set" value="Syreen" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="fd49-d25e-ca9f-568e" name="Ethereal" hidden="false" targetId="6d98-35cb-09d5-9cf1" type="rule"/>
-        <infoLink id="17a9-ac7c-c12f-79db" name="Ghostly Howl" hidden="false" targetId="fb25-2be8-e0c6-8ce5" type="rule"/>
+        <infoLink id="17a9-ac7c-c12f-79db" name="Ghostly Howl" hidden="false" targetId="fb25-2be8-e0c6-8ce5" type="rule">
+          <modifiers>
+            <modifier type="set" value="Syreen&apos;s Call" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="1618-9d50-481c-58ba" name="Single model" hidden="false" targetId="322d-eddf-667e-49a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1720,6 +1756,18 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
       <modifierGroups>
         <modifierGroup type="and">
           <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set-primary" value="c16b-f319-2c62-2c12" field="category"/>
+            <modifier type="remove" value="e94b-6a54-8779-cd60" field="category"/>
+            <modifier type="add" value="7a1c-d611-c2dc-def1" field="category"/>
+            <modifier type="add" value="c16b-f319-2c62-2c12" field="category"/>
+          </modifiers>
+          <comment>Vampire Coast</comment>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
           </conditions>
           <modifiers>
@@ -1739,6 +1787,11 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
         <modifier type="set" value="75" field="ecfa-8486-4f6c-c249">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="Syreen" field="name">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2373,6 +2426,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -12524,9 +12578,14 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
           </conditions>
         </modifier>
         <modifier type="set" value="1" field="6476-ebd7-6fae-8d90">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -12625,6 +12684,11 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
           </conditions>
           <comment>BP</comment>
         </modifier>
+        <modifier type="add" value="Technically, Luthor Harkon, Arch Grand Commodore is mandatory. Since it would be illegal in Border Patrols, a house-rule allows to ignore it." field="info">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="0962-5ad5-a823-952d" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
@@ -12713,6 +12777,13 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
               </constraints>
             </entryLink>
           </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink import="true" name="Magic selection" hidden="false" id="41bb-07ef-902e-7201" type="selectionEntryGroup" targetId="53e8-0ce2-eaf6-0163">
           <constraints>
@@ -12730,14 +12801,9 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <entryLink import="true" name="General" hidden="true" id="dbad-a951-9383-c61d" type="selectionEntry" targetId="1b7c-2c90-6d96-28c9">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="b1e4-e1cf-9bd6-2438" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules"/>
+              </conditions>
             </modifier>
           </modifiers>
         </entryLink>
@@ -12775,6 +12841,134 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="f404-a138-25e2-1cc5" name="Zombie Pirate Gunnery Mob" hidden="true" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="5126-a56c-9b7d-bf76" name="Zombie" hidden="false" targetId="4051-6d4c-cfd5-b501" type="profile">
+          <modifiers>
+            <modifier type="set" value="Zombie Levy" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Zombie Deckhand" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="f95b-da01-0578-3bdc">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Zombie Gunner" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ce3b-5fca-fec9-84a5" name="Braindead" hidden="false" targetId="729f-673e-ce42-1f4c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7081-db29-1b02-1c99" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cb84-308c-d7d9-4998" name="Zombie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a67-9cf8-66df-8052" type="min"/>
+            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0171-ee9b-a307-8506" type="max"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="3bd4-3106-7fdd-a46f" percentValue="false" includeChildSelections="false" includeChildForces="false">
+              <comment>BP</comment>
+            </constraint>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="25" field="3bd4-3106-7fdd-a46f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+              <comment>Border Patrols</comment>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82d7-95ab-4391-75ce" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="4f67-a841-d2d5-0c9b" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3f-db62-6648-ff14" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6cc-5c65-d3c7-2416" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3650-ec57-ace7-1105" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapons" id="050a-b989-e28f-301d" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Brace Of Pistols" hidden="false" id="9cb3-856c-58fa-943d" type="selectionEntry" targetId="bd00-7ec3-0e5b-0d52">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b172-c5c5-b727-4252" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="ecfa-8486-4f6c-c249">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" childName="model" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Handgun" hidden="false" id="b8ea-81bb-3170-1f2d" type="selectionEntry" targetId="fe39-7a3b-c3ed-67f8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad9f-1dcc-f764-ce90" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="760b-2b8d-fdbf-750b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="6ad6-f54e-1867-00a7" field="category">
+          <comment>Border Patrols</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="10" field="selections" scope="self" childId="model" shared="true" includeChildSelections="true" childName="model"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" childName="Border Patrols rules" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="8a59-4685-9184-c51f" type="selectionEntry" targetId="abdb-bbd0-41b2-5dff"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -23335,7 +23529,7 @@ Because they are insubstantial, they can&apos;t he harmed in combat except by at
       <description>A Banshee is treated as a character on foot tot movement and when targeted by missiles. A Banshee has a Unit Strength of 1 and cannot join other units or characters.</description>
     </rule>
     <rule id="fb25-2be8-e0c6-8ce5" name="Ghostly Howl" hidden="false">
-      <description>A Banshee is capable of emitting an eerie howl that brings death to mortals. Even the distant shriek of a Banshee is enough to strike horror into the hearts of the bravest men, and anyone hearing the constant wail of a Banshee will die of sheer fright. The Ghostly Howl of a Banshee is used in the Shooting phase. A Banshee may use it even in the Rim she has declared a charge or marched and even when engaged in close combat, but in this case she can Howl only against one of the units she is fighting (the Howl will affect only the target unit, even in a multiple fight). The attack has a range of 8&quot;. The Banshee can target any one unit within this range (even characters on their own that could not normally be targeted by shooting, but not characters inside units) and does not need a line of sight to the target Roll 206+2 and deduct the Leadership value of the unit from the wore. For each point by which the roll heats the target&apos;s Leadership, the target suffers 1 wound, distributed exactly like missile fire amongst the unit. So if you roll a 9, thereby obtaining a total of 11, and the target unit&apos;s Leadership is 8. the unit suffers 3 wounds. No armour saving throw is allowed against wounds caused by a Banshee&apos;s Howl, but units can use the superior Leadership of the character who is leading them or even the General&apos;s, if he is within 12&quot;. Units which are Immune to Psychology are not affected by the Howl. In the case of ridden chariots/monsters. war machines and similar units, use the highest Leadership value of the models involved to determine the number of wounds caused and then randomise each wound as for shooting hits (discard wounds hitting war machines).</description>
+      <description>A Banshee is capable of emitting an eerie howl that brings death to mortals. Even the distant shriek of a Banshee is enough to strike horror into the hearts of the bravest men, and anyone hearing the constant wail of a Banshee will die of sheer fright. The Ghostly Howl of a Banshee is used in the Shooting phase. A Banshee may use it even in the Rim she has declared a charge or marched and even when engaged in close combat, but in this case she can Howl only against one of the units she is fighting (the Howl will affect only the target unit, even in a multiple fight). The attack has a range of 8&quot;. The Banshee can target any one unit within this range (even characters on their own that could not normally be targeted by shooting, but not characters inside units) and does not need a line of sight to the target Roll 2D6+2 and deduct the Leadership value of the unit from the wore. For each point by which the roll heats the target&apos;s Leadership, the target suffers 1 wound, distributed exactly like missile fire amongst the unit. So if you roll a 9, thereby obtaining a total of 11, and the target unit&apos;s Leadership is 8. the unit suffers 3 wounds. No armour saving throw is allowed against wounds caused by a Banshee&apos;s Howl, but units can use the superior Leadership of the character who is leading them or even the General&apos;s, if he is within 12&quot;. Units which are Immune to Psychology are not affected by the Howl. In the case of ridden chariots/monsters. war machines and similar units, use the highest Leadership value of the models involved to determine the number of wounds caused and then randomise each wound as for shooting hits (discard wounds hitting war machines).</description>
     </rule>
     <rule id="5b4c-a757-2d1b-b53a" name="Impale" hidden="false">
       <description>Nightmares can use bony spines and tusks on the charge to impale victims. +1S on charge</description>
@@ -25908,6 +26102,10 @@ However, he must pass an immediateÂ Toughness test, or suffer a single woundÂ wi
     <rule name="Bloody Nora" id="247d-c3f7-557b-3674" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
       <description>This vicious Cat o&apos; Nine Tails lashes outÂ at the Pirate&apos;s enemies, granting him +2Â Attacks, increasing to D3 + 2 extraÂ Attacks when he charges.Â </description>
     </rule>
+    <rule name="Black Powder Weapons" id="4b8f-964f-af9e-1b49" hidden="false" publicationId="25a7-0c85-4259-7f79" page="62">
+      <description>The pirates of the Vampire Coast carry a large assortment of black powder weapons, ranging from pistols to Great Cannon - not a normal sight in the retinues of more traditionally minded (and less clinically insane) Vampire Counts. Though Zombies are not normally known for their ability to shoot straight (or at all) Harkon has long ago woven an enchantment that allows them to do just that, though even the misused magics of the Slann have a hard time making soggy and waterlogged black powder weapons discharge with any reliability.
+All black powder weapons that require a roll to hit will always hit on a roll of 6 if the firer has Ballistic Skill 0, regardless of any modifiers. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1b47-ce97-cf0a-447a" name="Frostblade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -26578,7 +26776,7 @@ Roll a D6 each time the Book is used. On a result of 1 its powers are temporaril
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
       </characteristics>
     </profile>
     <profile id="4af667af-2b1a-4d42-86ae-c27641a566f2" name="Pegasus" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -28796,14 +28994,12 @@ Characters never suffer wounds becauseÂ of a destroyed General. Units can use th
         <infoLink name="Fear" id="59eb-fd00-32e9-1a1d" hidden="false" type="rule" targetId="1524-2372-4aa0-6881"/>
         <infoLink name="Braindead" id="fd14-5e33-c646-7208" hidden="false" type="rule" targetId="729f-673e-ce42-1f4c"/>
         <infoLink name="Aquatic" id="2ee9-a38c-2978-a64b" hidden="false" type="rule" targetId="66a0d61c-8ed6-4d6f-a4e9-9131dbd09716"/>
+        <infoLink name="Black Powder Weapons" id="f1c6-83b5-78eb-53a8" hidden="false" type="rule" targetId="4b8f-964f-af9e-1b49"/>
       </infoLinks>
       <rules>
         <rule name="Army of the Vampire Coast" id="1123-671a-c724-4d47" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
           <description>ARCH GRAND COMMODORE LUTHOR HARKON
 A Vampire Coast army can only be led by Luthor Harkon. If he is destroyed, the Undead in the army will slowly start to crumble to dust. To represent this, at the end of the phase when the General is killed, and at the beginning of every Undead turn thereafter, all Undead units on the battlefield must take a Leadership test. If the test is failed, the unit suffers a number of wounds equal to the number they failed the Leadership test by. No saves of any kind (not even Ward Saves) are allowed against such wounds, eg, a Pirate Mob (Ld 2) takes the test and rolls a 7: the unit suffers 5 wounds (7-2=5). Characters never suffer wounds because of a destroyed General. Units can use the Leadership of a character leading the unit for this test, as normal. Note that if the General is taken below one Wound, but manages to regenerate enough Wounds to come back, this rule does not apply. The General has to be dead (ie, removed from the table) for this rule to take effect.
-
-BLACK POWDER WEAPONS
-The pirates of the Vampire Coast carry a large assortment of black powder weapons, ranging from pistols to Great Cannon - not a normal sight in the retinues of more traditionally minded (and less clinically insane) Vampire Counts. Though Zombies are not normally known for their ability to shoot straight (or at all) Harkon has long ago woven an enchantment that allows them to do just that, though even the misused magics of the Slann have a hard time making soggy and waterlogged black powder weapons discharge with any reliability. All black powder weapons that require a roll to hit will always hit on a roll of 6 if the firer has Ballistic Skill 0, regardless of any modifiers. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target.
 
 UNDEAD
 All units in the Vampire Coast army are Undead and follow the The Laws of Undeath .</description>
