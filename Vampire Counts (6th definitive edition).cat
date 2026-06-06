@@ -904,7 +904,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
       <infoLinks>
         <infoLink id="b011-c0eb-6bcf-d2cb" name="Slavering Charge" hidden="false" targetId="08f4-ffb1-7f66-5636" type="rule"/>
         <infoLink id="f0d4-5487-40fa-7614" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
-        <infoLink id="5475-92c1-0da6-3d2a" name="Dire Wolf" hidden="false" targetId="4b5a-3ca7-1ff5-3c0d" type="profile"/>
+        <infoLink id="5475-92c1-0da6-3d2a" name="Dire Wolf" hidden="false" targetId="4b5a-3ca7-1ff5-3c0d" type="profile">
+          <modifiers>
+            <modifier type="set" value="Scurby Dogs" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="333e-ebd4-f9cd-c7f8" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -937,6 +945,24 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="Bad Dog" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Doom Wolf" id="3f5c-1df7-9a49-33d4" hidden="false" type="profile" targetId="20bb-bd8e-074b-03aa">
+              <modifiers>
+                <modifier type="set" value="Bad Dog" field="name">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Scouts" hidden="true" id="ff2c-a7c6-4cab-b0fd">
           <constraints>
@@ -993,6 +1019,11 @@ The Necrach Thrall can only be general if you choose the noble blood trait.</rea
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" value="Scurby Dogs" field="name">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -12649,7 +12680,7 @@ wound, roll a D6 to determine which personality is in control. 
 |6|**Dangerous to Know**. A steely and determinedly ruthless portion of Luthor&apos;s soul has clawed its way into the light of day. He follows the rules for hatred until this table is rolled on once more, even though he would normally be Immune to Psychology.|
 
 
-In addition, when Luthor is severely wounded and the strain is too much for the dominant personality another, stronger, facet of himself takes over and continues the fight. As a result, when he loses his last Wound, Luthor also gains the ability to Regenerate until the end of the turn (see Regeneration). </description>
+In addition, when Luthor is severely wounded and the strain is too much for the dominant personality another, stronger, facet of himself takes over and continues the fight. As a result, when he loses his last Wound, Luthor also gains the ability to Regenerate until the end of the turn (see Regeneration).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -23407,7 +23438,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         </modifier>
       </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Enchanted Items (Vampire Coast)" id="1320-289b-d9cf-9a48" hidden="false" page="101" publicationId="5dfb-1d05-9140-09b5">
+    <selectionEntryGroup name="Enchanted Items (Vampire Coast)" id="1320-289b-d9cf-9a48" hidden="true" page="101" publicationId="5dfb-1d05-9140-09b5">
       <entryLinks>
         <entryLink import="true" name="Moonshine (one use only)" hidden="false" id="3eec-57d1-e37c-2560" type="selectionEntry" targetId="6885-b6cb-40d7-1618"/>
         <entryLink import="true" name="Enchanted Items (Relics of Lustria)" hidden="false" id="b056-9537-9766-b0de" type="selectionEntryGroup" targetId="b77d-ca97-7903-6bc6"/>
@@ -23427,9 +23458,14 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Magic Weapons (Vampire Coast)" id="e717-0f50-0c96-a2bc" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
+    <selectionEntryGroup name="Magic Weapons (Vampire Coast)" id="e717-0f50-0c96-a2bc" hidden="true" publicationId="5dfb-1d05-9140-09b5" page="101">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f617-c97b-fdc3-2a5d" includeChildSelections="false"/>
       </constraints>
@@ -23438,8 +23474,8 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="cf82-b51d-d550-12c1" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
         <entryLink import="true" name="Bloody Nora" hidden="false" id="336c-d90b-477c-1f01" type="selectionEntry" targetId="4af7-8616-33ce-1fca"/>
         <entryLink import="true" name="Dirty Serpent" hidden="false" id="1174-3d5f-3749-ed71" type="selectionEntry" targetId="b978-1482-9191-8d6d"/>
-        <entryLink import="true" name="Sloppy Cruickshank&apos;s  Long-Lost Cutlass " hidden="false" id="9f50-bd61-d88c-f260" type="selectionEntry" targetId="a22d-5f90-c6e7-52da"/>
-        <entryLink import="true" name="Lucky Levi&apos;s Hook Hand " hidden="false" id="6349-8b74-0dd6-8ad8" type="selectionEntry" targetId="1b89-f4a2-04dc-4e72"/>
+        <entryLink import="true" name="Ship&apos;s Colours" hidden="false" id="9f50-bd61-d88c-f260" type="selectionEntry" targetId="a22d-5f90-c6e7-52da"/>
+        <entryLink import="true" name="Firewater (one use only)" hidden="false" id="6349-8b74-0dd6-8ad8" type="selectionEntry" targetId="1b89-f4a2-04dc-4e72"/>
       </entryLinks>
       <modifiers>
         <modifier type="append" value="Relics of Lustria" field="name" join="  + ">
@@ -23447,17 +23483,29 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Magic Armour (Vampire Coast)" id="2434-8359-e241-ca36" hidden="false" publicationId="5dfb-1d05-9140-09b5" page="101">
+    <selectionEntryGroup name="Magic Armour (Vampire Coast)" id="2434-8359-e241-ca36" hidden="true" publicationId="5dfb-1d05-9140-09b5" page="101">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca9b-5a24-6c1a-a40a" includeChildSelections="false"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Bloody Bill&apos;s Buckler" hidden="false" id="81d0-f514-98af-349b" type="selectionEntry" targetId="8a2e-5354-f3fe-908d"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Magic Talismans (Vampire Coast)" id="e267-b26f-1e00-f797" hidden="false" page="101" publicationId="5dfb-1d05-9140-09b5">
+    <selectionEntryGroup name="Magic Talismans (Vampire Coast)" id="e267-b26f-1e00-f797" hidden="true" page="101" publicationId="5dfb-1d05-9140-09b5">
       <entryLinks>
         <entryLink import="true" name="Ex-Parrot" hidden="false" id="b969-0d65-416f-fa7e" type="selectionEntry" targetId="00ec-2338-8820-4eac"/>
         <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="34e6-422b-33bc-620f" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
@@ -23469,6 +23517,11 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <modifier type="append" value="Relics of Lustria" field="name" join="  + ">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="7d87-7436-5341-bbc0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -26055,7 +26108,7 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
       <description>The Spyin&apos; Glass allows the bearer to pick out characters from enemy units when targeting them with a ranged weapon.</description>
     </rule>
     <rule name="Dirty Serpent" id="d7a7-e678-e603-cc7c" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
-      <description>No Armour Saves are possible against it. </description>
+      <description>No Armour Saves are possible against it.</description>
     </rule>
     <rule name="Gentleman Jenkins&apos; Trusty Compass " id="5997-3272-cb1f-cdf9" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
       <description>The Compass grants the user the Scouts special rule.</description>
@@ -26064,7 +26117,7 @@ They benefit from Talismanic Tattoos, Fury Of Kurnous and Forest Spirit Special 
       <description>The cutlass grants the bearer Killing Blow.</description>
     </rule>
     <rule name="Lucky Levi&apos;s Hook Hand" id="6269-f4f7-ab06-894d" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
-      <description>This crude but effective piratical prosthetic grants the user + 2 Strength, but he may not use any weapons or items that require two (or more) hands. </description>
+      <description>This crude but effective piratical prosthetic grants the user + 2 Strength, but he may not use any weapons or items that require two (or more) hands.</description>
     </rule>
     <rule name="Wharf Rats" id="bf05-ebd3-2a2d-e8fb" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
       <description>A swarm of scabrous rodents surround the character, granting him an additional D6 Strength 2 Poisoned Attacks, at Initiative 2</description>
@@ -26091,7 +26144,7 @@ However, he must pass an immediate Toughness test, or suffer a single wound wi
 However, he must pass an immediate Toughness test, or suffer a single wound with no saves of any kind allowed.</description>
     </rule>
     <rule name="Ex-Parrot" id="f53c-a6e8-1078-e05e" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
-      <description>This sad and dishevelled, but ever loyal bird sits upon its master&apos;s shoulder, granting a measure of protection from hostile magicks. The owner gains Magic Resistance (2). </description>
+      <description>This sad and dishevelled, but ever loyal bird sits upon its master&apos;s shoulder, granting a measure of protection from hostile magicks. The owner gains Magic Resistance (2).</description>
     </rule>
     <rule name="Dead Man&apos;s Chest" id="13de-5979-c593-cf49" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
       <description>The Chest counts as a Magical Banner, and grants each model in the unit + 1 Attack in the first round of any hand-to-hand combat.</description>
@@ -26100,7 +26153,7 @@ However, he must pass an immediate Toughness test, or suffer a single wound wi
       <description>All models in the unit cause Terror.</description>
     </rule>
     <rule name="Bloody Nora" id="247d-c3f7-557b-3674" hidden="false" publicationId="25a7-0c85-4259-7f79" page="64">
-      <description>This vicious Cat o&apos; Nine Tails lashes out at the Pirate&apos;s enemies, granting him +2 Attacks, increasing to D3 + 2 extra Attacks when he charges. </description>
+      <description>This vicious Cat o&apos; Nine Tails lashes out at the Pirate&apos;s enemies, granting him +2 Attacks, increasing to D3 + 2 extra Attacks when he charges.</description>
     </rule>
     <rule name="Black Powder Weapons" id="4b8f-964f-af9e-1b49" hidden="false" publicationId="25a7-0c85-4259-7f79" page="62">
       <description>The pirates of the Vampire Coast carry a large assortment of black powder weapons, ranging from pistols to Great Cannon - not a normal sight in the retinues of more traditionally minded (and less clinically insane) Vampire Counts. Though Zombies are not normally known for their ability to shoot straight (or at all) Harkon has long ago woven an enchantment that allows them to do just that, though even the misused magics of the Slann have a hard time making soggy and waterlogged black powder weapons discharge with any reliability.
@@ -26229,7 +26282,7 @@ Wights only</characteristic>
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">2</characteristic>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
     <profile id="b6e4-c268-5a16-378d" name="Grave Guard" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -28584,13 +28637,29 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
     </profile>
     <profile name="Dead Man&apos;s Chest" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="98b4-e1f2-06a7-6a22" publicationId="25a7-0c85-4259-7f79" page="64">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">each model in the unit + 1 A in the first round of any CC.
-</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">each model in the unit + 1 A in the first round of any CC.</characteristic>
       </characteristics>
     </profile>
     <profile name="Slann Gold" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="75da-66b0-f4b0-852b" publicationId="25a7-0c85-4259-7f79" page="64">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Lvl 1 Wizard with Lore of Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="20bb-bd8e-074b-03aa" name="Doom Wolf" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">2</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -28987,7 +29056,7 @@ Characters never suffer wounds because of a destroyed General. Units can use th
         </rule>
       </rules>
     </infoGroup>
-    <infoGroup name="Special rules for Army of the Vampire Coast" id="009c-4c15-26ec-a095" hidden="false" publicationId="25a7-0c85-4259-7f79" page="">
+    <infoGroup name="Special rules for Army of the Vampire Coast" id="009c-4c15-26ec-a095" hidden="false" publicationId="25a7-0c85-4259-7f79">
       <infoLinks>
         <infoLink name="Undead" id="bf0f-0d08-ac50-9d80" hidden="false" type="rule" targetId="0e726d5e-c950-4518-90ce-d931d6218df0"/>
         <infoLink name="Immune to Panic" id="feea-ae45-f2fd-99e8" hidden="false" type="rule" targetId="ff2b-8db6-64fa-e9ca"/>
