@@ -1469,11 +1469,11 @@
                 <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="9958-5296-7624-1578" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
                 <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="2084-be21-331b-1d11" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
               </entryLinks>
+              <constraints>
+                <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="83a1-5ce6-d182-7cf4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <constraints>
-            <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="83a1-5ce6-d182-7cf4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
