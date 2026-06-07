@@ -6277,8 +6277,8 @@ see Whirlwind of Death</characteristic>
     </selectionEntryGroup>
     <selectionEntryGroup name="Runes (Engineering)" id="fcac-b4db-838b-9a9c" hidden="false" collapsible="true">
       <entryLinks>
-        <entryLink import="true" name="Minor Runes (Engineering)" hidden="false" id="9b5e-8414-9045-2d06" type="selectionEntryGroup" targetId="c9ab-06e2-408b-9891"/>
-        <entryLink import="true" name="Major Runes (Engineering)" hidden="false" id="3291-ff11-aab3-7305" type="selectionEntryGroup" targetId="a504-0514-9556-c9d2"/>
+        <entryLink import="true" name="Minor Runes (Engineering)" hidden="false" id="9b5e-8414-9045-2d06" type="selectionEntryGroup" targetId="c9ab-06e2-408b-9891" collapsible="true"/>
+        <entryLink import="true" name="Major Runes (Engineering)" hidden="false" id="3291-ff11-aab3-7305" type="selectionEntryGroup" targetId="a504-0514-9556-c9d2" collapsible="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3ce7-4e17-6d4e-7604" includeChildSelections="false"/>
