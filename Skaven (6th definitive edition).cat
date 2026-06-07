@@ -6078,6 +6078,17 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
       <infoLinks>
         <infoLink id="a0cabbc0-9c6e-4921-bfdc-4bdab42941ee" name="Warlock Master Klawmunkast" hidden="false" targetId="412a-fe18-96e2-3168" type="profile"/>
       </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="cb6c-c69a-5c73-97e8" shared="true" includeChildSelections="true"/>
+          </conditions>
+          <modifiers>
+            <modifier type="decrement" value="30" field="ecfa-8486-4f6c-c249"/>
+          </modifiers>
+          <comment>LVL 3 - Warpstone tokens discount</comment>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
     <selectionEntry id="bf3d-1236-7162-e561" name="Plague Pontifex" publicationId="415d-9fbb-df83-ad27" page="62" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
