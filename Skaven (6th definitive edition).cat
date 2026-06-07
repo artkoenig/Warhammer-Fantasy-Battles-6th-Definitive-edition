@@ -3039,7 +3039,6 @@
             <modifier type="remove" field="category" value="e94b-6a54-8779-cd60"/>
             <modifier type="set-primary" field="category" value="43cc-fc3f-35a7-8d03"/>
             <modifier type="add" field="category" value="43cc-fc3f-35a7-8d03"/>
-            <modifier type="unset-primary" field="category" value="e94b-6a54-8779-cd60"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
