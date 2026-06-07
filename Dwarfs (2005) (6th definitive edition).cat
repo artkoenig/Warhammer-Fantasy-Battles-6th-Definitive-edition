@@ -2441,11 +2441,11 @@ OR Great Weapon until EoC</characteristic>
           <categoryLinks>
             <categoryLink name="War Machine" hidden="false" id="1ea4-303d-f525-6548" targetId="f672-d9d4-a601-479a" primary="false"/>
           </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Runes (Engineering)" hidden="false" id="bf47-fac7-4a9b-b509" type="selectionEntryGroup" targetId="fcac-b4db-838b-9a9c"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Runes (Engineering)" hidden="false" id="bf47-fac7-4a9b-b509" type="selectionEntryGroup" targetId="fcac-b4db-838b-9a9c"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Miners" hidden="false" id="05f1-c64c-4b9c-d785" publicationId="45c1-a503-0feb-507a" page="55">
       <categoryLinks>
