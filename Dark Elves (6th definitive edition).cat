@@ -768,11 +768,6 @@
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Character options" hidden="false" id="44c2-7f08-3cfb-4814" collective="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b006-f45f-f1ad-ac6f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="100" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="6e9a-fe6d-027a-b135" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ee0-b5a8-cd66-7149" includeChildSelections="false"/>
-          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Magic Items (100 pts)" id="84f6-5329-3e51-b1c9" hidden="false" collective="false" import="true">
               <entryLinks>
@@ -811,6 +806,22 @@
                 <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="fe3c-9458-bc3e-1e1a" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
                 <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="1c40-b7ea-c34f-9701" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
               </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b006-f45f-f1ad-ac6f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="100" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="6e9a-fe6d-027a-b135" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="b006-f45f-f1ad-ac6f">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="989e-9d22-7fea-19b5" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" value="1" field="b006-f45f-f1ad-ac6f">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="f969-0b28-b1cf-bb02" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -968,10 +979,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="31a8-11cf-864a-e093" name="Character options" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c52-602f-aaf6-b49b" type="max"/>
-            <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a601-5837-2537-72e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="a2aa-651d-a5fc-fac7" name="Magic Items (50 pts)" hidden="false" collective="false" import="true">
               <entryLinks>
@@ -1011,6 +1018,10 @@
                 <entryLink import="true" name="Magic Talismans (Relics of Lustria)" hidden="false" id="18eb-567e-4892-132d" type="selectionEntryGroup" targetId="dbf5-90ca-b928-d111"/>
                 <entryLink import="true" name="Magic Weapons (Relics of Lustria)" hidden="false" id="f34d-b8a2-9419-2d3e" type="selectionEntryGroup" targetId="11e7-7d5d-b0fa-1f34"/>
               </entryLinks>
+              <constraints>
+                <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="a601-5837-2537-72e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c52-602f-aaf6-b49b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
