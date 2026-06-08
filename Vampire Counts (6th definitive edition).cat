@@ -13195,7 +13195,30 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
         <categoryLink name="Special Characters" hidden="false" id="4709-8f02-bead-086f" targetId="0644-bfcd-32c2-21dc" primary="true"/>
         <categoryLink name="Lord" hidden="false" id="5ea1-7ee9-fc21-56e0" targetId="d024-d25b-a9b4-73b6" primary="false"/>
         <categoryLink name="Characters" hidden="false" id="4ad7-aaf9-44be-4f58" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink name="Von Carstein" hidden="false" id="69d3-d690-be92-c474" targetId="ff24-ca11-afd5-865b" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="91ad-b36a-5c77-c4b5" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="2102-34f1-c876-98c5" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="d3af-1add-4e99-b977" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="3c87-8c5f-3741-0e88" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f37a-a93e-fa22-61a8" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
