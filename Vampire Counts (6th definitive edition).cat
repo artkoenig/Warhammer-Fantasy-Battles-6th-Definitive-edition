@@ -10944,9 +10944,6 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
               </conditions>
             </conditionGroup>
           </conditionGroups>
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
-          </conditions>
         </modifier>
         <modifier type="add" value="Please enable &quot;Allow special characters?&quot;" field="error">
           <conditions>
