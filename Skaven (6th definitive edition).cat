@@ -8018,9 +8018,6 @@ Warp Lightning is a magic missile with a range of 24&quot; It can be cast at a c
                     <infoLink id="8b55-96f6-d974-e2c0" name="Warp Lightning Cannon" hidden="false" targetId="9ffb-ded0-c4a5-99d6" type="profile"/>
                     <infoLink id="f777-d428-52dd-9731" name="Warp Lightning Cannon" hidden="false" targetId="b7a8-4fc3-6ae0-b42d" type="rule"/>
                   </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="64d9-ea04-8b12-fabc" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
-                  </categoryLinks>
                   <costs>
                     <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
                     <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
