@@ -1154,8 +1154,16 @@
           </constraints>
           <entryLinks>
             <entryLink id="8a72-75c6-bfe4-6ef4" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="4f27-8939-4209-812a" type="selectionEntryGroup"/>
-            <entryLink id="c7f9-e294-bd15-043e" name="Magic Armour" hidden="false" collective="false" import="true" targetId="edcc-c4ee-fbb2-bb22" type="selectionEntryGroup"/>
-            <entryLink id="4c27-5715-cb00-a6a4" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="c43e-061f-d839-53be" type="selectionEntryGroup"/>
+            <entryLink id="c7f9-e294-bd15-043e" name="Magic Armour" hidden="false" collective="false" import="true" targetId="edcc-c4ee-fbb2-bb22" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4c27-5715-cb00-a6a4" name="Magic Talismans" hidden="false" collective="false" import="true" targetId="c43e-061f-d839-53be" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="e364-5376-f417-0beb" name="Arcane Items" hidden="false" collective="false" import="true" targetId="da67-6e1c-3377-e4c7" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="80a1-beb8-f3c0-7e38" value="-1">
@@ -1163,6 +1171,7 @@
                     <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77b0-8164-1f59-84a7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="true" field="hidden"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a1-beb8-f3c0-7e38" type="max"/>
@@ -16983,7 +16992,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User+2</characteristic>
         <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +2 to the bearer's Strength, and the bearer is also subject to frenzy.</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Adds +2 to the bearer&apos;s Strength, and the bearer is also subject to frenzy.</characteristic>
         <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
       </characteristics>
     </profile>
@@ -16992,7 +17001,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User</characteristic>
         <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">The Mace always wounds on a 2+. Armour saves are taken using the wielder's normal Strength. Against Castles, Empire Steam Tanks and in other situations where a roll to wound is not taken, the wielder counts as having double its Strength characteristic, to a maximum of 10.</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">The Mace always wounds on a 2+. Armour saves are taken using the wielder&apos;s normal Strength. Against Castles, Empire Steam Tanks and in other situations where a roll to wound is not taken, the wielder counts as having double its Strength characteristic, to a maximum of 10.</characteristic>
         <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
       </characteristics>
     </profile>
@@ -17026,7 +17035,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     <profile name="Chaos Daemon Sword" typeId="7889-42d9-70a0-3ea9" typeName="Weapon" hidden="false" id="c1d2-e3f4-a5b6-0007" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
-        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As patron god's Greater Daemon</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">As patron god&apos;s Greater Daemon</characteristic>
         <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
         <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">A character with a Daemon Sword has the same WS, S, I and A as the Greater Daemon of their patron god. However, every roll of a 1 to hit in close combat means that the attack is resolved against the character instead of the enemy. The character can never re-roll an unmodified 1 to hit in close combat, regardless of the source of the re-roll.</characteristic>
         <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
@@ -17064,7 +17073,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User</characteristic>
         <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Models with the Mark of Slaanesh only. The wielder gains +1 Attack, but cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder's opponents also always strike first, revert to normal Initiative.</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Models with the Mark of Slaanesh only. The wielder gains +1 Attack, but cannot carry a shield or banner. In addition, the wielder always strikes first in close combat. If any of the wielder&apos;s opponents also always strike first, revert to normal Initiative.</characteristic>
         <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
       </characteristics>
     </profile>
@@ -17127,7 +17136,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">User</characteristic>
         <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">The Daemon wields a hell-forged weapon that exists partly in another dimension, bypassing armour. The Daemon's close combat attacks ignore armour saves.</characteristic>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">The Daemon wields a hell-forged weapon that exists partly in another dimension, bypassing armour. The Daemon&apos;s close combat attacks ignore armour saves.</characteristic>
         <characteristic name="Saves" typeId="8014-a8b2-15c3-da95">No armour saves</characteristic>
       </characteristics>
     </profile>
@@ -17140,7 +17149,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     <profile name="The Fur of Sharggu" typeId="f681-9937-db53-f1d8" typeName="Armour" hidden="false" id="c1d2-e3f4-a5b6-0020" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">+2 vs missiles (max 1+)</characteristic>
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Beasts of Chaos characters only. Adds +2 to the bearer's Armour save against missile fire (including magic missiles), up to a maximum Armour save of 1+.</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Beasts of Chaos characters only. Adds +2 to the bearer&apos;s Armour save against missile fire (including magic missiles), up to a maximum Armour save of 1+.</characteristic>
       </characteristics>
     </profile>
     <profile name="Spelleater Shield" typeId="f681-9937-db53-f1d8" typeName="Armour" hidden="false" id="c1d2-e3f4-a5b6-0021" publicationId="7f4a-e6ae-d049-ee56">
@@ -17196,12 +17205,12 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Bloodhunt Horn" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0030" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One Use Only. Once per battle, the bearer can force a fleeing enemy unit within 12" to automatically fail their Rally test. This must be declared before the test is made.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One Use Only. Once per battle, the bearer can force a fleeing enemy unit within 12&quot; to automatically fail their Rally test. This must be declared before the test is made.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Dark Heart" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0031" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Beasts of Chaos characters only. The character and any unit led by him adds +D3" to their charge move. Roll after declaring charges - if the charge is failed, the models move their normal failed charge distance.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Beasts of Chaos characters only. The character and any unit led by him adds +D3&quot; to their charge move. Roll after declaring charges - if the charge is failed, the models move their normal failed charge distance.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Plague Chalice" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0032" publicationId="7f4a-e6ae-d049-ee56">
@@ -17211,12 +17220,12 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="The Goretooth" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0033" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Beasts of Chaos characters only. The Goretooth confers Hatred and the Bloodgreed special rules to the bearer. The bearer must replace one of his randomly rolled spells with The Bear's Anger, regardless of the lore he has chosen.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Beasts of Chaos characters only. The Goretooth confers Hatred and the Bloodgreed special rules to the bearer. The bearer must replace one of his randomly rolled spells with The Bear&apos;s Anger, regardless of the lore he has chosen.</characteristic>
       </characteristics>
     </profile>
     <profile name="Staff of Darkoth" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0034" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Shaman only. Counts as a braystaff. Also, the Shaman knows the following spell in addition to his other spells: The Wild Call (9+ to cast). Cast on a Beast Herd, Bestigor or Warhounds unit within 12" of the caster and within its normal charge range of an enemy. The unit may declare and make a normal charge move immediately, though the charged unit may only Stand as a reaction.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Shaman only. Counts as a braystaff. Also, the Shaman knows the following spell in addition to his other spells: The Wild Call (9+ to cast). Cast on a Beast Herd, Bestigor or Warhounds unit within 12&quot; of the caster and within its normal charge range of an enemy. The unit may declare and make a normal charge move immediately, though the charged unit may only Stand as a reaction.</characteristic>
       </characteristics>
     </profile>
     <profile name="Vitrolic Totem" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0035" publicationId="7f4a-e6ae-d049-ee56">
@@ -17261,7 +17270,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Staff of Change" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0043" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Tzeentch only. The bearer can re-roll any number of the dice rolled to cast or dispel a spell. The second result(s) stand. This can effectively negate a Miscast and cause an Irresistible Force. If the bearer casts a spell with Irresistible Force using the staff's re-roll ability, the staff will exhaust its power and cease working for the rest of the battle.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Tzeentch only. The bearer can re-roll any number of the dice rolled to cast or dispel a spell. The second result(s) stand. This can effectively negate a Miscast and cause an Irresistible Force. If the bearer casts a spell with Irresistible Force using the staff&apos;s re-roll ability, the staff will exhaust its power and cease working for the rest of the battle.</characteristic>
       </characteristics>
     </profile>
     <profile name="Skull of Katam" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0044" publicationId="7f4a-e6ae-d049-ee56">
@@ -17271,7 +17280,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Power Familiar" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0045" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Familiar adds one dice to both the Power dice and Dispel dice pool of the bearer's side.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Familiar adds one dice to both the Power dice and Dispel dice pool of the bearer&apos;s side.</characteristic>
       </characteristics>
     </profile>
     <profile name="Warrior Familiar" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0046" publicationId="7f4a-e6ae-d049-ee56">
@@ -17281,12 +17290,12 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Spell Familiar" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0047" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Familiar's owner knows one more spell than is normal for his level. This does not increase his Magic Level.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The Familiar&apos;s owner knows one more spell than is normal for his level. This does not increase his Magic Level.</characteristic>
       </characteristics>
     </profile>
     <profile name="Rod of Corruption" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0048" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Nurgle only. Bound spell. Power Level 4. One use only. Target any enemy unit on the tabletop. This unit becomes infected with Nurgle's Rot and suffers D6 Strength 2 hits. At the start of the caster's next Magic phase, the unit takes 2D6 Strength 2 hits. At the start of the caster's Magic phase after that it takes 3D6 Strength 2 hits, and so on. Once cast, Nurgle's Rot cannot be stopped.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Nurgle only. Bound spell. Power Level 4. One use only. Target any enemy unit on the tabletop. This unit becomes infected with Nurgle&apos;s Rot and suffers D6 Strength 2 hits. At the start of the caster&apos;s next Magic phase, the unit takes 2D6 Strength 2 hits. At the start of the caster&apos;s Magic phase after that it takes 3D6 Strength 2 hits, and so on. Once cast, Nurgle&apos;s Rot cannot be stopped.</characteristic>
       </characteristics>
     </profile>
     <profile name="Bindings of Slaanesh" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0049" publicationId="7f4a-e6ae-d049-ee56">
@@ -17296,17 +17305,17 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Book of Secrets" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0050" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Not models with the Mark of Khorne. Non-Sorcerers only. The bearer is a Level 1 Sorcerer and knows a random spell from the Lore of Fire, Shadow or Death (Chaos player's choice). If the bearer miscasts, roll twice on the Miscast table and apply both results.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Not models with the Mark of Khorne. Non-Sorcerers only. The bearer is a Level 1 Sorcerer and knows a random spell from the Lore of Fire, Shadow or Death (Chaos player&apos;s choice). If the bearer miscasts, roll twice on the Miscast table and apply both results.</characteristic>
       </characteristics>
     </profile>
     <profile name="Chalice of Chaos" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0051" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One use only. The bearer becomes daemonic and follows all rules for daemonic models. If the bearer is the army's General, he must lead a daemonic army. At the start of the battle he must take a Toughness test (rolls of 6 always fail). If failed, the bearer reduces his Wounds and Toughness by -1.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">One use only. The bearer becomes daemonic and follows all rules for daemonic models. If the bearer is the army&apos;s General, he must lead a daemonic army. At the start of the battle he must take a Toughness test (rolls of 6 always fail). If failed, the bearer reduces his Wounds and Toughness by -1.</characteristic>
       </characteristics>
     </profile>
     <profile name="Deaths Head" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0052" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Nurgle only. One use only. Thrown weapon with a range of 12". If it hits, the enemy unit takes D6 hits, and affected models must pass a Toughness test or lose D3 wounds with no armour saves allowed. Units taking any casualties must take a Panic test.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Models with the Mark of Nurgle only. One use only. Thrown weapon with a range of 12&quot;. If it hits, the enemy unit takes D6 hits, and affected models must pass a Toughness test or lose D3 wounds with no armour saves allowed. Units taking any casualties must take a Panic test.</characteristic>
       </characteristics>
     </profile>
     <profile name="Sceptre of Domination" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0053" publicationId="7f4a-e6ae-d049-ee56">
@@ -17316,7 +17325,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Helm of Many Eyes" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0054" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The wearer always strikes first in close combat, even if charged or armed with a weapon that normally strikes last. If any of the wearer's opponents also strike first, revert to normal Initiative. The character is also subject to Stupidity due to the random and conflicting images that confront him.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">The wearer always strikes first in close combat, even if charged or armed with a weapon that normally strikes last. If any of the wearer&apos;s opponents also strike first, revert to normal Initiative. The character is also subject to Stupidity due to the random and conflicting images that confront him.</characteristic>
       </characteristics>
     </profile>
     <profile name="Mirror of Knowledge" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0055" publicationId="7f4a-e6ae-d049-ee56">
@@ -17336,7 +17345,7 @@ Be&apos;lakor may re-roll all his failed rolls to hit, but must always pursue fl
     </profile>
     <profile name="Radiance of Dark Glory" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="c1d2-e3f4-a5b6-0058" publicationId="7f4a-e6ae-d049-ee56">
       <characteristics>
-        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Raw Chaos Power emanates from the Daemon, strengthening its presence in the material realm. The Daemon and any other daemon units within 6" suffer 1 less wound when defeated in combat.</characteristic>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Raw Chaos Power emanates from the Daemon, strengthening its presence in the material realm. The Daemon and any other daemon units within 6&quot; suffer 1 less wound when defeated in combat.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
