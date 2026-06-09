@@ -7518,14 +7518,51 @@ S. Warhammer Chronicles 2004 page 12
 
 ## ⛰️ Part 3: The Norn Consensus
 
-*Context: Established in 2003, The Karak Norn Wargaming Club provides the Norn Consensus: a compilation of rules resolutions and tournament precedents debated by the Karak Norn Longbeard circle during the original 6th Edition era (2003-2006). This section documents their structural resolutions, translating unresolved tabletop edge-cases into the strict mechanical logic required by digital list-builders. (Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
+*Context: Established in 2003, The Karak Norn Wargaming Club provides the Norn Consensus: a compilation of rules resolutions and tournament precedents debated by the Karak Norn Longbeard circle during the original 6th Edition era (2003-2006). This section documents their structural resolutions, translating unresolved tabletop edge-cases into the strict mechanical logic required by digital list-builders.*
 
-### BRETONNIA
-**Q:** Can a Bretonnian Character benefit from both *Stubborn* and *Immune to Psychology* at the same time through the Virtue of the Penitent and the Grail Vow?
-**Ruling:** Yes. Break tests are not Psychology tests. Because the Virtue and the Vow are inherent, non-magical traits granted by the character's devotion, they completely bypass the Magic vs. Mundane conflict outlined in the official Banner of Sigismund FAQ. The character takes Break tests on unmodified Leadership while ignoring Fear, Terror, and Panic.
-**Source:** `[Rulebook pages 85 & 112 / Bretonnia Army Book / The Norn Consensus Historical Precedent]`
+*(Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
+
+### EMPIRE
+**Q:** Are Empire Greatswords within 12" of Volkmar’s War Altar still *Stubborn*?
+**Ruling:** Yes. Greatswords have Stubborn as a printed rule in their own army-list entry. Volkmar’s War Altar grants Immune to Psychology to Empire units within 12", but it does not say that it removes existing Stubborn rules.
+Therefore, Greatswords within 12" of Volkmar’s War Altar are both *Immune to Psychology* and *Stubborn*.
+They may not choose Flee as a charge reaction while Immune to Psychology. If they are required to take a Break test, they use Stubborn as normal.
+This is not the same as the Banner of Sigismund FAQ. The Banner of Sigismund is a Magic Standard trying to grant Stubborn to a unit that is already Immune to Psychology. Volkmar’s War Altar grants Immune to Psychology to a unit that already has Stubborn printed in its own entry.
+**Source:** `[Empire Army Book / Warhammer Annual 2002 page 60 / Rulebook pages 74, 80, 85 & 112 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+**Q:** Does Volkmar’s War Altar suppress *Hatred*, *Stubborn*, *Frenzy*, *Stupidity* or similar rules already possessed by an Empire unit?
+**Ruling:** No, not by itself. Volkmar’s War Altar grants Immune to Psychology. It does not say that it removes other Psychology rules already possessed by affected units.
+Therefore, an Empire unit affected by the War Altar keeps any native or permanent non-magic-item Psychology rules it already has.
+The War Altar still prevents the unit from being affected by external Psychology effects in the normal way and prevents it from choosing Flee as a charge reaction.
+**Source:** `[Empire Army Book / Warhammer Annual 2002 page 60 / Rulebook pages 84, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+**Q:** Can a unit of Knights led by a Grand Master, and therefore *Immune to Psychology*, benefit from the Banner of Sigismund?
+**Ruling:** No. This is the direct case answered by the official Empire FAQ and is not changed by the Norn Consensus.
+The Banner of Sigismund is a Magic Standard attempting to grant Stubborn to a unit that is Immune to Psychology. There is no Magic vs. Mundane trump. The banner has no effect while the unit is Immune to Psychology.
+**Source:** `[Warhammer Chronicles 2004 page 116]`
+
+### BRETONNIAN
+**Q:** Can a Bretonnian character benefit from both the *Grail Vow* and the *Virtue of the Penitent*?
+**Ruling:** Yes, if the character is otherwise legally built.
+The Grail Vow makes the character Immune to Psychology. The Virtue of the Penitent makes the character Stubborn and imposes its own restrictions.
+The Virtue is not a Magic Item. It is a permanent Bretonnian army-list ability purchased for the character.
+Therefore, the character is both *Immune to Psychology* and *Stubborn*. The character takes Break tests on unmodified Leadership while ignoring Psychology as normal.
+**Source:** `[Bretonnia Army Book / Rulebook pages 74, 80, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+**Q:** Does the official Empire FAQ concerning the Banner of Sigismund prevent a Grail character with the *Virtue of the Penitent* from being Stubborn?
+**Ruling:** No. The Empire FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+A Bretonnian character with the Grail Vow and the Virtue of the Penitent is not receiving Stubborn from a Magic Standard. Both rules are permanent army-list choices belonging to the character.
+This is treated as a permanent non-magic-item army-list combination, not as a Magic Item overriding Immune to Psychology.
+**Source:** `[Bretonnia Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
 ### WOOD ELVES
-**Q:** Does a Treeman natively benefit from both *Stubborn* and *Immune to Psychology* (via the Forest Spirit rule) in close combat?
-**Ruling:** Yes. Because both rules are innate to the creature's profile and not the result of a Magic Item, they do not trigger the Magic vs. Mundane cancellation clause. The Treeman takes Stubborn Break tests on unmodified Leadership while simultaneously ignoring Psychology tests.
-**Source:** `[Rulebook pages 85 & 112 / Wood Elves Army Book / The Norn Consensus Historical Precedent]`
+**Q:** Does a Treeman natively benefit from both *Stubborn* and *Immune to Psychology* via the Forest Spirit rule in close combat?
+**Ruling:** Yes. A Treeman has Forest Spirit and Stubborn in its own unit entry. Forest Spirit makes it Immune to Psychology, and Stubborn is also part of its printed rules.
+Because both rules are native to the creature’s profile and not the result of a Magic Item or Magic Standard, they do not trigger the Magic vs. Mundane cancellation principle from the Empire FAQ. The Treeman takes Stubborn Break tests on unmodified Leadership while simultaneously ignoring Psychology tests as normal.
+**Source:** `[Rulebook pages 85 & 112 / Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+**Q:** Does the Treeman ruling contradict the official Empire FAQ concerning the Banner of Sigismund?
+**Ruling:** No. The Banner of Sigismund FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+A Treeman has both Forest Spirit and Stubborn in its own unit entry. Neither rule is being imposed by a Magic Item or Magic Standard.
+The Treeman is therefore both *Immune to Psychology* and *Stubborn*.
+**Source:** `[Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
