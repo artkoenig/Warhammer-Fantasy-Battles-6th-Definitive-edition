@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="4d73-5ab0-9020-403c" name="Vampire Counts" revision="1" battleScribeVersion="2.03" authorName="Lexicanum Imperialis" authorContact="lexicanum.imperialis@gmail.com" library="false" gameSystemId="0d13-7737-ea86-4662" gameSystemRevision="1" type="catalogue" authorUrl="https://karaknornwargaming.blogspot.com/p/warhammer-6th-faq-norn-consensus.html">
-  <readme/>
   <publications>
     <publication id="8e66-3042-1d6b-fa6b" name="VC-AB" publisher="by Alessio Cavatore" shortName="Warhammer Armies: Vampire Counts (6th Edition)" publicationDate="2001-04"/>
     <publication name="WD#258-UK" id="3813-abc7-2dcb-380c" hidden="false" shortName="&quot;Vampire Counts Blood feud&quot;, in White-Dwarf #258 UK, p.88-91" publisher="by Alessio Cavatore and Space McQuirk" publicationDate="2001-06"/>
@@ -13216,6 +13215,97 @@ In addition, when Luthor is severely wounded and the strain is too much for the�
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bloated Corpse" hidden="false" id="8b63-3344-e972-cd0d">
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="2abb-389b-b6ab-6179" targetId="64bf-efb4-9978-26df" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Bloated Corpse" id="826e-cf11-01cb-6a35" hidden="false" type="profile" targetId="6734-2a03-9747-a999"/>
+        <infoLink name="Poisoned Attacks" id="5496-fc9c-b7b5-ecfe" hidden="false" type="rule" targetId="2738-27d5-f4af-4722"/>
+        <infoLink name="Gaseous Demise" id="2fa0-6b91-985a-9465" hidden="false" type="rule" targetId="f9e3-bbbd-b39c-5a40"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="af8d-05fb-3a88-ba0e" type="selectionEntry" targetId="abdb-bbd0-41b2-5dff"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="6a2a-b693-4c3b-5545" name="Razortooth Rats" hidden="true" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c932-8a93-c044-e95a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3dc4-4eb4-e42e-2f46" name="Rat Swarm" hidden="false" targetId="9751-6414-d049-9522" type="profile"/>
+        <infoLink name="Small" id="63fa-4c61-8a48-e4b1" hidden="false" type="rule" targetId="c233-23af-27a2-4cf2"/>
+        <infoLink name="Skirmishers" id="54a3-84cb-f1ee-08c5" hidden="false" type="rule" targetId="1945-ac89-9cc4-3537"/>
+        <infoLink name="Cannot be joined by characters" id="e599-7952-3406-3b48" hidden="false" type="rule" targetId="6788-2a10-2568-a56c"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="2937-4838-b2e0-3267" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="90b2-4288-a140-05b1" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be1-3154-830a-0062" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b36a-a053-6967-e751" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deck Droppers" hidden="true" id="ce02-90f9-9ad4-f313">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Deck Dropper" hidden="false" id="98f8-5b81-627e-1847">
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b033-34f6-9880-140f" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="e89d-5d65-c5a2-2818" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Deck Dropper" id="e91e-b7cf-df21-786b" hidden="false" type="profile" targetId="9c43-5430-fcdf-8608"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Flying Unit" id="7a35-b5df-e24f-f970" hidden="false" type="rule" targetId="89b2-80cf-b814-d0a0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="2c0a-11c3-3a48-c815" type="selectionEntry" targetId="abdb-bbd0-41b2-5dff"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="adcf-2588-978b-606e" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bf46-ee85-7c10-ba98" shared="true" includeChildSelections="true" childName="Vampire Coast (WD#306-UK)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="1c56-48e6-7c01-5ae9" name="Nightmare" hidden="false" collective="false" import="true" type="upgrade">
@@ -26374,6 +26464,9 @@ However, he must pass an immediate Toughness test, or suffer a single wound wi
       <description>The pirates of the Vampire Coast carry a large assortment of black powder weapons, ranging from pistols to Great Cannon - not a normal sight in the retinues of more traditionally minded (and less clinically insane) Vampire Counts. Though Zombies are not normally known for their ability to shoot straight (or at all) Harkon has long ago woven an enchantment that allows them to do just that, though even the misused magics of the Slann have a hard time making soggy and waterlogged black powder weapons discharge with any reliability.
 All black powder weapons that require a roll to hit will always hit on a roll of 6 if the firer has Ballistic Skill 0, regardless of any modifiers. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target.</description>
     </rule>
+    <rule name="Gaseous Demise" id="f9e3-bbbd-b39c-5a40" hidden="false" page="67" publicationId="25a7-0c85-4259-7f79">
+      <description>When a Bloated Corpse is slain, place the small template centred upon it. Any models completely under the template are hit automatically - any models partially covered are hit on a 4+. Any models hit must pass a Toughness test (a roll of 6 always fails) or suffer one wound with no Armour Save allowed.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1b47-ce97-cf0a-447a" name="Frostblade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -26531,7 +26624,7 @@ Wights only</characteristic>
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
       </characteristics>
     </profile>
     <profile id="1342-aad0-121e-6543" name="Spirit Host" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -28877,6 +28970,59 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
         <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
+    <profile name="Bloated Corpse" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="6734-2a03-9747-a999" page="67" publicationId="25a7-0c85-4259-7f79">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">0</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">2</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20
+
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rat Swarm" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="9751-6414-d049-9522" page="68" publicationId="25a7-0c85-4259-7f79">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">2</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">2</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">0</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">3</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">40x40</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deck Dropper" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="9c43-5430-fcdf-8608">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">1</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">0</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
+        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">40x40</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <forceEntries>
     <forceEntry name="Standard (VC-AB)" id="e989-15b8-7eb6-9668" hidden="false" publicationId="8e66-3042-1d6b-fa6b" page="60-68">
@@ -29068,7 +29214,15 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="df96-11e5-67c3-4e13" targetId="c16b-f319-2c62-2c12" primary="false"/>
-        <categoryLink name="Core" hidden="false" id="4292-f5de-24ff-93a7" targetId="64bf-efb4-9978-26df" primary="false"/>
+        <categoryLink name="Core" hidden="false" id="4292-f5de-24ff-93a7" targetId="64bf-efb4-9978-26df" primary="false">
+          <modifiers>
+            <modifier type="increment" value="1" field="35c2-d478-392a-aeb1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="8b63-3344-e972-cd0d" shared="true" roundUp="false" childName="Bloated Corpse" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="Special" hidden="false" id="c58f-0ef2-d421-e363" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
         <categoryLink name="Rare" hidden="false" id="a25a-02cf-b2bd-66ba" targetId="e94b-6a54-8779-cd60" primary="false"/>
       </categoryLinks>
