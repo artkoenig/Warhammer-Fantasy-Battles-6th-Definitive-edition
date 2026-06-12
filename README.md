@@ -85,7 +85,7 @@ To make the game fully playable in a modern setting, this engine incorporates sp
 Our mechanical framework relies on:
 * **The Official Rules & Errata:** The foundational baseline of the engine.
 * **The Direwolf FAQ:** The historical, global standard for resolving 6th Edition rules conflicts.
-* **The Norn Consensus Historical Precedent:** Documented resolutions for specific army-builder mechanics, phase-sequence logic, and rules interaction, provided by the **Karak Norn Wargaming Club** (Est. 2003, Switzerland).
+* **The Norn Consensus Historical Precedent:** Documented resolutions for mechanics, situations and rules interaction not satisfied by the earliers, provided by the **Karak Norn Wargaming Club** (Est. 2003, Switzerland).
 * **Standardized Community Rules:** A curated selection of extremely common fixes and standardized rulings that are widely played by the international 6th Edition community today to balance the game.
 
 *(For complete transparency, design dilemmas, community rules, errata, and edge-case resolutions used in this engine are heavily documented in the `/errata` and `/faq/` folders and the GitHub Issues section of this repository, so you know exactly how your list is being calculated.)*

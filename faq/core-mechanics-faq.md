@@ -3458,6 +3458,34 @@ END
 
 ---
 
+### MOVEMENT
+
+**Q:** When a unit executes a standard Reform, can it freely rearrange its models to form a very wide horizontal screen, regardless of the distance the outer models would have to move?
+
+**Ruling:** No. A Reform does not allow models to ignore their normal movement allowance.
+
+Although a Reform is resolved around the unit’s centre, the physical repositioning of the models is still limited by their movement characteristics. No individual model may end the Reform further from its starting position than it could normally move during that Movement phase.
+
+A Reform may not be used to create artificial “screening walls” or to seal off movement channels by stretching the unit’s footprint beyond what the models could physically achieve.
+
+**Source:** `[The Norn Consensus Historical Precedent / FB_faq_0 Geometry & Reform Limitations]`
+
+---
+
+### SHOOTING
+
+**Q:** If a missile-equipped unit, or a war machine crew where relevant, declares a charge but fails to reach its target, may it shoot during the subsequent Shooting phase?
+
+**Ruling:** No. A failed charge prevents the unit from shooting later in the same turn.
+
+A unit that has failed a charge has spent its Movement phase action attempting that charge and may not fire missile weapons in the Shooting phase. This applies to ordinary missile troops and to war machine crew where the situation is legally applicable.
+
+Wizards in the unit are not prevented from casting spells merely because the unit failed a charge, unless another rule specifically prevents them from doing so.
+
+**Source:** `[Rulebook Shooting Restrictions / Warhammer Skirmish Rules pages 8 & 10 / White Dwarf 254 / The Norn Consensus Historical Precedent]`
+
+---
+
 ### CLOSE COMBAT
 
 **Q:** Can two or more separate units, such as two Chariots with Unit Strength 4 each, combine their Unit Strengths to reach the 5+ Unit Strength required to negate an enemy unit’s rank bonus when charging the same flank or rear?
@@ -3558,7 +3586,7 @@ This ruling applies to lone man-sized characters on foot. It does not apply to s
 
 ---
 
-### MONSTERS / SHOOTING DISTRIBUTION
+### MONSTERS
 
 **Q:** When a Giant resolves an attack that states hits are distributed exactly like hits from shooting, can it single out a champion or character in the target unit, and where are casualties removed from?
 
@@ -3571,3 +3599,17 @@ Although the Giant is fighting in close combat, the attack’s distribution inst
 This does not change the procedure for Giant attacks that do not use shooting-style distribution.
 
 **Source:** `[Rulebook pages 58, 65, 97, 98 & 109 / Orcs & Goblins Army Book / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+---
+
+### WAR MACHINES
+
+**Q:** When a bouncing cannonball’s path passes through the loose footprint of a Skirmishing unit, does it automatically hit the unit, or only models whose bases are physically crossed by the line?
+
+**Ruling:** It only hits models whose bases are physically crossed by the cannonball’s line.
+
+A cannonball’s bounce is resolved as a straight line. Against ranked units, the normal cannon rules determine how many models are hit through the ranks. Skirmishers, however, do not form ranks and maintain physical gaps between models.
+
+Therefore, if the cannonball’s line passes through a gap between Skirmishers without touching any model’s base, it scores no hit on the unit and continues its path normally. If the line touches one or more Skirmisher bases, only those models touched are hit.
+
+**Source:** `[White Dwarf 259 / Core Mechanics FAQ / Rulebook Skirmisher and Cannon rules / The Norn Consensus Historical Precedent]`

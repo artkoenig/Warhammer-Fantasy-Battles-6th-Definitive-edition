@@ -7522,61 +7522,174 @@ S. Warhammer Chronicles 2004 page 12
 
 *(Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
 
+---
+
 ### EMPIRE
+
 **Q:** Are Empire Greatswords within 12" of Volkmar’s War Altar still *Stubborn*?
+
 **Ruling:** Yes. Greatswords have Stubborn as a printed rule in their own army-list entry. Volkmar’s War Altar grants Immune to Psychology to Empire units within 12", but it does not say that it removes existing Stubborn rules.
+
 Therefore, Greatswords within 12" of Volkmar’s War Altar are both *Immune to Psychology* and *Stubborn*.
+
 They may not choose Flee as a charge reaction while Immune to Psychology. If they are required to take a Break test, they use Stubborn as normal.
+
 This is not the same as the Banner of Sigismund FAQ. The Banner of Sigismund is a Magic Standard trying to grant Stubborn to a unit that is already Immune to Psychology. Volkmar’s War Altar grants Immune to Psychology to a unit that already has Stubborn printed in its own entry.
+
 **Source:** `[Empire Army Book / Warhammer Annual 2002 page 60 / Rulebook pages 74, 80, 85 & 112 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does Volkmar’s War Altar suppress *Hatred*, *Stubborn*, *Frenzy*, *Stupidity* or similar rules already possessed by an Empire unit?
+
 **Ruling:** No, not by itself. Volkmar’s War Altar grants Immune to Psychology. It does not say that it removes other Psychology rules already possessed by affected units.
+
 Therefore, an Empire unit affected by the War Altar keeps any native or permanent non-magic-item Psychology rules it already has.
+
 The War Altar still prevents the unit from being affected by external Psychology effects in the normal way and prevents it from choosing Flee as a charge reaction.
+
 **Source:** `[Empire Army Book / Warhammer Annual 2002 page 60 / Rulebook pages 84, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Can a unit of Knights led by a Grand Master, and therefore *Immune to Psychology*, benefit from the Banner of Sigismund?
+
 **Ruling:** No. This is the direct case answered by the official Empire FAQ and is not changed by the Norn Consensus.
+
 The Banner of Sigismund is a Magic Standard attempting to grant Stubborn to a unit that is Immune to Psychology. There is no Magic vs. Mundane trump. The banner has no effect while the unit is Immune to Psychology.
+
 **Source:** `[Warhammer Chronicles 2004 page 116]`
 
-### BEASTS OF CHAOS
-**Q:** Can a Beasts of Chaos Herd arriving via Ambush deploy in a single-file line stretched along the board edge to maximize its footprint and set up selective charges?
-**Ruling:** No. Ambushing units enter the board from a marked point "in the same way as if they had pursued an enemy off the table".
-Official design intent dictates that the unit must physically expend its Movement characteristic to pull its models onto the table from that specific entry point.
-Because they arrive during the Remaining Moves phase, the window to declare a charge has already closed for that turn.
-Furthermore, if the unit has a massive footprint and lacks the movement to fully bring its entire skirmish formation onto the board from that single point, the remaining models are "fudged" into the back of the formation, rather than being illegally strung out along the table edge.
-**Source**: [Beasts of Chaos Army Book page 18 / Gav Thorpe - Warhammer Design Team / Direwolf FAQ Council / The Norn Consensus Historical Precedent]
+---
+
+### HORDES OF CHAOS / BEASTS OF CHAOS
+
+**Q:** Can a Chaos character bearing a dedicated Mark of Chaos, such as the Mark of Khorne, legally join a completely unmarked unit, such as Marauders or a Beast Herd?
+
+**Ruling:** Yes. A marked Chaos character may join an unmarked unit unless a specific rule forbids it.
+
+Official Warhammer Design Team rulings allow marked Chaos characters to join unmarked units such as Marauders and Chaos Hounds. The restriction applies when the character attempts to join a unit, ride a chariot, or otherwise combine with a model or unit that already has a different Mark of Chaos.
+
+An unmarked unit has no Mark and therefore creates no alignment conflict. By contrast, a unit or chariot that inherently has a Mark, such as a Tuskgor Chariot with the Mark of Chaos Undivided, follows the normal restrictions for different Marks.
+
+**Source:** `[Gav Thorpe - Warhammer Design Team / Hordes of Chaos FAQ / Beasts of Chaos FAQ / The Norn Consensus Historical Precedent]`
+
+---
 
 **Q:** If a Chaos character bearing the Mark of Chaos Undivided joins a unit that does not have the Mark, does the unit benefit from the Mark’s ability to re-roll failed Psychology tests?
+
 **Ruling:** No. The unit may use the character’s Leadership if the normal character-and-unit Leadership rules allow it, but the Psychology test is still being taken by the unit.
+
 A character’s specific psychological immunities, re-rolls or special Psychology rules do not transfer to a unit he has joined unless the rule explicitly states that they do. Because the unit itself does not have the Mark of Chaos Undivided, it cannot claim the Mark’s re-roll.
+
 For example, a Doombull with the Mark of Chaos Undivided joining an unmarked unit of Bestigors does not give that unit the Mark’s Psychology re-roll. The Bestigors may use the Doombull’s Leadership where normally permitted, but they do not count as having the Mark of Chaos Undivided.
+
 **Source:** `[Beasts of Chaos Army Book / Hordes of Chaos Army Book / White Dwarf 252 / White Dwarf 259 / Rulebook page 100 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
-### BRETONNIAN
+---
+
+### TOMB KINGS
+
+**Q:** If a Screaming Skull Catapult’s crew is reduced by enemy fire, but crew models are restored by the Incantation of Summoning during the Magic phase, can the machine fire in the subsequent Shooting phase?
+
+**Ruling:** Yes, provided the machine has sufficient restored crew to operate when the Shooting phase begins.
+
+Official errata confirms that the crew of a Screaming Skull Catapult can be restored with the Incantation of Summoning. Because the restored crew models are returned to the war machine during the Magic phase, they are present and functioning before the Shooting phase begins.
+
+This is not the same as a different unit moving to re-crew an abandoned war machine. Magically restored crew return directly to their original machine and do not suffer an additional one-turn operational delay.
+
+**Source:** `[Warhammer Chronicles 2004 page 118 / Tomb Kings Army Book / The Norn Consensus Turn-Sequencing Precedent]`
+
+---
+
+### BEASTS OF CHAOS
+
+**Q:** Can a Beasts of Chaos Herd arriving via Ambush deploy in a single-file line stretched along the board edge to maximize its footprint and set up selective charges?
+
+**Ruling:** No. Ambushing units enter the board from a marked point “in the same way as if they had pursued an enemy off the table”.
+
+Official design intent dictates that the unit must physically expend its Movement characteristic to pull its models onto the table from that specific entry point.
+
+Because they arrive during the Remaining Moves phase, the window to declare a charge has already closed for that turn.
+
+Furthermore, if the unit has a massive footprint and lacks the movement to fully bring its entire skirmish formation onto the board from that single point, the remaining models are “fudged” into the back of the formation, rather than being illegally strung out along the table edge.
+
+**Source:** `[Beasts of Chaos Army Book page 18 / Gav Thorpe - Warhammer Design Team / Direwolf FAQ Council / The Norn Consensus Historical Precedent]`
+
+---
+
+**Q:** When a Dragon Ogre Shaggoth is upgraded to a Shaggoth Champion, does it become a Character for rules purposes, or is the upgrade only a profile enhancement? Can it carry Magic Items?
+
+**Ruling:** A Shaggoth Champion is treated as a Character, but it cannot take Magic Items.
+
+The Beasts of Chaos rules state that a Shaggoth Champion is treated exactly like a Lord character. It therefore counts as a Lord choice, may be the army General if otherwise eligible, and may issue and accept challenges as a character.
+
+However, the same rules state that a Shaggoth Champion cannot take any Magic Items.
+
+**Source:** `[Beasts of Chaos Army Book pages 26 & 70 / The Norn Consensus Historical Precedent]`
+
+---
+
+### BRETONNIANS
+
 **Q:** Can a Bretonnian character benefit from both the *Grail Vow* and the *Virtue of the Penitent*?
+
 **Ruling:** Yes, if the character is otherwise legally built.
+
 The Grail Vow makes the character Immune to Psychology. The Virtue of the Penitent makes the character Stubborn and imposes its own restrictions.
+
 The Virtue is not a Magic Item. It is a permanent Bretonnian army-list ability purchased for the character.
+
 Therefore, the character is both *Immune to Psychology* and *Stubborn*. The character takes Break tests on unmodified Leadership while ignoring Psychology as normal.
+
 **Source:** `[Bretonnia Army Book / Rulebook pages 74, 80, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does the official Empire FAQ concerning the Banner of Sigismund prevent a Grail character with the *Virtue of the Penitent* from being Stubborn?
+
 **Ruling:** No. The Empire FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+
 A Bretonnian character with the Grail Vow and the Virtue of the Penitent is not receiving Stubborn from a Magic Standard. Both rules are permanent army-list choices belonging to the character.
+
 This is treated as a permanent non-magic-item army-list combination, not as a Magic Item overriding Immune to Psychology.
+
 **Source:** `[Bretonnia Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
+### STORM OF CHAOS - CULT OF SLAANESH
+
+**Q:** If Cold One Knights or a character riding a Cold One are given the Mark of Slaanesh in a Cult of Slaanesh army, does the resulting Immune to Psychology rule cancel out their Stupidity?
+
+**Ruling:** No. They remain subject to Stupidity.
+
+The Cult of Slaanesh special rules explicitly state that units or characters with the Mark of Slaanesh and riding Cold Ones are still subject to Stupidity.
+
+This also aligns with the Norn Consensus ruling on Immune to Psychology: native or permanent army-list Psychology rules are not suppressed merely because the model or unit also gains Immune to Psychology from a permanent non-magic army-list upgrade. In this case, the Cold One’s Stupidity remains in force despite the Mark of Slaanesh.
+
+**Source:** `[Storm of Chaos Cult of Slaanesh Special Rules / The Norn Consensus Psychology Ruling]`
+
+---
+
 ### WOOD ELVES
+
 **Q:** Does a Treeman natively benefit from both *Stubborn* and *Immune to Psychology* via the Forest Spirit rule in close combat?
+
 **Ruling:** Yes. A Treeman has Forest Spirit and Stubborn in its own unit entry. Forest Spirit makes it Immune to Psychology, and Stubborn is also part of its printed rules.
+
 Because both rules are native to the creature’s profile and not the result of a Magic Item or Magic Standard, they do not trigger the Magic vs. Mundane cancellation principle from the Empire FAQ. The Treeman takes Stubborn Break tests on unmodified Leadership while simultaneously ignoring Psychology tests as normal.
+
 **Source:** `[Rulebook pages 85 & 112 / Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does the Treeman ruling contradict the official Empire FAQ concerning the Banner of Sigismund?
+
 **Ruling:** No. The Banner of Sigismund FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+
 A Treeman has both Forest Spirit and Stubborn in its own unit entry. Neither rule is being imposed by a Magic Item or Magic Standard.
+
 The Treeman is therefore both *Immune to Psychology* and *Stubborn*.
+
 **Source:** `[Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
