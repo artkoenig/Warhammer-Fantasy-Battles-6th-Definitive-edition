@@ -7549,6 +7549,12 @@ Because they arrive during the Remaining Moves phase, the window to declare a ch
 Furthermore, if the unit has a massive footprint and lacks the movement to fully bring its entire skirmish formation onto the board from that single point, the remaining models are "fudged" into the back of the formation, rather than being illegally strung out along the table edge.
 **Source**: [Beasts of Chaos Army Book page 18 / Gav Thorpe - Warhammer Design Team / Direwolf FAQ Council / The Norn Consensus Historical Precedent]
 
+**Q:** If a Chaos character bearing the Mark of Chaos Undivided joins a unit that does not have the Mark, does the unit benefit from the Mark’s ability to re-roll failed Psychology tests?
+**Ruling:** No. The unit may use the character’s Leadership if the normal character-and-unit Leadership rules allow it, but the Psychology test is still being taken by the unit.
+A character’s specific psychological immunities, re-rolls or special Psychology rules do not transfer to a unit he has joined unless the rule explicitly states that they do. Because the unit itself does not have the Mark of Chaos Undivided, it cannot claim the Mark’s re-roll.
+For example, a Doombull with the Mark of Chaos Undivided joining an unmarked unit of Bestigors does not give that unit the Mark’s Psychology re-roll. The Bestigors may use the Doombull’s Leadership where normally permitted, but they do not count as having the Mark of Chaos Undivided.
+**Source:** `[Beasts of Chaos Army Book / Hordes of Chaos Army Book / White Dwarf 252 / White Dwarf 259 / Rulebook page 100 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
 ### BRETONNIAN
 **Q:** Can a Bretonnian character benefit from both the *Grail Vow* and the *Virtue of the Penitent*?
 **Ruling:** Yes, if the character is otherwise legally built.

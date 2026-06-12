@@ -3452,44 +3452,122 @@ END
 
 ## ⛰️ Part 3: The Norn Consensus
 
-*Context: Established in 2003, The Karak Norn Wargaming Club provides the Norn Consensus: a compilation of rules resolutions and tournament precedents debated by the Karak Norn Longbeard circle during the original 6th Edition era (2003-2006). This section documents their structural resolutions, translating unresolved tabletop edge-cases into the strict mechanical logic required by digital list-builders. (Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
-
-## ⛰️ Part 3: The Norn Consensus
-
 *Context: Established in 2003, The Karak Norn Wargaming Club provides the Norn Consensus: a compilation of rules resolutions and tournament precedents debated by the Karak Norn Longbeard circle during the original 6th Edition era (2003-2006). This section documents their structural resolutions, translating unresolved tabletop edge-cases into the strict mechanical logic required by digital list-builders.*
 
 *(Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
 
+---
+
+### CLOSE COMBAT
+
+**Q:** Can two or more separate units, such as two Chariots with Unit Strength 4 each, combine their Unit Strengths to reach the 5+ Unit Strength required to negate an enemy unit’s rank bonus when charging the same flank or rear?
+
+**Ruling:** No. Separate units do not pool their Unit Strengths for this purpose.
+
+Each attacking unit is considered separately when determining whether it has sufficient Unit Strength to disrupt ranks or claim flank/rear combat resolution bonuses. Therefore, two independent Unit Strength 4 Chariots charging the same flank do not combine to count as Unit Strength 8. Neither Chariot is Unit Strength 5 or more, so neither unit negates the enemy’s rank bonus by itself.
+
+This follows the same logic used for flank and rear bonuses: it is the Unit Strength of the entire unit in the relevant position that matters, not the combined Unit Strength of multiple independent units.
+
+**Source:** `[Rulebook pages 77 & 78 / Warhammer Chronicles 2004 page 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+---
+
+### PSYCHOLOGY
+
 **Q:** Can a model or unit benefit from both *Immune to Psychology* and another Psychology rule, such as *Stubborn*, *Frenzy*, *Hatred*, or *Stupidity*?
+
 **Ruling:** Yes, provided the other Psychology rule is part of the model/unit’s own army-list entry, or is gained through a permanent non-magic-item army-list upgrade purchased for that model/unit.
+
 This includes, but is not limited to, Vows, Virtues, Vampiric or Bloodline Powers, Chaos Marks, Daemonic Gifts, Mutations, Sacred Spawnings, Kindreds, Blessings, Big Names, Honours and similar non-item army-list abilities, unless the relevant army book specifically treats the upgrade as a Magic Item.
+
 Magic Items, Magic Standards, spells, prayers, bound spells, temporary effects and externally conferred Psychology effects do not impose new Psychology rules onto a model or unit that is Immune to Psychology unless the rule specifically states that it affects models or units that are Immune to Psychology.
+
 This preserves the official Empire ruling concerning the Banner of Sigismund. A Magic Standard does not override Immune to Psychology merely because it is magical.
+
 **Source:** `[Rulebook pages 74, 80, 84, 85 & 112 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does *Immune to Psychology* cancel *Stubborn* because *Stubborn* appears in the Psychology section of the Rulebook?
+
 **Ruling:** No. Break tests are Leadership tests, but they are not Psychology tests. Stubborn modifies Break tests by allowing the unit to use unmodified Leadership.
+
 A model or unit that already has both *Stubborn* and *Immune to Psychology* therefore uses Stubborn normally when taking Break tests.
+
 This does not allow a Magic Item, Magic Standard, spell, prayer or other external effect to grant Stubborn to an Immune to Psychology unit unless that effect specifically says it works on models or units that are Immune to Psychology.
+
 **Source:** `[Rulebook pages 74, 80, 85 & 112 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does an aura or effect that grants *Immune to Psychology* suppress Psychology rules already possessed by the affected model or unit?
+
 **Ruling:** No, not by itself. If a model or unit already has *Stubborn*, *Frenzy*, *Hatred*, *Stupidity* or a similar rule as a native rule or permanent non-magic-item army-list upgrade, an aura or effect that grants Immune to Psychology does not suppress that rule unless the aura or effect specifically says so.
+
 The affected model or unit is still Immune to Psychology for the normal purposes of Psychology tests and charge reactions. For example, it may not choose Flee as a charge reaction while Immune to Psychology.
+
 **Source:** `[Rulebook pages 84, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does a character who is *Immune to Psychology* automatically make a unit he has joined Immune to Psychology?
+
 **Ruling:** No. A character’s Immunity to Psychology does not automatically transfer to the unit. If the unit declares a charge reaction, it is the unit that declares the reaction, not the character.
+
 If a specific character rule or army-book rule explicitly grants Immune to Psychology to the unit, then the unit gains Immune to Psychology as stated by that rule. This does not suppress *Stubborn*, *Frenzy*, *Hatred*, *Stupidity* or similar rules already possessed by the unit as native rules or permanent non-magic-item army-list upgrades.
+
 **Source:** `[Rulebook page 100 / Gav Thorpe - Warhammer Design Team / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** If a rule says that a model or unit is affected by a named Psychology rule “even if Immune to Psychology”, does it work?
+
 **Ruling:** Yes. Apply the named exception exactly as written.
+
 The model or unit remains Immune to Psychology for all other purposes, but is still affected by the named rule because the exception specifically overrides Immune to Psychology.
+
 **Source:** `[High Elf FAQ / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
+---
+
 **Q:** Does this ruling change the official Empire FAQ concerning the Banner of Sigismund?
+
 **Ruling:** No. That official ruling remains unchanged.
+
 A unit made Immune to Psychology does not benefit from the Banner of Sigismund. The Banner of Sigismund is a Magic Standard trying to grant Stubborn to a unit that is Immune to Psychology. There is no Magic vs. Mundane trump.
+
 The Norn Consensus only clarifies that this official ruling should not be extended to cancel *Stubborn*, *Frenzy*, *Hatred*, *Stupidity* or similar rules already possessed by a model or unit as native rules or permanent non-magic-item army-list upgrades.
+
 **Source:** `[Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+---
+
+### CHARACTERS / SKIRMISHERS
+
+**Q:** When a lone, man-sized character on foot is charged by an enemy unit, how is the combat aligned? Does the charging unit align to the character’s facing, or does the character align to the chargers?
+
+**Ruling:** The lone man-sized character on foot aligns to the charging unit.
+
+A man-sized character on foot moves as a single skirmishing model for movement purposes. When such a model is charged, the charging unit is moved into contact as normal and halts. The character then forms up against the charger, aligning to the charging unit’s front.
+
+The charging unit does not wheel or rotate to match the lone character’s facing. This prevents a lone man-sized model from creating artificial flank/rear geometry through its facing.
+
+This ruling applies to lone man-sized characters on foot. It does not apply to single models that move as monsters or are otherwise larger than man-sized; those models have a clear front, flank and rear for charge and combat purposes.
+
+**Source:** `[Rulebook page 116 / Warhammer Annual 2002 / Warhammer Chronicles 2004 page 114 / White Dwarf 254 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+
+---
+
+### MONSTERS / SHOOTING DISTRIBUTION
+
+**Q:** When a Giant resolves an attack that states hits are distributed exactly like hits from shooting, can it single out a champion or character in the target unit, and where are casualties removed from?
+
+**Ruling:** No. The Giant cannot use a shooting-distribution attack to single out a protected character or champion.
+
+If the attack states that hits are distributed exactly like hits from shooting, use the normal shooting restrictions and casualty-removal procedure. A character protected by a unit of five or more rank-and-file models cannot be picked out by such hits. A champion is not separately targeted by the Giant unless the Giant’s attack specifically allows it.
+
+Although the Giant is fighting in close combat, the attack’s distribution instruction means that casualties caused by that attack are removed as shooting casualties: normally from the rear rank of a ranked unit, with the owning player removing casualties as normal.
+
+This does not change the procedure for Giant attacks that do not use shooting-style distribution.
+
+**Source:** `[Rulebook pages 58, 65, 97, 98 & 109 / Orcs & Goblins Army Book / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
