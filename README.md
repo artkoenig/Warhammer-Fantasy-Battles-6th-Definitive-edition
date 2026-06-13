@@ -43,7 +43,7 @@ This repository provides a consolidated, machine-readable data layer for WHFB 6t
 
 * **The Direwolf Archive**: Historical community standard for rules interpretation and FAQ consolidation.
 * **The GLWL (Great Lakes Warhammer League)**: Historical tournament precedents for standardized competitive play.
-* **The Norn Consensus**: Historical mechanical precedents (2003–2006) provided by the Karak Norn Wargaming Club to resolve structural logic gaps for digital play.
+* **The Norn Consensus**: Historical mechanical precedents (2004–present) provided by the Karak Norn Wargaming Club to resolve structural logic gaps for digital play.
 
 ### Core Game System & Expansions:
 
