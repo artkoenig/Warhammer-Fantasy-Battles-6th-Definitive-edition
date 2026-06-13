@@ -3452,9 +3452,9 @@ END
 
 ## ⛰️ Part 3: The Norn Consensus
 
-*Context: Established in 2003, The Karak Norn Wargaming Club provides the Norn Consensus: a compilation of rules resolutions and tournament precedents debated by the Karak Norn Longbeard circle during the original 6th Edition era (2003-2006). This section documents their structural resolutions, translating unresolved tabletop edge-cases into the strict mechanical logic required by digital list-builders.*
+*Context: Born in 2004, a year after the foundation of the club, the Norn Consensus developed as a quiet, internal referee baseline shared among a modest network of tournament organizers and local clubs across the DACH area, anchoring some Swiss and Austrian competitive circles. Rather than a public-facing expansion pack, the Consensus functioned behind the scenes as a living record of table-side arbitration, originally scattered across handwritten field notes, physical club meeting minutes, and private mailing list drafts.*
 
-*(Note: The digitization of the historical archive is an ongoing process. Additional rulings will be indexed here as they are translated for engine compatibility.)*
+*This section documents those regional precedents, tracking the post-tournament feedback loop where temporary, table-side "coin toss" compromises were rigorously debated by the elders, dissected against core rulebook mechanics, and codified to eliminate future rules friction. The ongoing digitization of this archive transcribes these legacy fragments into the clean mechanical logic required by modern digital roster engines, actively filtering out obsolete entries, temporary trial lists, or rules that were later officially resolved by Games Workshop.*
 
 ---
 
@@ -3842,82 +3842,6 @@ Opponent agreement is required where the character’s rules are marked as Trial
 
 ---
 
-### MAGIC
-
-**Q:** What happens if two different Wizards cast spells on the same unit with completely contradictory ongoing effects, such as one spell preventing a unit from moving and a subsequent spell obliging it to move?
-
-**Ruling:** The most recently cast spell always takes precedence. If the effect of one spell contradicts the effect of another, the most recent spell automatically dispels the previous one.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 142]`
-
----
-
-**Q:** Can a unit that has failed its *Stupidity* or *Animosity* test in the current turn be moved or forced to charge via a magical movement spell such as *Unseen Lurker* or *The Hand of Gork*?
-
-**Ruling:** No. Any psychological or compulsory condition that prevents a unit from moving, shooting, or charging normally during their turn also prevents them from being moved by magical spells. A unit that has failed *Stupidity* "can do nothing else that turn," and a unit squabbling from *Animosity* is similarly restricted. They cannot bypass these debilitating failed tests via the Magic phase.
-
-**Source:** `[The Norn Consensus Historical Precedent / Gav Thorpe - Warhammer Design Team / Rulebook page 83]`
-
----
-
-**Q:** Do Bound Spells bypass the core rule restriction against casting spells into close combat?
-
-**Ruling:** No. Bound spells follow all normal targeting restrictions for magic. Unless the specific spell unleashed by the bound item explicitly states in its description that it can be cast onto units engaged in close combat, it cannot target them.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 139]`
-
----
-
-**Q:** If a player has multiple Wizards, must they finish casting all spells with one Wizard before moving to the next, or can they alternate between them?
-
-**Ruling:** You do not have to cast all spells from one Wizard at a time. 
-
-You may freely jump back and forth between your Wizards when casting spells during the Magic phase.
-
-**Source:** `[The Norn Consensus / Rulebook, page 135]`
-
----
-
-**Q:** Can an army attempt to dispel enemy spells if it currently has no Wizards on the battlefield?
-
-**Ruling:** Yes. Every army generates a base pool of exactly two Dispel Dice in the enemy's Magic phase, regardless of whether they have any surviving Wizards.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 137]`
-
----
-
-**Q:** Can the same named spell be cast multiple times in a single Magic phase if it comes from different sources, such as two different Wizards who both rolled the same spell, or a Wizard and a Bound Item?
-
-**Ruling:** Yes. If different Wizards have successfully generated the same spell, or if a Bound Item contains a spell that a Wizard also knows, each individual source may cast it once per phase. Note that Bound Items are still strictly limited by the magic item duplication rules; you may only have one of each specific magic item per army.
-
-**Source:** `[The Norn Consensus Historical Precedent]`
-
----
-
-**Q:** Can a player use a spell, magic item, or special ability that allows them to "re-roll a D6" to re-roll an Artillery Die or a Scatter Die?
-
-**Ruling:** No. The Artillery Die and the Scatter Die are entirely separate classes of dice from a standard D6. An ability must explicitly state that it can be used to re-roll an Artillery Die, Scatter Die, or "any single die" to affect them. If an ability specifically allows the re-roll of a "D6", it can only be used on a standard six-sided die.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 37]`
-
----
-
-**Q:** Does Magic Resistance stack if both a character and the unit they have joined possess the rule? Furthermore, does Magic Resistance work against spells that use a line or template rather than targeting a specific unit?
-
-**Ruling:** No, Magic Resistance does not stack. You simply apply the highest single Magic Resistance value present within the unit, not all values added together. Regarding template or line spells, Magic Resistance does apply, provided the unit with Magic Resistance is an actual potential target or is hit by the spell's area of effect.
-
-**Source:** `[The Norn Consensus Historical Precedent / White Dwarf 275 page 63]`
-
----
-
-**Q:** Can a fleeing Wizard harvest magic dice from nearby units, generate Power/Dispel Dice, or use a Dispel Scroll?
-
-**Ruling:** No. Fleeing Wizards are not allowed to cast or dispel spells. They cannot harvest additional dice from nearby units. Furthermore, using a Dispel Scroll legally counts as dispelling a spell, which a fleeing Wizard is explicitly forbidden from doing.
-
-**Source:** `[The Norn Consensus Historical Precedent / Warhammer Chronicles 2004 page 115]`
-
----
-
 ### MONSTERS
 
 **Q:** When a Giant resolves an attack that states hits are distributed exactly like hits from shooting, such as *Swing with Club* or *Jump Up and Down*, can it single out a champion or character in the target unit, and where are casualties removed from?
@@ -3937,48 +3861,6 @@ Although the Giant is fighting in close combat, the attack's distribution instru
 **Ruling:** Yes, but only if they have Line of Sight to the target at the start of the charge. Ethereal creatures block line of sight normally and cannot see through solid objects, woods, or other units. However, if they can see the target, their Ethereal movement allows them to physically pass through intervening obstacles, terrain, and models during their charge move without penalty.
 
 **Source:** `[The Norn Consensus Historical Precedent / Vampire Counts Army Book page 28 / Warhammer Chronicles 2004 page 116]`
-
----
-
-### WAR MACHINES
-
-**Q:** When a bouncing cannonball's path passes through the loose footprint of a Skirmishing unit, does it automatically hit the unit, or only models whose bases are physically crossed by the line?
-
-**Ruling:** It only hits models whose bases are physically crossed by the cannonball's line. Skirmishers do not form ranks and maintain physical gaps between models. Therefore, if the cannonball's line passes through a gap between Skirmishers without touching any model's base, it scores no hit on the unit and continues its path normally.
-
-**Source:** `[The Norn Consensus Historical Precedent / White Dwarf 259 / Rulebook Skirmisher and Cannon rules]`
-
----
-
-**Q:** Can a Cannon declare a shot against a Large Target that is visible behind an intervening screen of normal-sized enemy troops? If so, does the bouncing cannonball hit the intervening troops?
-
-**Ruling:** Yes to both. A Cannon may be fired at any target it has Line of Sight to, and a Large Target is visible over the heads of normal-sized models. When the cannon is fired, the bouncing cannonball line is resolved normally, hitting any and all models whose bases fall under the template's path, including the intervening troops, regardless of whether they were the intended target.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 122 / White Dwarf 259 page 41]`
-
----
-
-**Q:** Does a pre-game movement such as a free move granted by a special rule count as moving for the purposes of shooting in the first turn, or prevent a unit from marching?
-
-**Ruling:** No. Pre-game movements occur entirely outside of the normal turn sequence, taking place after deployment but before Turn 1 begins. Therefore, when the Movement and Shooting phases of Turn 1 officially commence, the unit has not yet moved in that turn. They may march normally, and missile-armed troops do not suffer the -1 "moved and shooting" penalty.
-
-**Source:** `[The Norn Consensus Historical Precedent]`
-
----
-
-**Q:** Can troops that rally during their turn fire missile weapons in the subsequent Shooting phase?
-
-**Ruling:** No. A unit that rallies may not shoot in that turn's Shooting phase. Even Fast Cavalry, which are explicitly permitted to make a free move after rallying from a voluntary Flee charge reaction, are still barred from shooting during that turn.
-
-**Source:** `[The Norn Consensus Historical Precedent / Warhammer Chronicles 2004 page 114 / White Dwarf 258 page 39]`
-
----
-
-**Q:** If a template weapon such as a Stone Thrower scatters into a close combat, but the template physically only touches models from one side that are not in base contact with the enemy, are hits still divided equally between both sides?
-
-**Ruling:** No. If a template ends up touching only models from one side, and none of the models it touches are actually in base-to-base contact with the enemy, then all casualties are worked out normally against that single unit. Hits are only distributed equally to both sides if the template touches models from either side that are actively fighting, or touches models from both sides.
-
-**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 60]`
 
 ---
 
@@ -4077,3 +3959,121 @@ Although the Giant is fighting in close combat, the attack's distribution instru
 **Ruling:** Yes, they are caught. The calculation of whether a fleeing unit is run down is based on the speed and distance the pursuers can cover, not the strict terrain limitations at the exact theoretical landing spot. The fleeing unit is caught and removed from play, and the Flyer stops at the edge of the wood.
 
 **Source:** `[The Norn Consensus Historical Precedent / Tournament Combat Precedents]`
+
+### WAR MACHINES
+
+**Q:** When a bouncing cannonball's path passes through the loose footprint of a Skirmishing unit, does it automatically hit the unit, or only models whose bases are physically crossed by the line?
+
+**Ruling:** It only hits models whose bases are physically crossed by the cannonball's line. Skirmishers do not form ranks and maintain physical gaps between models. Therefore, if the cannonball's line passes through a gap between Skirmishers without touching any model's base, it scores no hit on the unit and continues its path normally.
+
+**Source:** `[The Norn Consensus Historical Precedent / White Dwarf 259 / Rulebook Skirmisher and Cannon rules]`
+
+---
+
+**Q:** Can a Cannon declare a shot against a Large Target that is visible behind an intervening screen of normal-sized enemy troops? If so, does the bouncing cannonball hit the intervening troops?
+
+**Ruling:** Yes to both. A Cannon may be fired at any target it has Line of Sight to, and a Large Target is visible over the heads of normal-sized models. When the cannon is fired, the bouncing cannonball line is resolved normally, hitting any and all models whose bases fall under the template's path, including the intervening troops, regardless of whether they were the intended target.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 122 / White Dwarf 259 page 41]`
+
+---
+
+**Q:** Does a pre-game movement such as a free move granted by a special rule count as moving for the purposes of shooting in the first turn, or prevent a unit from marching?
+
+**Ruling:** No. Pre-game movements occur entirely outside of the normal turn sequence, taking place after deployment but before Turn 1 begins. Therefore, when the Movement and Shooting phases of Turn 1 officially commence, the unit has not yet moved in that turn. They may march normally, and missile-armed troops do not suffer the -1 "moved and shooting" penalty.
+
+**Source:** `[The Norn Consensus Historical Precedent]`
+
+---
+
+**Q:** Can troops that rally during their turn fire missile weapons in the subsequent Shooting phase?
+
+**Ruling:** No. A unit that rallies may not shoot in that turn's Shooting phase. Even Fast Cavalry, which are explicitly permitted to make a free move after rallying from a voluntary Flee charge reaction, are still barred from shooting during that turn.
+
+**Source:** `[The Norn Consensus Historical Precedent / Warhammer Chronicles 2004 page 114 / White Dwarf 258 page 39]`
+
+---
+
+**Q:** If a template weapon such as a Stone Thrower scatters into a close combat, but the template physically only touches models from one side that are not in base contact with the enemy, are hits still divided equally between both sides?
+
+**Ruling:** No. If a template ends up touching only models from one side, and none of the models it touches are actually in base-to-base contact with the enemy, then all casualties are worked out normally against that single unit. Hits are only distributed equally to both sides if the template touches models from either side that are actively fighting, or touches models from both sides.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 60]`
+
+---
+
+### MAGIC
+
+**Q:** What happens if two different Wizards cast spells on the same unit with completely contradictory ongoing effects, such as one spell preventing a unit from moving and a subsequent spell obliging it to move?
+
+**Ruling:** The most recently cast spell always takes precedence. If the effect of one spell contradicts the effect of another, the most recent spell automatically dispels the previous one.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 142]`
+
+---
+
+**Q:** Can a unit that has failed its *Stupidity* or *Animosity* test in the current turn be moved or forced to charge via a magical movement spell such as *Unseen Lurker* or *The Hand of Gork*?
+
+**Ruling:** No. Any psychological or compulsory condition that prevents a unit from moving, shooting, or charging normally during their turn also prevents them from being moved by magical spells. A unit that has failed *Stupidity* "can do nothing else that turn," and a unit squabbling from *Animosity* is similarly restricted. They cannot bypass these debilitating failed tests via the Magic phase.
+
+**Source:** `[The Norn Consensus Historical Precedent / Gav Thorpe - Warhammer Design Team / Rulebook page 83]`
+
+---
+
+**Q:** Do Bound Spells bypass the core rule restriction against casting spells into close combat?
+
+**Ruling:** No. Bound spells follow all normal targeting restrictions for magic. Unless the specific spell unleashed by the bound item explicitly states in its description that it can be cast onto units engaged in close combat, it cannot target them.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 139]`
+
+---
+
+**Q:** If a player has multiple Wizards, must they finish casting all spells with one Wizard before moving to the next, or can they alternate between them?
+
+**Ruling:** You do not have to cast all spells from one Wizard at a time. 
+
+You may freely jump back and forth between your Wizards when casting spells during the Magic phase.
+
+**Source:** `[The Norn Consensus / Rulebook, page 135]`
+
+---
+
+**Q:** Can an army attempt to dispel enemy spells if it currently has no Wizards on the battlefield?
+
+**Ruling:** Yes. Every army generates a base pool of exactly two Dispel Dice in the enemy's Magic phase, regardless of whether they have any surviving Wizards.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 137]`
+
+---
+
+**Q:** Can the same named spell be cast multiple times in a single Magic phase if it comes from different sources, such as two different Wizards who both rolled the same spell, or a Wizard and a Bound Item?
+
+**Ruling:** Yes. If different Wizards have successfully generated the same spell, or if a Bound Item contains a spell that a Wizard also knows, each individual source may cast it once per phase. Note that Bound Items are still strictly limited by the magic item duplication rules; you may only have one of each specific magic item per army.
+
+**Source:** `[The Norn Consensus Historical Precedent]`
+
+---
+
+**Q:** Can a player use a spell, magic item, or special ability that allows them to "re-roll a D6" to re-roll an Artillery Die or a Scatter Die?
+
+**Ruling:** No. The Artillery Die and the Scatter Die are entirely separate classes of dice from a standard D6. An ability must explicitly state that it can be used to re-roll an Artillery Die, Scatter Die, or "any single die" to affect them. If an ability specifically allows the re-roll of a "D6", it can only be used on a standard six-sided die.
+
+**Source:** `[The Norn Consensus Historical Precedent / Rulebook page 37]`
+
+---
+
+**Q:** Does Magic Resistance stack if both a character and the unit they have joined possess the rule? Furthermore, does Magic Resistance work against spells that use a line or template rather than targeting a specific unit?
+
+**Ruling:** No, Magic Resistance does not stack. You simply apply the highest single Magic Resistance value present within the unit, not all values added together. Regarding template or line spells, Magic Resistance does apply, provided the unit with Magic Resistance is an actual potential target or is hit by the spell's area of effect.
+
+**Source:** `[The Norn Consensus Historical Precedent / White Dwarf 275 page 63]`
+
+---
+
+**Q:** Can a fleeing Wizard harvest magic dice from nearby units, generate Power/Dispel Dice, or use a Dispel Scroll?
+
+**Ruling:** No. Fleeing Wizards are not allowed to cast or dispel spells. They cannot harvest additional dice from nearby units. Furthermore, using a Dispel Scroll legally counts as dispelling a spell, which a fleeing Wizard is explicitly forbidden from doing.
+
+**Source:** `[The Norn Consensus Historical Precedent / Warhammer Chronicles 2004 page 115]`
+
+---

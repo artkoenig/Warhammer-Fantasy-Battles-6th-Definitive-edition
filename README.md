@@ -59,8 +59,8 @@ This repository provides a consolidated, machine-readable data layer for WHFB 6t
 * **Bretonnia**
 * **Chaos Dwarfs** *(Ravening Hordes / White Dwarf)*
 * **Dark Elves** *(Fully updated Druchii revisions)*
-* **Dogs of War**
-* **Dwarfs**
+* **Dogs of War** *(Including the Magic Items from GW Italy)*
+* **Dwarfs** *(Both armybooks)*
 * **High Elves**
 * **Hordes of Chaos**
 * **Lizardmen** *(Includes Sacred Hosts rules)*
@@ -84,9 +84,9 @@ To make the game fully playable in a modern setting, this engine incorporates sp
 
 Our mechanical framework relies on:
 * **The Official Rules & Errata:** The foundational baseline of the engine.
-* **The Direwolf FAQ:** The historical, global standard for resolving 6th Edition rules conflicts.
-* **The Norn Consensus Historical Precedent:** Documented resolutions for mechanics, situations and rules interaction not satisfied by the earliers, provided by the **Karak Norn Wargaming Club** (Est. 2003, Switzerland).
-* **Standardized Community Rules:** A curated selection of extremely common fixes and standardized rulings that are widely played by the international 6th Edition community today to balance the game.
+* **The Direwolf FAQ (v6.02/v6.08):** The historical, global standard for resolving 6th Edition rules conflicts.
+* **The Norn Consensus (2004–Present):** Documented regional referee precedents, table resolutions, and list-validation agreements circulating across some Swiss and Austrian tournament circles, maintained by the **Karak Norn Wargaming Club** (Est. 2003, Switzerland) to resolve mechanical friction points not covered by official FAQs.
+* **Standardized Community House-Rules:** A curated selection of extremely common fixes and standardized rulings that are widely played by the international 6th Edition community today to balance the game.
 
 *(For complete transparency, design dilemmas, community rules, errata, and edge-case resolutions used in this engine are heavily documented in the `/errata` and `/faq/` folders and the GitHub Issues section of this repository, so you know exactly how your list is being calculated.)*
 

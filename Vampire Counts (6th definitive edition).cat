@@ -12905,7 +12905,7 @@ In addition, when Luthor is severely wounded and the strain is too much for theÂ
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9204-1138-d1e4-2f4f" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Armour" id="a5c4-5d78-391e-d2c9" hidden="true">
+            <selectionEntryGroup name="Armour" id="a5c4-5d78-391e-d2c9" hidden="false">
               <entryLinks>
                 <entryLink import="true" name="Light Armour" hidden="false" id="5f6f-5eb3-cf98-f24a" type="selectionEntry" targetId="055f-8e4e-f170-35d2">
                   <costs>

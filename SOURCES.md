@@ -335,7 +335,7 @@
 - [x] Clan Strigoi (VC-AB, p.79)
 - [x] Clan Lahmia (VC-AB, p.79)
 - [x] Army of Sylvania (TdC, p.88-89)
-- [ ] Vampire Coast
+- [x] Vampire Coast (WD#306-UK)
 - [x] Army of the LICHEMASTER (WD#309-UK)
 - [x] Archaon's Horde (SoC, p.18-23)
 - [x] Daemonic Legion (SoC, p.27-32)
