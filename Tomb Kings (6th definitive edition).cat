@@ -2124,7 +2124,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6c-99d4-303a-a085" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="5d55-c6b7-eb5a-d686" name="Bone Giant" hidden="false" targetId="3537-7a82-2a80-32d4" type="profile"/>
+        <infoLink id="5d55-c6b7-eb5a-d686" name="Sehenesmet" hidden="false" targetId="c2d3-14e6-f498-c3b2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c86c-b882-5dc8-e160" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
@@ -3903,35 +3903,18 @@ At the start of any of your opponent&apos;s turns, the Standard of the Sands may
         <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
-    <profile id="b40a-aeb0-8213-21b8" name="Sehenesmet" publicationId="024c-2a27-ea11-a5e8" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-      <characteristics>
-        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
-        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
-        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
-        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
-        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
-        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
-        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
-        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">6</characteristic>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">50x50</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3537-7a82-2a80-32d4" name="Bone Giant" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="3537-7a82-2a80-32d4" name="Bone Giant" publicationId="cc59-6466-b62e-cf5b" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
         <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
         <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">+3</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">3</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">6</characteristic>
         <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">50x50</characteristic>
@@ -3969,6 +3952,23 @@ At the start of any of your opponent&apos;s turns, the Standard of the Sands may
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
         <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
         <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c2d3-14e6-f498-c3b2" name="Sehenesmet" publicationId="cc59-6466-b62e-cf5b" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">3</characteristic>
+        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">6</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">50x50</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

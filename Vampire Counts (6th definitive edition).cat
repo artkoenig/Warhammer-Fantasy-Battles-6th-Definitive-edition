@@ -28099,40 +28099,6 @@ mount) is immune to fire based attacks and spells</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">5+WS</characteristic>
       </characteristics>
     </profile>
-    <profile id="15ad3a24-7121-4d2d-b0fe-85a282f61e92" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-      <characteristics>
-        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
-        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
-        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
-        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
-        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
-        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
-        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
-        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a"/>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
-      </characteristics>
-    </profile>
-    <profile id="f300774f-fa47-44d1-9d75-e74a7fbf7eb3" name="Great eagle" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-      <characteristics>
-        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">2</characteristic>
-        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
-        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
-        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
-        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-        <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
-        <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
-        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a"/>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
-      </characteristics>
-    </profile>
     <profile id="7f92af7b-74f9-4c3d-80fd-2b6b7f117b73" name="Ithilmar Barding" publicationId="8cc35e94-4486-401d-990e-dd32229699ce" page="15" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">-1</characteristic>
@@ -28416,8 +28382,8 @@ mount) is immune to fire based attacks and spells</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
-        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a"/>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
     <profile id="06cc2ca0-abeb-4566-99a3-730dd8de22a5" name="Unicorn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -28498,8 +28464,8 @@ mount) is immune to fire based attacks and spells</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
         <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">7</characteristic>
         <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
-        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a"/>
-        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607"/>
+        <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+        <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">25x50</characteristic>
       </characteristics>
     </profile>
     <profile id="468a714b-bb28-49e7-b21a-b6152409685e" name="Great eagle" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
