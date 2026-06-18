@@ -7871,25 +7871,25 @@ Based on the rules and descriptions across the army books, the following specifi
 
 **Ruling:** Yes, if the character is otherwise legally built.
 
-The Grail Vow makes the character Immune to Psychology. The Virtue of the Penitent makes the character Stubborn and imposes its own restrictions.
+The Grail Vow makes the character *Immune to Psychology*. The Virtue of the Penitent makes the character *Stubborn* and imposes its own restrictions.
 
 The Virtue is not a Magic Item. It is a permanent Bretonnian army-list ability purchased for the character.
 
-Therefore, the character is both *Immune to Psychology* and *Stubborn*. The character takes Break tests on unmodified Leadership while ignoring Psychology as normal.
+Both Rulebook definitions of *Immune to Psychology* preserve Break tests. Since *Stubborn* modifies Break tests rather than causing a Psychology test, the character is both *Immune to Psychology* and *Stubborn*. The character takes Break tests on unmodified Leadership while ignoring Psychology tests and external Psychology effects as normal.
 
-**Source:** `[Bretonnia Army Book / Rulebook pages 74, 80, 85 & 112 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+**Source:** `[Bretonnia Army Book / Rulebook pages 74, 80, 85, 112 & 270 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
 ---
 
 **Q:** Does the official Empire FAQ concerning the Banner of Sigismund prevent a Grail character with the *Virtue of the Penitent* from being Stubborn?
 
-**Ruling:** No. The Empire FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+**Ruling:** No. The Empire FAQ concerns a Magic Standard granting *Stubborn* to a unit that is already *Immune to Psychology*.
 
-A Bretonnian character with the Grail Vow and the Virtue of the Penitent is not receiving Stubborn from a Magic Standard. Both rules are permanent army-list choices belonging to the character.
+A Bretonnian character with the Grail Vow and the Virtue of the Penitent is not receiving *Stubborn* from a Magic Standard. Both rules are permanent army-list choices belonging to the character.
 
-This is treated as a permanent non-magic-item army-list combination, not as a Magic Item overriding Immune to Psychology.
+This is treated as a permanent non-magic-item army-list combination, not as a Magic Item overriding *Immune to Psychology*.
 
-**Source:** `[Bretonnia Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+**Source:** `[Bretonnia Army Book / Rulebook pages 112 & 270 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
 ---
 
@@ -7919,15 +7919,17 @@ This is treated as a permanent non-magic-item army-list combination, not as a Ma
 
 ### STORM OF CHAOS - CULT OF SLAANESH
 
-**Q:** If Cold One Knights or a character riding a Cold One are given the Mark of Slaanesh in a Cult of Slaanesh army, does the resulting Immune to Psychology rule cancel out their Stupidity?
+**Q:** If Cold One Knights or a character riding a Cold One are given the Mark of Slaanesh in a Cult of Slaanesh army, does the resulting *Immune to Psychology* rule cancel out their Stupidity?
 
 **Ruling:** No. They remain subject to Stupidity.
 
 The Cult of Slaanesh special rules explicitly state that units or characters with the Mark of Slaanesh and riding Cold Ones are still subject to Stupidity.
 
-This also aligns with the Norn Consensus ruling on Immune to Psychology: native or permanent army-list Psychology rules are not suppressed merely because the model or unit also gains Immune to Psychology from a permanent non-magic army-list upgrade. In this case, the Cold One's Stupidity remains in force despite the Mark of Slaanesh.
+This also aligns with the Norn Consensus ruling on *Immune to Psychology*. Appendix Seven clarifies that *Immune to Psychology* prevents Psychology tests and Flee charge reactions, while Break tests still apply. The Norn Consensus further preserves native or permanent army-list Psychology rules unless a specific rule removes them.
 
-**Source:** `[Storm of Chaos Cult of Slaanesh Special Rules / The Norn Consensus Psychology Ruling]`
+In this case, the specific Cult of Slaanesh rule is decisive: the Cold One's Stupidity remains in force despite the Mark of Slaanesh.
+
+**Source:** `[Storm of Chaos Cult of Slaanesh Special Rules / Rulebook pages 112 & 270 / The Norn Consensus Psychology Ruling]`
 
 ---
 
@@ -7945,23 +7947,25 @@ This also aligns with the Norn Consensus ruling on Immune to Psychology: native 
 
 **Q:** Does a Treeman natively benefit from both *Stubborn* and *Immune to Psychology* via the Forest Spirit rule in close combat?
 
-**Ruling:** Yes. A Treeman has Forest Spirit and Stubborn in its own unit entry. Forest Spirit makes it Immune to Psychology, and Stubborn is also part of its printed rules.
+**Ruling:** Yes. A Treeman has Forest Spirit and *Stubborn* in its own unit entry. Forest Spirit makes it *Immune to Psychology*, and *Stubborn* is also part of its printed rules.
 
-Because both rules are native to the creature's profile and not the result of a Magic Item or Magic Standard, they do not trigger the Magic vs. Mundane cancellation principle from the Empire FAQ. The Treeman takes Stubborn Break tests on unmodified Leadership while simultaneously ignoring Psychology tests as normal.
+Both Rulebook definitions of *Immune to Psychology* preserve Break tests. Since *Stubborn* modifies Break tests rather than causing a Psychology test, the Treeman takes Stubborn Break tests on unmodified Leadership while simultaneously ignoring Psychology tests and external Psychology effects as normal.
 
-**Source:** `[Rulebook pages 85 & 112 / Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+This is one of the clearest examples showing that *Immune to Psychology* cannot be read as automatically deleting every other Psychology rule already printed on the model.
+
+**Source:** `[Rulebook pages 85, 112 & 270 / Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
 ---
 
 **Q:** Does the Treeman ruling contradict the official Empire FAQ concerning the Banner of Sigismund?
 
-**Ruling:** No. The Banner of Sigismund FAQ concerns a Magic Standard granting Stubborn to a unit that is already Immune to Psychology.
+**Ruling:** No. The Banner of Sigismund FAQ concerns a Magic Standard granting *Stubborn* to a unit that is already *Immune to Psychology*.
 
-A Treeman has both Forest Spirit and Stubborn in its own unit entry. Neither rule is being imposed by a Magic Item or Magic Standard.
+A Treeman has both Forest Spirit and *Stubborn* in its own unit entry. Neither rule is being imposed by a Magic Item or Magic Standard.
 
 The Treeman is therefore both *Immune to Psychology* and *Stubborn*.
 
-**Source:** `[Wood Elves Army Book / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
+**Source:** `[Wood Elves Army Book / Rulebook pages 112 & 270 / Warhammer Chronicles 2004 page 116 / Direwolf FAQ Council Interpretation / The Norn Consensus Historical Precedent]`
 
 ---
 
