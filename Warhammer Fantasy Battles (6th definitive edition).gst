@@ -17207,7 +17207,9 @@ https://6th.whfb.app/monsters/monster-mounts</description>
     </rule>
     <rule id="2acc-e985-cc4e-e123" name="Immune to Psycology " publicationId="315e-e3c4-08af-fd51" page="112" hidden="false">
       <description>Some warriors and creatures in the Warhammer world are almost completely fearless, or such grizzled veterans that scenes which would make lesser troops panic have no effect on them.
-Troops that are immune to psychology are never affected by fear terror, frenzy or any other Psychology rules. Troops immune to Psychology may never flee as a charge reaction - they are far too proud and brave to do this! These troops still have to take Break tests as normal.</description>
+Troops that are immune to psychology are never affected by fear terror, frenzy or any other Psychology rules. Troops immune to Psychology may never flee as a charge reaction - they are far too proud and brave to do this! These troops still have to take Break tests as normal. (BRB p.112)
+
+Units immune to psychology never need test for psychology such as fear, terror or frenzy and they may never choose flee as a charge response Break tests still apply as normal. (BRB p.270)</description>
     </rule>
     <rule id="39b8-b067-c6d9-901e" name="Scaly Skin 2+" hidden="false">
       <description>Scaly Skin gives 2+ saving throw</description>
