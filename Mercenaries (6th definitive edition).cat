@@ -1548,6 +1548,10 @@ So a Crossbowman in heavy armour with a pavise gets an Armour save of 3+ versus
                     <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e55d-7c66-832a-b3a1" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c15-41cb-66df-f1de" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -11381,5 +11385,4 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
       <comment>aDC</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <readme/>
 </catalogue>

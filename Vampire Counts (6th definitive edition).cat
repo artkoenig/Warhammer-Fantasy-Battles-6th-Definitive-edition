@@ -138,6 +138,20 @@
             </infoLink>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Handweapon" hidden="false" id="565b-37e6-290b-e040" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c217-3344-da80-f974" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="175c-13ab-b2bf-a749" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hand Weapon" id="9314-7e3c-78ed-fbd8" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ecab-191e-2d84-3287" name="Command group" hidden="false" collective="false" import="true" sortIndex="4">
@@ -208,43 +222,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="dd72-4a39-24d1-05cf" hidden="false" sortIndex="2">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Spears" hidden="false" id="dee9-ebd2-f788-db2e" collective="false">
-              <modifiers>
-                <modifier type="increment" value="1" field="ecfa-8486-4f6c-c249">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </repeats>
-                  <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a54e-dfd7-e8d0-12a0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="677e-73ab-49d7-67a5" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Handweapon" hidden="false" id="565b-37e6-290b-e040" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c217-3344-da80-f974" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="175c-13ab-b2bf-a749" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Hand Weapon" id="9314-7e3c-78ed-fbd8" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink import="true" name="Crossbow" hidden="true" id="0db5-d024-18b8-4ea5" type="selectionEntry" targetId="4c50-49fe-7ac2-4b3b">
               <constraints>
@@ -266,6 +243,11 @@
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="8843-f59e-5761-bf09">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="104f-5817-4bda-9382" shared="true" childName="Spear Infantry" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -304,9 +286,30 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Spear Infantry" hidden="false" id="29e7-8795-b6e9-d7a2" type="selectionEntry" targetId="104f-5817-4bda-9382">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a54e-dfd7-e8d0-12a0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="677e-73ab-49d7-67a5" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="ecfa-8486-4f6c-c249">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="a54e-dfd7-e8d0-12a0">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b3f3-a133-2869-0be8" shared="true" childName="Halberds" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9b27-05dd-08f5-339d" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9b27-05dd-08f5-339d" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Armour" id="bc48-a975-d787-d689" hidden="false" sortIndex="3">
@@ -363,7 +366,6 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d467-90c5-9aff-5988" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc3-863c-36e2-f0ea" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="parent" childId="0db5-d024-18b8-4ea5" shared="true"/>
                       </conditions>
@@ -500,26 +502,19 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry id="3ffe-062c-d448-a76a" name="Handweapon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Handweapon" hidden="false" id="4de6-f2a7-b81a-9d2b" collective="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dede-decb-b638-2516" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd2-1de9-925d-0e7f" type="min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5f5-333d-e70a-0aa0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b97-ef59-1049-3925" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <infoLinks>
-            <infoLink id="76a8-ecf3-7762-8353" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+            <infoLink name="Hand Weapon" id="3e63-f6e6-d835-ef39" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4072-c3b8-84c4-a097" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -602,11 +597,6 @@
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ce00-67cf-caf7-8b3d" shared="true"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" value="0" field="a848-036f-df00-845a">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="force" childId="5e95-7d57-2b9c-d77d" shared="true" includeChildSelections="true"/>
@@ -623,7 +613,7 @@
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="ced9-661e-af2a-120c" hidden="true">
+        <selectionEntryGroup name="Weapons" id="ced9-661e-af2a-120c" hidden="true" defaultSelectionEntryId="6d1e-d792-a94d-f03a">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Spears" hidden="false" id="6d1e-d792-a94d-f03a" collective="false">
               <modifiers>
@@ -651,20 +641,6 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Handweapon" hidden="false" id="4de6-f2a7-b81a-9d2b" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5f5-333d-e70a-0aa0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b97-ef59-1049-3925" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Hand Weapon" id="3e63-f6e6-d835-ef39" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink import="true" name="Halberds" hidden="true" id="ce00-67cf-caf7-8b3d" type="selectionEntry" targetId="b3f3-a133-2869-0be8">
@@ -681,8 +657,8 @@
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2a8c-9bf9-95cb-5f63" includeChildSelections="false"/>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3d7a-cfda-8792-b579" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a8c-9bf9-95cb-5f63" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d7a-cfda-8792-b579" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
