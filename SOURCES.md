@@ -154,7 +154,7 @@
 - [x] Selafyn of the Annulii (WD#304-UK, p.112-113)
 - [ ] Salendor of Tor Achare* (CR-03)
 - [ ] Liandra Athinol* (CR-03)
-- [ ] Phythrion, der Auserwählte von Tor Yvresse* (Thelarion's Curse)
+- [x] Phythrion, der Auserwählte von Tor Yvresse* (Thelarion's Curse, GW-DE 2002)
 
 ### The Empire
 - [x] Balthazar Gelt (EM-AB)

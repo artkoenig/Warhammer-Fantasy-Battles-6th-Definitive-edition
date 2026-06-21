@@ -8,6 +8,7 @@
     <publication name="webGW-DE" id="c570-b742-211c-067f" hidden="false" shortName="&quot;Thelarions Fluch - Sommer Kampagnen&quot;, in WebGW-DE" publicationDate="2002-07" publisher="Games Workshop Germany">
       <comment>TBA: Phythrion, der Auserwählte von Tor Yvresse</comment>
     </publication>
+    <publication name="Thelarions Fluch 2002" id="c7e3-e1b8-34b5-f542" hidden="false" publicationDate="Summer 2002" shortName="Thelarions Fluch 2002" publisher="GW Deutrschland"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="f42c-be6f-8a5d-7199" name="Prince" hidden="false" collective="false" import="true" type="unit">
@@ -4879,6 +4880,99 @@ Range 36&quot;, causes one wound per shot and grants Armour Rolls as normal, can
       <infoLinks>
         <infoLink id="b149a663-f6bc-4f66-b9a4-224b6f55e186" name="Special rules" hidden="false" targetId="1f6a-a84a-4f62-b6d0" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Pythrion, Exalted of Tor Yvresse" hidden="false" id="5a41-d26c-62e9-39cb">
+      <categoryLinks>
+        <categoryLink name="Special Characters" hidden="false" id="0339-5403-cc4b-42dc" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink name="Lord" hidden="false" id="fed7-846e-6eb7-ee68" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink name="Characters" hidden="false" id="5cf7-1c10-69e5-c7be" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+        <categoryLink name="Experimental rules" hidden="false" id="c55c-d604-9a0b-31f2" targetId="4fed-b911-e6e0-927b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="285"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Phytrion" typeId="a54a-7f00-29bf-12b1" typeName="Profile" hidden="false" id="bbce-ad22-fd3f-cc05">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">6</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">8</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4(5)</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+            <characteristic name="Sv" typeId="f1be-e66c-d5e1-673c">2+</characteristic>
+            <characteristic name="Sv+" typeId="d4a9-0ed4-d041-e54b">7</characteristic>
+            <characteristic name="US" typeId="fa44-51dd-e69c-8d6a">1</characteristic>
+            <characteristic name="Base" typeId="2cad-bb76-8a5a-1607">20x20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipment" id="88ea-5c88-e2c9-2b75" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Moonshadow Armour" hidden="false" id="8816-e25d-19c7-3da7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0478-96cd-42b5-e3e7" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94cf-9cbf-b325-0597" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Moonshadow Armour" typeId="f681-9937-db53-f1d8" typeName="Armour" hidden="false" id="0c01-8512-ca4c-5ae9">
+                  <characteristics>
+                    <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">4+</characteristic>
+                    <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blade of Retribution" hidden="false" id="1aab-7a69-82da-ca16">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34b5-4fe7-9f11-4db0" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a075-071a-4939-2de2" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Blade of Retribution" typeId="7889-42d9-70a0-3ea9" typeName="Weapon" hidden="false" id="ad92-b2b2-0a22-ebb5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3107-4d1e-9a51-6564">CC</characteristic>
+                    <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378"/>
+                    <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
+                    <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Blade of Retribution</characteristic>
+                    <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Blade of Retribution" id="e8f0-3b9a-53d2-e27c" hidden="false">
+                  <description>Hand weapon.
+All models in Chaos/Undead/Skaven/DarkElves can (at best) hit Phytrion at 4+</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Shield" hidden="false" id="96a1-3a44-e9e8-4e69" type="selectionEntry" targetId="50e2-1873-a856-03e7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7efa-d2bd-2ead-5a21" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <rules>
+        <rule name="Holy Duty" id="8b81-90ce-3150-4216" hidden="false">
+          <description>Phytrion and any unit he leads in 8&quot; range of the grave of Thelarion are Stubborn</description>
+        </rule>
+        <rule name="Grace of Destiny" id="a261-e118-cca7-ce5e" hidden="false">
+          <description>At the start of the game he get´s D3 rerolls. Note that these rolls can only be used by Phytrion!</description>
+        </rule>
+        <rule name="Thirst for Revenge" id="06c2-2b03-236c-222b" hidden="false">
+          <description>Phytrion hates Lokjar</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
