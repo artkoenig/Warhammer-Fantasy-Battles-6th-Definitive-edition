@@ -1030,11 +1030,7 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Mark of Slaanesh (Hero)" hidden="false" id="0f93-0da2-31fd-6f0b" type="selectionEntry" targetId="31e5-e4c0-625d-0e43">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
-              </costs>
-            </entryLink>
+            <entryLink import="true" name="Mark of Slaanesh (Hero)" hidden="false" id="0f93-0da2-31fd-6f0b" type="selectionEntry" targetId="31e5-e4c0-625d-0e43"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry id="45dd-5586-ab52-911a" name="Battle Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
