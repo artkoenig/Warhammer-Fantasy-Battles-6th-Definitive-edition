@@ -2539,7 +2539,7 @@
             </modifier>
             <modifier type="set" value="Knights of the White Wolf" field="name">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="32c2-bfbe-88b1-8425" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
               </conditions>
             </modifier>
           </modifiers>
