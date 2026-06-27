@@ -1891,8 +1891,8 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e628-04ab-0a07-b37c" shared="true" includeChildSelections="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="06b5-8412-53d1-49ac" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="e628-04ab-0a07-b37c" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="self" childId="06b5-8412-53d1-49ac" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1901,8 +1901,8 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1933,8 +1933,8 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1965,8 +1965,8 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2005,11 +2005,16 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Knight of the White Wolf" field="name">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="9f9b-5a33-9c07-93e6" shared="true" includeChildSelections="true" childName="Knights of the White Wolf"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <comment>Rename :)</comment>
@@ -2417,8 +2422,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="67d5-64ae-ed43-01ff" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="3e9a-16f4-43bb-1441" shared="true" includeChildSelections="true" childName="Knights Jaguar (Flavour)"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2427,8 +2432,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="e892-010a-dd61-f086" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="2696-ca6b-b45d-7ce1" shared="true" includeChildSelections="true" childName="Black Knights of Morr (Flavour)"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2448,8 +2453,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="a7c2-2fa3-1c4c-1406" shared="true" includeChildSelections="true" childName="Knights of the Twin-Tailed Orb (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c5d3-2192-223d-bb28" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2491,8 +2496,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="89cf-4b37-19e2-89d2" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="29c2-ee5b-8dd2-e958" shared="true" includeChildSelections="true" childName="Sons of Mannan (Flavour)"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2846,7 +2851,7 @@
             <infoLink name="Barding" id="8b89-0f01-df98-6ff5" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
           </infoLinks>
         </entryLink>
-        <entryLink id="d079-76e2-513e-323c" name="Knights of the Inner Circle" hidden="false" collective="false" import="true" targetId="2cbd-fee0-a336-0e5d" type="selectionEntry" sortIndex="3">
+        <entryLink id="d079-76e2-513e-323c" name="Knights of the Inner Circle (White Wolf)" hidden="false" collective="false" import="true" targetId="12c2-2826-c92f-4930" type="selectionEntry" sortIndex="3">
           <modifiers>
             <modifier type="increment" field="ecfa-8486-4f6c-c249" value="3">
               <repeats>
