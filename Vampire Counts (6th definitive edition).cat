@@ -29527,6 +29527,7 @@ Wearer is immune to spells of the Lore of Light.</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4e15-0353-165f-5528" shared="true" includeChildSelections="true" includeChildForces="true" childName="Border Patrols rules"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="-1" field="173a-604a-f7aa-da32"/>
       </modifiers>
       <infoLinks>
         <infoLink id="e08f7140-bc3c-4937-991b-35b7dc890ba2" name="Unridden Zombie Dragons" hidden="false" targetId="de16-0fbb-294d-fcaa" type="rule"/>
