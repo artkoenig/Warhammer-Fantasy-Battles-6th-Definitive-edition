@@ -2028,7 +2028,7 @@
       <selectionEntries>
         <selectionEntry id="7b8d-8405-0e74-9f46" name="Knight" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bb-871e-6aa3-e4b5" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24bb-871e-6aa3-e4b5" type="min"/>
             <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="9941-5a64-0bde-add3" percentValue="false" includeChildSelections="false" includeChildForces="false">
               <comment>BP</comment>
             </constraint>
@@ -2052,7 +2052,7 @@
         <entryLink id="aaf2-8dbc-b925-fac5" name="Empire Warhorse" hidden="false" collective="false" import="true" targetId="a1e3-7f97-5fc6-abaa" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae52-6868-5949-892c" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22cd-67c5-1c2c-2266" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22cd-67c5-1c2c-2266" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink name="Barding" id="a50f-bf37-1ada-669c" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
@@ -2284,7 +2284,7 @@
             <entryLink import="true" name="Shield" hidden="false" id="9ccc-ad24-583e-41e0" collective="false" targetId="50e2-1873-a856-03e7" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58c4-d930-895a-0b74" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e3a-4402-70e8-2b08" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="1e3a-4402-70e8-2b08" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
@@ -2307,7 +2307,7 @@
             <entryLink import="true" name="Lance" hidden="false" id="e082-13b2-e746-34e0" collective="false" targetId="8649-8ac8-5a6f-fd8d" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="128a-6411-f218-72fc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0ce-7b2e-0be1-9dd1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="f0ce-7b2e-0be1-9dd1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <modifierGroups>
                 <modifierGroup type="and">
@@ -2359,13 +2359,13 @@
             <entryLink import="true" name="Hand Weapon" hidden="false" id="d2a3-c146-1dbb-118f" collective="false" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9368-e62e-157c-023e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="50ac-f86f-cfa1-d050" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="50ac-f86f-cfa1-d050" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Full Plate Armour" hidden="false" id="8757-aa59-69fa-1060" collective="false" targetId="199f-b4b9-aaca-490f" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e635-0971-2920-856c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d09-7d84-af64-cb83" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8d09-7d84-af64-cb83" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Cavalry hammer " hidden="true" id="9a71-cb61-06fb-005a" collective="false" targetId="9c55-fbdf-3b4c-f808" type="selectionEntry">
@@ -2816,7 +2816,7 @@
       <selectionEntries>
         <selectionEntry id="7e66-ab0f-acf7-8cc1" name="Knight" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e4-c098-7620-3ed2" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b5e4-c098-7620-3ed2" type="min"/>
             <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="42bb-5fcc-64f3-48ec" percentValue="false" includeChildSelections="false" includeChildForces="false">
               <comment>BP</comment>
             </constraint>
@@ -2845,7 +2845,7 @@
         <entryLink id="0aba-6af7-9a37-8221" name="Empire Warhorse" hidden="false" collective="false" import="true" targetId="a1e3-7f97-5fc6-abaa" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a97-0dc0-6591-cdf8" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688c-64d1-813f-3e19" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="688c-64d1-813f-3e19" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink name="Barding" id="8b89-0f01-df98-6ff5" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
@@ -2953,13 +2953,13 @@
             <entryLink import="true" name="Full Plate Armour" hidden="false" id="7c59-e2d0-d6ef-8373" collective="false" targetId="199f-b4b9-aaca-490f" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2159-f0c0-0a2d-d818" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb32-612a-1245-5578" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="eb32-612a-1245-5578" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Cavalry hammer " hidden="false" id="4593-b9e9-aa04-62f4" collective="false" targetId="9c55-fbdf-3b4c-f808" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab6-c1a2-ae7a-92e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a18-4d54-68b3-6941" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3a18-4d54-68b3-6941" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="White Wolf hammer" field="name"/>
