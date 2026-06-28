@@ -4906,6 +4906,22 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
         <infoLink name="Scaly Skin (4+)" id="f39c-b535-e061-4677" hidden="false" type="profile" targetId="b391-8630-4a09-0550"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skavenpelt" hidden="false" id="59cc-1598-01c9-3288">
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+        <cost name="SC Saurus Chars" typeId="bc66-b624-4194-2f0f" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b135-9058-9aff-bd25" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b56-e8cf-5995-9a16" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Skavenpelt" id="7715-8f7b-2f33-f07e" hidden="false" type="rule" targetId="7fe8-22d8-906c-a07c"/>
+        <infoLink name="Skavenpelt" id="6918-0eca-1b52-9212" hidden="false" type="rule" targetId="7fe8-22d8-906c-a07c"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4cfd-b3c7-a3ea-68f1" name="Arcane Items (LZ-AB)" hidden="false" collective="false" import="true" collapsible="true">
@@ -6564,6 +6580,9 @@ These may take one of the following Blessed Spawning each:
     <rule name="The Power of the Ancients" id="6953-e8b7-3af9-315f" hidden="false" page="60" publicationId="415d-9fbb-df83-ad27">
       <description>The Engine is a stone thrower, as described in the Warhammer Rulebook, and in addition, its attacks are counted as Magical and Flaming. The Engine has no crew as such, but shooting attacks against it are randomised between the Arcanadon and the Engine as described in the Warhammer Rulebook. The Engine itself may not be targeted separately in close combat. In addition, the Engine has a 360° field of fire, and can move and fire - it does not need to turn to face the direction in which it is shooting. Should the Engine roll a Misfire result of &apos;1&apos;, the entire model is removed as a casualty as devastating energies cascade out of control.</description>
     </rule>
+    <rule name="Skavenpelt" id="7fe8-22d8-906c-a07c" hidden="false" page="60" publicationId="415d-9fbb-df83-ad27">
+      <description>The unit is subject to _Frenzy_ (this does not negate Red Crests&apos; _Hatred_ of Skaven). May only be carried by a Red Crested Skink.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5943-700c-955c-d22d" name="Slann Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -7336,6 +7355,11 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">-3</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
+      </characteristics>
+    </profile>
+    <profile name="Skavenpelt" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="30ab-a7d4-3819-5905" page="60" publicationId="415d-9fbb-df83-ad27">
+      <characteristics>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Red Crested Skinks only. Unit is Frenzy.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
