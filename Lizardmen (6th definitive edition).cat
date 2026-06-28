@@ -406,7 +406,7 @@
         <categoryLink id="bc33-d83d-2d51-c19b" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="da8c-6ffb-165f-bdb3" name="Hand weapon" hidden="false" collective="false" import="true" type="upgrade" sortIndex="7">
+        <selectionEntry id="da8c-6ffb-165f-bdb3" name="Hand weapon" hidden="false" collective="false" import="true" type="upgrade" sortIndex="8">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41de-605b-041d-d1cc" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9906-36b0-e546-d5d4" type="min"/>
@@ -420,7 +420,7 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9c90-0c65-e927-7182" name="Scout" hidden="false" collective="false" import="true" type="upgrade" sortIndex="8">
+        <selectionEntry id="9c90-0c65-e927-7182" name="Scout" hidden="false" collective="false" import="true" type="upgrade" sortIndex="9">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="569c-2e7c-2d86-1134" type="max"/>
           </constraints>
@@ -433,7 +433,7 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6217-830f-33dc-e688" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade" sortIndex="6">
+        <selectionEntry id="6217-830f-33dc-e688" name="Magic Items" hidden="false" collective="false" import="true" type="upgrade" sortIndex="7">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4b-617e-d1cf-be49" type="max"/>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8304-1b9c-c326-f7c0" type="max"/>
@@ -452,7 +452,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a1fb-7862-b3e3-99fe" name="Armour" hidden="false" collective="false" import="true" sortIndex="5">
+        <selectionEntryGroup id="a1fb-7862-b3e3-99fe" name="Armour" hidden="false" collective="false" import="true" sortIndex="6">
           <entryLinks>
             <entryLink id="61b2-5173-30b1-34c5" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
               <constraints>
@@ -472,7 +472,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c080-6abb-3d48-7e2a" name="Weapons" hidden="false" collective="false" import="true" sortIndex="4">
+        <selectionEntryGroup id="c080-6abb-3d48-7e2a" name="Weapons" hidden="false" collective="false" import="true" sortIndex="5">
           <selectionEntryGroups>
             <selectionEntryGroup id="efc8-ee70-a172-1237" name="Melee Weapons" hidden="false" collective="false" import="true">
               <constraints>
@@ -530,7 +530,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="451d-f3aa-269d-a613" name="Mount" hidden="false" collective="false" import="true" sortIndex="9">
+        <selectionEntryGroup id="451d-f3aa-269d-a613" name="Mount" hidden="false" collective="false" import="true" sortIndex="10">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b140-2ff7-9bfa-e7f5" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda9-db74-9d8e-58fe" type="min"/>
@@ -606,6 +606,7 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0a9a-d353-4702-54e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Red Crests" hidden="false" id="6401-3e81-eadb-488e" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55"/>
@@ -800,7 +801,7 @@
         <categoryLink id="13c8-cca0-dab2-4073" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="39c7-6289-bda0-889e" name="Scout" hidden="false" collective="false" import="true" type="upgrade" sortIndex="7">
+        <selectionEntry id="39c7-6289-bda0-889e" name="Scout" hidden="false" collective="false" import="true" type="upgrade" sortIndex="8">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af3e-fb36-4a98-d64c" type="max"/>
           </constraints>
@@ -815,7 +816,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0868-fd00-1311-20a7" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e7e-4d6a-7fe0-6900" sortIndex="4">
+        <selectionEntryGroup id="0868-fd00-1311-20a7" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e7e-4d6a-7fe0-6900" sortIndex="5">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f1-3494-28f8-f4dc" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f352-a665-9559-a931" type="max"/>
@@ -825,7 +826,7 @@
             <entryLink import="true" name="Magic Level 1" hidden="false" id="5549-4420-5f61-f710" type="selectionEntry" targetId="158f-d753-59e2-9ad2"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b6db-d0b5-8c34-6d79" name="Magic Items" hidden="false" collective="false" import="true" sortIndex="6">
+        <selectionEntryGroup id="b6db-d0b5-8c34-6d79" name="Magic Items" hidden="false" collective="false" import="true" sortIndex="7">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3737-2abc-3cf6-a95c" type="max"/>
           </constraints>
@@ -837,7 +838,7 @@
             <entryLink id="4293-1445-c8e8-74e8" name="Arcane Items (LZ-AB + Common)" hidden="false" collective="false" import="true" targetId="fcbd-0a43-0a83-bb68" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eb13-c5b7-e74e-7c96" name="Mount" hidden="false" collective="false" import="true" sortIndex="8">
+        <selectionEntryGroup id="eb13-c5b7-e74e-7c96" name="Mount" hidden="false" collective="false" import="true" sortIndex="9">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4021-851e-9cea-a0eb" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105e-15ba-ba57-b600" type="min"/>
@@ -891,7 +892,8 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ce13-e799-f59d-b4d5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Lore of Heavens" hidden="false" id="9af4-e9d5-86a2-8687" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true" sortIndex="5"/>
+        <entryLink import="true" name="Lore of Heavens" hidden="false" id="9af4-e9d5-86a2-8687" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true" sortIndex="6"/>
+        <entryLink import="true" name="Red Crests" hidden="false" id="dd78-c8cd-036a-d546" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="4"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65"/>
@@ -2551,9 +2553,10 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Red Crests" hidden="false" id="6184-be64-749f-dff6" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="4"/>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hand weapon" hidden="false" id="7a44-053c-3942-257b" collective="false" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Hand weapon" hidden="false" id="7a44-053c-3942-257b" collective="false" sortIndex="8">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c016-69ac-5b41-62df" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0725-a61e-9c5b-9339" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2567,7 +2570,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magic Items" hidden="false" id="93c3-35d9-7bf8-5bf7" collective="false" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Magic Items" hidden="false" id="93c3-35d9-7bf8-5bf7" collective="false" sortIndex="5">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4f9-10ea-a66f-6492" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="50" field="ecfa-8486-4f6c-c249" scope="parent" shared="true" id="316e-76d8-28bc-df19" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2591,7 +2594,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scout" hidden="false" id="4e67-1233-0a64-5cf3" collective="false" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="Scout" hidden="false" id="4e67-1233-0a64-5cf3" collective="false" sortIndex="9">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3299-b0eb-9fd0-6007" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -2606,7 +2609,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Armour" id="d5bc-8fc1-34da-2630" hidden="false" collective="false" import="true" sortIndex="6">
+            <selectionEntryGroup name="Armour" id="d5bc-8fc1-34da-2630" hidden="false" collective="false" import="true" sortIndex="7">
               <entryLinks>
                 <entryLink import="true" name="Light Armour" hidden="false" id="0c5c-4482-7f54-ce7f" collective="false" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
                   <constraints>
@@ -2626,7 +2629,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" id="51cc-11ed-535e-015c" hidden="false" collective="false" import="true" sortIndex="9">
+            <selectionEntryGroup name="Mount" id="51cc-11ed-535e-015c" hidden="false" collective="false" import="true" sortIndex="10">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f4-2046-75c7-03c9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1325-9b50-f109-8bbb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2642,7 +2645,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Weapons" id="1a53-ad4e-f0a1-8d04" hidden="false" collective="false" import="true" sortIndex="5">
+            <selectionEntryGroup name="Weapons" id="1a53-ad4e-f0a1-8d04" hidden="false" collective="false" import="true" sortIndex="6">
               <selectionEntryGroups>
                 <selectionEntryGroup name="Melee Weapons" id="c994-3367-b2ab-cf17" hidden="false" collective="false" import="true">
                   <constraints>
@@ -2773,9 +2776,10 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
           <entryLinks>
             <entryLink import="true" name="General" hidden="false" id="6a6d-f0ce-bf9d-be98" collective="false" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry" sortIndex="1"/>
             <entryLink import="true" name="Blessed Spawning (Skinks of the Southlands)" hidden="false" id="dd5d-d1ed-9f2e-4061" collective="false" targetId="62df-4048-7504-aed8" type="selectionEntryGroup" sortIndex="2"/>
+            <entryLink import="true" name="Red Crests" hidden="false" id="7701-ca56-0fe5-f3c9" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="3"/>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scout" hidden="false" id="b854-6c52-c23b-eae4" collective="false" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Scout" hidden="false" id="b854-6c52-c23b-eae4" collective="false" sortIndex="5">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80a7-6754-bc5f-5e4e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -2790,7 +2794,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Mount" id="ad54-30ab-6165-3cec" hidden="false" collective="false" import="true" sortIndex="8">
+            <selectionEntryGroup name="Mount" id="ad54-30ab-6165-3cec" hidden="false" collective="false" import="true" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13d3-ec5b-0bff-5ac5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="342d-1b65-c01e-c2f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2806,7 +2810,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Magic" id="dbc2-669b-7230-091a" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Magic" id="dbc2-669b-7230-091a" hidden="false" sortIndex="4">
               <selectionEntryGroups>
                 <selectionEntryGroup name="Magic Items" id="ad97-2e9b-aead-6624" hidden="false" collective="false" import="true">
                   <constraints>
@@ -4865,7 +4869,7 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
         <infoLink name="Totem of Sotek (Enchanted Item)" id="a606-32de-a779-e081" hidden="false" type="rule" targetId="08b8-dabc-1ab2-a106"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Red Crests" hidden="false" id="adfb-e3ed-5e20-0669">
+    <selectionEntry type="upgrade" import="true" name="Red Crests" hidden="true" id="adfb-e3ed-5e20-0669">
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
@@ -4877,6 +4881,16 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
       <infoLinks>
         <infoLink name="Red Crests" id="67fa-a37f-d9cc-387e" hidden="false" type="rule" targetId="f171-a144-6587-7b04"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Red Crested Skink" hidden="false" id="257d-bcc7-e091-a146" targetId="7b73-1714-155f-8f67" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="f7d4-7faf-8470-ee0d" shared="true" includeChildSelections="true" childName="Red Host (LUS)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Scaly Skin (6+)" hidden="false" id="2481-9ff2-5fe7-f381">
       <constraints>
