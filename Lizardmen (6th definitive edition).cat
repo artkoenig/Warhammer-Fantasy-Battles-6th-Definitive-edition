@@ -7,6 +7,7 @@
   </publications>
   <categoryEntries>
     <categoryEntry id="5c12-eebd-de21-0b3d" name="Slann" hidden="false"/>
+    <categoryEntry name="Red Crested Skink" id="7b73-1714-155f-8f67" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8fcd-0130-a0ff-b7bc" name="Standard (LM-AB)" publicationId="3a49-dd2e-fcaa-cdb1" page="56" hidden="false">
@@ -3437,6 +3438,7 @@ Please discuss with your rival and/or activate the house rules under Campaign/A_
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dfa6-943a-6d05-528a" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink name="Red Crested Skink" hidden="false" id="0ef0-01d9-9d16-2b60" targetId="7b73-1714-155f-8f67" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0438-aeff-c664-519c" name="Skink Brave" hidden="false" collective="false" import="true" type="upgrade">
@@ -4906,7 +4908,7 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
         <infoLink name="Scaly Skin (4+)" id="f39c-b535-e061-4677" hidden="false" type="profile" targetId="b391-8630-4a09-0550"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skavenpelt" hidden="false" id="59cc-1598-01c9-3288">
+    <selectionEntry type="upgrade" import="true" name="Skavenpelt" hidden="true" id="59cc-1598-01c9-3288">
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
@@ -4918,9 +4920,49 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b56-e8cf-5995-9a16" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Skavenpelt" id="7715-8f7b-2f33-f07e" hidden="false" type="rule" targetId="7fe8-22d8-906c-a07c"/>
-        <infoLink name="Skavenpelt" id="6918-0eca-1b52-9212" hidden="false" type="rule" targetId="7fe8-22d8-906c-a07c"/>
+        <infoLink name="Sign of Sotek" id="6918-0eca-1b52-9212" hidden="false" type="rule" targetId="2901-c363-b68b-6f7f"/>
+        <infoLink name="Sign of Sotek" id="4014-d28f-0d69-c1db" hidden="false" type="profile" targetId="9bc3-d08d-98ff-4b68"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="7b73-1714-155f-8f67" shared="true" includeChildSelections="true" childName="Red Crested Skink"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f7d4-7faf-8470-ee0d" shared="true" includeChildSelections="true" childName="Red Host (LUS)"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sign of Sotek" hidden="true" id="ba6c-1269-b198-39d9">
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+        <cost name="SC Saurus Chars" typeId="bc66-b624-4194-2f0f" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d48-c7f1-2afb-5a0c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="987a-f424-684c-6d4b" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Skavenpelt" id="d96f-a1fa-fda6-3e3a" hidden="false" type="rule" targetId="7fe8-22d8-906c-a07c"/>
+        <infoLink name="Skavenpelt" id="1e0b-f637-5533-48d9" hidden="false" type="profile" targetId="30ab-a7d4-3819-5905"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="model-or-unit" childId="7b73-1714-155f-8f67" shared="true" includeChildSelections="true" childName="Red Crested Skink"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="f7d4-7faf-8470-ee0d" shared="true" includeChildSelections="true" childName="Red Host (LUS)"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -5585,6 +5627,8 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="War Banner" hidden="false" id="ba6b-f333-7da8-5ffa" type="selectionEntry" targetId="f327-567f-ef99-0403"/>
+        <entryLink import="true" name="Skavenpelt" hidden="false" id="5dee-3702-4936-23d0" type="selectionEntry" targetId="59cc-1598-01c9-3288"/>
+        <entryLink import="true" name="Sign of Sotek" hidden="false" id="de1c-de74-11b7-d862" type="selectionEntry" targetId="ba6c-1269-b198-39d9"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Magical Standard" hidden="false" id="7cc5-9aef-2432-088f" targetId="942b-0309-8845-e11c" primary="false"/>
@@ -6583,6 +6627,9 @@ These may take one of the following Blessed Spawning each:
     <rule name="Skavenpelt" id="7fe8-22d8-906c-a07c" hidden="false" page="60" publicationId="415d-9fbb-df83-ad27">
       <description>The unit is subject to _Frenzy_ (this does not negate Red Crests&apos; _Hatred_ of Skaven). May only be carried by a Red Crested Skink.</description>
     </rule>
+    <rule name="Sign of Sotek" id="2901-c363-b68b-6f7f" hidden="false" page="60" publicationId="415d-9fbb-df83-ad27">
+      <description>The unit may re-roll failed To Wound rolls on the turn it charges. May only be carried by a Red Crested Skink.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5943-700c-955c-d22d" name="Slann Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -7360,6 +7407,11 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
     <profile name="Skavenpelt" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="30ab-a7d4-3819-5905" page="60" publicationId="415d-9fbb-df83-ad27">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Red Crested Skinks only. Unit is Frenzy.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sign of Sotek" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="9bc3-d08d-98ff-4b68" page="60" publicationId="415d-9fbb-df83-ad27">
+      <characteristics>
+        <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Only Red Crested Skinks. Re-roll ToWound rolls the turn it charges.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
