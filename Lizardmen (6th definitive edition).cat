@@ -1311,6 +1311,20 @@
             </selectionEntry>
           </selectionEntries>
           <comment>TODO: In Southlands, they can switch blowpipes for poisoned short bows at +1pts/model (LM-AB, p.75)</comment>
+          <entryLinks>
+            <entryLink import="true" name="Poisoned Short Bow" hidden="false" id="6b72-6150-51e8-4a2f" type="selectionEntry" targetId="bd4b-b957-be60-751b">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="1" field="ecfa-8486-4f6c-c249">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" childName="model"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
