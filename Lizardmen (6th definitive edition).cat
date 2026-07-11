@@ -210,14 +210,14 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Spells Lore" id="df79-946f-4a83-d030" hidden="false" collapsible="true" sortIndex="6">
           <entryLinks>
-            <entryLink import="true" name="Lore of Heavens" hidden="false" id="3257-bb7d-0e8b-0d6f" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true"/>
+            <entryLink import="true" name="Show spells from Lore of Heavens" hidden="false" id="3257-bb7d-0e8b-0d6f" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true"/>
             <entryLink import="true" name="Lore of Death" hidden="false" id="4b40-08cc-c43f-8270" type="selectionEntryGroup" targetId="0a76-fdab-0afb-3612" collapsible="true"/>
             <entryLink import="true" name="Lore of Fire" hidden="false" id="4d7d-fd4d-8fb4-3587" type="selectionEntryGroup" targetId="ffc0-ed2b-71f0-b61c" collapsible="true"/>
             <entryLink import="true" name="Lore of Life" hidden="false" id="d351-1fd2-ed5a-b03a" type="selectionEntryGroup" targetId="7814-b731-32d8-88be" collapsible="true"/>
             <entryLink import="true" name="Lore of Metal" hidden="false" id="b3cb-5d0f-5212-4007" type="selectionEntryGroup" targetId="f679-dff7-370a-6050" collapsible="true"/>
             <entryLink import="true" name="Lore of Light" hidden="false" id="b6ea-67a0-a71e-fed6" type="selectionEntryGroup" targetId="f6d6-76c8-90fe-ac07" collapsible="true"/>
             <entryLink import="true" name="Lore of Shadow" hidden="false" id="9459-9170-5fa7-c186" type="selectionEntryGroup" targetId="b0de-c735-e115-5c82" collapsible="true"/>
-            <entryLink import="true" name="Lore of Beasts" hidden="false" id="f142-545d-57e5-c26d" type="selectionEntryGroup" targetId="892e-a8dd-8f70-373a" collapsible="true"/>
+            <entryLink import="true" name="Show spells from Lore of Beasts" hidden="false" id="f142-545d-57e5-c26d" type="selectionEntryGroup" targetId="892e-a8dd-8f70-373a" collapsible="true"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Drain Magic" id="02f3-6661-3e9f-6be0" hidden="false" targetId="1d5e-afeb-df27-29dd" type="rule"/>
@@ -527,6 +527,9 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Poisoned Short Bow" hidden="false" id="f095-1103-eab6-9522" type="selectionEntry" targetId="bd4b-b957-be60-751b"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -892,8 +895,9 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ce13-e799-f59d-b4d5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Lore of Heavens" hidden="false" id="9af4-e9d5-86a2-8687" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true" sortIndex="6"/>
+        <entryLink import="true" name="Show spells from Lore of Heavens" hidden="false" id="9af4-e9d5-86a2-8687" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0" collapsible="true" sortIndex="6"/>
         <entryLink import="true" name="Red Crests" hidden="false" id="dd78-c8cd-036a-d546" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="4"/>
+        <entryLink import="true" name="Poisoned Short Bow" hidden="false" id="2f86-17a7-fc48-386e" type="selectionEntry" targetId="bd4b-b957-be60-751b"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65"/>
@@ -2708,6 +2712,9 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <entryLinks>
+                    <entryLink import="true" name="Poisoned Short Bow" hidden="false" id="fc4e-45a9-2b53-32b2" type="selectionEntry" targetId="bd4b-b957-be60-751b"/>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
@@ -2793,6 +2800,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
             <entryLink import="true" name="Blessed Spawning (Skinks of the Southlands)" hidden="false" id="dd5d-d1ed-9f2e-4061" collective="false" targetId="62df-4048-7504-aed8" type="selectionEntryGroup" sortIndex="2"/>
             <entryLink import="true" name="Red Crests" hidden="false" id="7701-ca56-0fe5-f3c9" type="selectionEntry" targetId="adfb-e3ed-5e20-0669" sortIndex="3"/>
             <entryLink import="true" name="Blessed Spawning (Skinks)" hidden="false" id="ef3b-9100-1f83-0c2e" collective="false" targetId="b9e5-bb8b-3bbf-5f75" type="selectionEntryGroup" sortIndex="2"/>
+            <entryLink import="true" name="Poisoned Short Bow" hidden="false" id="1e73-e82d-5e71-4121" type="selectionEntry" targetId="bd4b-b957-be60-751b"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Scout" hidden="false" id="b854-6c52-c23b-eae4" collective="false" sortIndex="5">
@@ -4119,7 +4127,7 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f419-912f-728d-36e6" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Lore of Heavens" hidden="false" id="0ac3-9dc6-e191-5023" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0"/>
+        <entryLink import="true" name="Show spells from Lore of Heavens" hidden="false" id="0ac3-9dc6-e191-5023" type="selectionEntryGroup" targetId="e999-4d26-ec27-9cd0"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65"/>
@@ -4949,6 +4957,26 @@ This spell is targeted at a single hill anywhere on the table. Any unit at leas
           </conditionGroups>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Poisoned Short Bow" hidden="true" id="bd4b-b957-be60-751b" collective="false">
+      <infoLinks>
+        <infoLink name="Poisoned Short Bow" id="a308-de52-f32b-be83" hidden="false" targetId="d862-acc8-5f7e-b16d" type="profile"/>
+        <infoLink name="Poisoned Attacks" id="568f-82fa-ee98-94c0" hidden="false" type="rule" targetId="2738-27d5-f4af-4722"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+        <cost name="SC Saurus Chars" typeId="bc66-b624-4194-2f0f" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="fe15-38b7-daea-2ec8" shared="true" includeChildSelections="true" childName="Southlands (LM-AB)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <comment>https://6th.whfb.app/faq/lizardmen#can-a-skink-hero-buy-a-bow-in-the-southlands-list</comment>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -7405,6 +7433,15 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
     <profile name="Sign of Sotek" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items" hidden="false" id="9bc3-d08d-98ff-4b68" page="60" publicationId="415d-9fbb-df83-ad27">
       <characteristics>
         <characteristic name="Magic stuff" typeId="c7b5-c239-d6c1-0627">Only Red Crested Skinks. Re-roll ToWound rolls the turn it charges.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Poisoned Short Bow" typeId="7889-42d9-70a0-3ea9" typeName="Weapon" hidden="false" id="d862-acc8-5f7e-b16d">
+      <characteristics>
+        <characteristic name="Range" typeId="3107-4d1e-9a51-6564">16&quot;</characteristic>
+        <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">3</characteristic>
+        <characteristic name="Damage" typeId="6f2f-d612-52ef-1633"/>
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Poisoned Attacks</characteristic>
+        <characteristic name="Saves" typeId="8014-a8b2-15c3-da95"/>
       </characteristics>
     </profile>
   </sharedProfiles>
