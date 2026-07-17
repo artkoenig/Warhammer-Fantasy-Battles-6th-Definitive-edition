@@ -1,0 +1,137 @@
+{
+  "repositoryFiles": [
+    {
+      "id": "a5c3-073c-b4e8-4284",
+      "name": "Bretonnia",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "68c188f623a69dc027ca34612f9ef001e9eddecb90bcf58d837481f529d61003"
+    },
+    {
+      "id": "c817-890f-8aac-4ea5",
+      "name": "Chaos Dwarfs",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "5863cc6f8fca9ac129948d2e86d9da19214fb11848fafb3678f3a45c4b956106"
+    },
+    {
+      "id": "d4c0-4f0c-4a89-40fc",
+      "name": "Dark Elves",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "58e7f75c5e38916527d3298bab2065ee8981c450f7ae50fc416b2dc7ae799c3c"
+    },
+    {
+      "id": "fa9c-5f79-ce12-480c",
+      "name": "Dogs of War",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "366361f3895a095233d93ec611a87123671718193083686d6d25d8a11087864a"
+    },
+    {
+      "id": "3a5f-213a-5ffc-4ec1",
+      "name": "Dwarfs (2001)",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "1372fd88b87a67a643cdf6d3bf544ec049b4e84a9c98636ec01666031b368e3a"
+    },
+    {
+      "id": "a505-6b65-703b-4976",
+      "name": "Dwarfs (2006)",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "e11917fa5c15c91c102b6ab9453a750899359c42a77bb737396b3a4534d5503d"
+    },
+    {
+      "id": "6b83-a975-a500-41c3",
+      "name": "Forces of Chaos",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "26fa5913e01876bcfcc66178266f182d4dbef1ea4409fae12d155757f83167e8"
+    },
+    {
+      "id": "b59c-7ff5-fb34-405e",
+      "name": "High Elves",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "4c6d8a613f9236776749b9ac72ca378856542890115ff90caea2b446f1066c6c"
+    },
+    {
+      "id": "76c3-5045-220d-1e64",
+      "name": "Kislev",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "95dfa7f194ab85c543d764dbf587a0cbc9e70dfd8059ebd138f6a4359a3f9e9c"
+    },
+    {
+      "id": "19e3-92e5-1158-4551",
+      "name": "Lizardmen",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "51186560c2c322a3f579bc6c23a6be88e37b66cdab9d5dae504adb38bc2965e1"
+    },
+    {
+      "id": "fc47-8392-a6c8-452a",
+      "name": "Mercenaries",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "53a7d0402e6fc0118520ba23a45ddac1607996f3478490775a1da3e35fee0223"
+    },
+    {
+      "id": "731d-5b13-2a92-5427",
+      "name": "Ogre Kingdoms",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "05c5c61c1fc7af97d6ca594438994cd0a1b92aeda0be166f0601c0a3c95ec8ca"
+    },
+    {
+      "id": "4049-c46d-7f80-44fb",
+      "name": "Orcs and Goblins",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "964a8011953ce768573c51bbc56bae358ef1550a7e954410741a52a92c17c69b"
+    },
+    {
+      "id": "cac6-5f02-f95d-a403",
+      "name": "Skaven",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "8429d9e18af9ca1b8fa68e6f24b6bf54d7ab3f86c2bd67ae644ec363d6d4f22a"
+    },
+    {
+      "id": "3938-8369-a300-4a03",
+      "name": "The Empire",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "1fcdc82c1852b9321e5385a0c5c3248830672f60cc40e580a265c765f39c3daa"
+    },
+    {
+      "id": "9945-8537-0944-c67b",
+      "name": "Tomb Kings",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "72d8a24b80044fe364d62f6d70f948c288f76ecb4a10fa4c2b1bfda2c3918c2d"
+    },
+    {
+      "id": "4d73-5ab0-9020-403c",
+      "name": "Vampire Counts",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "ee56640231722e1bdfe0b8a13cdc5939c3ad5c0978786e958d1b6af7f4163baa"
+    },
+    {
+      "id": "0d13-7737-ea86-4662",
+      "name": "Warhammer Fantasy Battles (6th definitive edition)",
+      "type": "gamesystem",
+      "revision": 1,
+      "sourceSha256": "63299c49799fba3b676faaa9c067ab500cc92a668fe23539dc03aea2aeb243d8"
+    },
+    {
+      "id": "c1aa-5b8f-1886-401f",
+      "name": "Wood Elves",
+      "type": "catalogue",
+      "revision": 1,
+      "sourceSha256": "a25b498dd5b6f3275610335ff1f9ac82959f128003fc011de9f143a1891b4b38"
+    }
+  ]
+}
