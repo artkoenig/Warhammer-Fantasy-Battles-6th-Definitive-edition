@@ -161,12 +161,17 @@ function sha256Hex(content) {
 
 /**
  * Builds one catpkg index entry from a file's final (post-bump) content. The
- * `sourceSha256` describes exactly the bytes that will be served.
+ * `sourceSha256` describes exactly the bytes that will be served. `path` carries
+ * the real repository file name, which the root `name` attribute does not reliably
+ * reproduce (upstream names files independently of the catalogue's `name`, e.g.
+ * name "Chaos Dwarfs" vs file "Chaos Dwarves (6th definitive edition).cat"); the app
+ * fetches by this `path` instead of reconstructing a name from the extension.
  */
 export function buildCatpkgEntry({ fileName, content }) {
   return {
     id: readRootAttribute(content, 'id'),
     name: readRootAttribute(content, 'name'),
+    path: fileName,
     type: catpkgTypeForFileName(fileName),
     revision: readRootRevision(content),
     sourceSha256: sha256Hex(content),
