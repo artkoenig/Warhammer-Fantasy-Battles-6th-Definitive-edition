@@ -3137,7 +3137,6 @@ Nearly Irresistible Force</characteristic>
             <modifier type="set-primary" value="64bf-efb4-9978-26df" field="category"/>
             <modifier type="remove" value="e94b-6a54-8779-cd60" field="category"/>
             <modifier type="add" value="64bf-efb4-9978-26df" field="category"/>
-            <modifier type="set" value="1" field="32ed-26da-3f27-5c04"/>
             <modifier type="remove" value="ee09-9a50-ad78-9c32" field="category"/>
           </modifiers>
           <conditions>
@@ -3159,7 +3158,7 @@ Nearly Irresistible Force</characteristic>
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="32ed-26da-3f27-5c04" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="32ed-26da-3f27-5c04" includeChildSelections="false"/>
       </constraints>
       <modifiers>
         <modifier type="add" value="735e-2da1-6356-2fdb" field="category"/>
