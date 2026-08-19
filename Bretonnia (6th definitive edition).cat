@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a5c3-073c-b4e8-4284" name="Bretonnia" revision="1" battleScribeVersion="2.03" authorName="Lexicanum Imperialis" authorContact="lexicanum.imperialis@gmail.com" library="false" gameSystemId="0d13-7737-ea86-4662" gameSystemRevision="1" type="catalogue" authorUrl="https://karaknornwargaming.blogspot.com/p/warhammer-6th-faq-norn-consensus.html">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a5c3-073c-b4e8-4284" name="Bretonnia" revision="2" battleScribeVersion="2.03" authorName="Lexicanum Imperialis" authorContact="lexicanum.imperialis@gmail.com" library="false" gameSystemId="0d13-7737-ea86-4662" gameSystemRevision="1" type="catalogue" authorUrl="https://karaknornwargaming.blogspot.com/p/warhammer-6th-faq-norn-consensus.html">
   <publications>
     <publication id="143d-ca87-8001-00a0" name="BR-AB" shortName="Warhammer Armies: Bretonnia (6th Edition)" publicationDate="2003" publisher="by Anthony Reynolds"/>
     <publication name="WD#310-UK" id="e35e-b736-150d-3f5c" hidden="false" shortName="White-Dwarf #310 UK" publisher="by Mat Ward" publicationDate="2005-10"/>
@@ -3534,6 +3534,7 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
     </selectionEntry>
     <selectionEntry id="5659-1b83-4d3a-ffee" name="Virtue of the Penitent " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="48c2-9949-0024-6b66" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c82-a2a0-a1ad-05fe" type="max"/>
       </constraints>
       <infoLinks>
@@ -3546,8 +3547,31 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0f1d-3517-af1d-28f9" name="Virtue of the Penitent (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5659-1b83-4d3a-ffee" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681f-c679-4175-6e87" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="746f-ba95-dace-79f1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b3ce-1104-0c14-3530" name="Virtue of the Penitent " hidden="false" targetId="86e7-3644-e31f-025b" type="rule"/>
+        <infoLink name="Stubborn" id="ab81-a20b-5a38-43cd" hidden="false" type="rule" targetId="410a-0d06-9044-665e"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="dd07-e19c-a7f2-ebec" name="Virtue of Knightly Temper" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7068-f32b-3900-40fd" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a382-e9c9-4b4c-6696" type="max"/>
       </constraints>
       <infoLinks>
@@ -3559,8 +3583,30 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8a98-1572-aa62-d496" name="Virtue of Knightly Temper (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dd07-e19c-a7f2-ebec" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf17-2e36-7844-602a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52ea-269c-4611-06ef" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="981a-9129-e5fc-eb3e" name="Virtue of Knightly Temper" hidden="false" targetId="c10c-222b-e442-8b62" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="29c0-5cad-b02c-866f" name="Virtue of Heroism " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2735-ebd6-d90c-556b" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f58-e9eb-382c-7fe9" type="max"/>
       </constraints>
       <infoLinks>
@@ -3572,8 +3618,30 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9737-15de-9536-1037" name="Virtue of Heroism (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="29c0-5cad-b02c-866f" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="600c-352b-188a-9175" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bc19-c9ae-df84-b04c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8ad4-e7d0-ae58-1d68" name="Virtue of Heroism " hidden="false" targetId="d70c-5e0c-36bc-387b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="00c2-9072-a600-c111" name="Virtue of Stoicism " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="235c-58a6-17cd-2588" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8909-28a9-51e6-a8d1" type="max"/>
       </constraints>
       <infoLinks>
@@ -3585,8 +3653,30 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2b00-7883-9253-1b16" name="Virtue of Stoicism (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="00c2-9072-a600-c111" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aea-e0a8-1d37-1b79" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="780f-6ef3-2da2-60c7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f2af-39e2-f6d1-1698" name="Virtue of Stoicism " hidden="false" targetId="e4df-61c9-2612-d2a8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="eaff-5d8c-7281-54e0" name="Virtue of the Ideal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2803-f8c1-b894-71dd" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32c-b32f-547a-8486" type="max"/>
       </constraints>
       <infoLinks>
@@ -3598,8 +3688,30 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9cba-0c52-7b14-6ffd" name="Virtue of the Ideal (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="eaff-5d8c-7281-54e0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e8a-982a-5616-6c76" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="777e-ee9f-79cf-9244" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c4f8-2d17-6904-dac7" name="Virtue of the Ideal" hidden="false" targetId="3bb1-3299-efff-66cd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="324d-b75a-577f-15e8" name="Virtue of the Impetuous Knight " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b16-91de-5b01-7dfe" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c7-1fd5-59aa-b036" type="max"/>
       </constraints>
       <infoLinks>
@@ -3611,8 +3723,30 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3525-f00d-cb6f-9aa3" name="Virtue of the Impetuous Knight (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="324d-b75a-577f-15e8" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e928-14e4-4ce9-9971" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cac3-26b7-d7ec-c30b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="57d6-101e-4a3d-eee2" name="Virtue of the Impetuous Knight " hidden="false" targetId="3c14-0045-c9e8-27d9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="5741-37f3-a128-406f" name="Virtue of Audacity " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aaf5-ffa5-211e-519c" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf0-17cf-b15f-5d9f" type="max"/>
       </constraints>
       <infoLinks>
@@ -3624,8 +3758,51 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7c69-6a15-3243-45f7" name="Virtue of Audacity (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5741-37f3-a128-406f" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282a-5a54-2499-6522" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef25-a083-3dd0-40ac" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e2f7-6e89-fe64-5d95" name="Virtue of Audacity " hidden="false" targetId="99a3-0e70-32f7-0e19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b05-0f54-d81b-1554" name="Virtue of Audacity (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7c69-6a15-3243-45f7" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ac-c535-0eb2-2dc1" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6703-d317-13b1-2f29" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b43d-f99f-bd67-9df8" name="Virtue of Audacity " hidden="false" targetId="99a3-0e70-32f7-0e19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="e650-2a76-133b-dd93" name="Virtue of Duty" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ab6-6824-3aa1-65d3" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ed-3025-59b3-99b9" type="max"/>
       </constraints>
       <infoLinks>
@@ -3637,8 +3814,51 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2967-610a-ec88-b32a" name="Virtue of Duty (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e650-2a76-133b-dd93" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f4-9df8-63de-50db" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="38fd-fefa-c1d0-da9f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7f47-5a27-472b-d846" name="Virtue of Duty" hidden="false" targetId="46d7-ce7d-30b2-353d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f45d-b328-4dba-ec7e" name="Virtue of Duty (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2967-610a-ec88-b32a" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b34-7566-d17d-78e6" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="880e-f6bc-3d93-aa7a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e2a9-0545-c8e0-2641" name="Virtue of Duty" hidden="false" targetId="46d7-ce7d-30b2-353d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="2aaa-4e48-627f-ede0" name="Virtue of the Joust " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8456-8b8c-3967-3659" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4850-b2fd-7179-fd90" type="max"/>
       </constraints>
       <infoLinks>
@@ -3650,8 +3870,72 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bf89-0c97-e69b-7699" name="Virtue of the Joust (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2aaa-4e48-627f-ede0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e44-3f5a-c5d1-ba51" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b856-566c-f110-161a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="aeba-9571-7655-2e78" name="Virtue of the Joust " hidden="false" targetId="1285-e820-8420-94b7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f16c-bb0f-7577-bad6" name="Virtue of the Joust (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bf89-0c97-e69b-7699" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed74-9c45-0d15-008d" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="676d-4245-04a5-fe1f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="12de-139c-be79-87fa" name="Virtue of the Joust " hidden="false" targetId="1285-e820-8420-94b7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c9d-d222-2547-ef89" name="Virtue of the Joust (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="f16c-bb0f-7577-bad6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a5-218c-1491-7d56" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0654-33a6-24c5-35a1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0c4a-ea54-2319-2d3f" name="Virtue of the Joust " hidden="false" targetId="1285-e820-8420-94b7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="d978-9cf1-a186-81bb" name="Virtue of Confidence " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d79a-fd71-4f54-8e18" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f6-35bf-ba73-54e1" type="max"/>
       </constraints>
       <infoLinks>
@@ -3663,8 +3947,72 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aeb9-c5e7-55b2-027e" name="Virtue of Confidence (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d978-9cf1-a186-81bb" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8e-ae9e-4b4f-d990" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="081e-b960-a70a-3ea9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1176-caf6-5f7d-f9b5" name="Virtue of Confidence " hidden="false" targetId="f5d3-eb31-6de1-a64b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bd7-2a6b-1ad0-6cee" name="Virtue of Confidence (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="aeb9-c5e7-55b2-027e" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f18f-db5b-04ce-7db8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac1d-383d-e287-6e1b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7429-dfe1-0640-1f1f" name="Virtue of Confidence " hidden="false" targetId="f5d3-eb31-6de1-a64b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09d7-76a3-c60a-a2b8" name="Virtue of Confidence (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1bd7-2a6b-1ad0-6cee" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e6-912b-a997-af06" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="603d-4ae2-d3ff-835f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f0b0-d31e-7475-fb17" name="Virtue of Confidence " hidden="false" targetId="f5d3-eb31-6de1-a64b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="b476-0bc1-a611-48b9" name="Virtue of Noble Disdain" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9be5-4c18-1605-a04f" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eea-3ba1-0292-fb26" type="max"/>
       </constraints>
       <infoLinks>
@@ -3676,8 +4024,93 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5459-9da3-8fb0-104f" name="Virtue of Noble Disdain (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="b476-0bc1-a611-48b9" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6da-5fd8-a114-b0bc" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5090-89fe-9c84-45c1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ffe7-52d1-b430-ad7d" name="Virtue of Noble Disdain" hidden="false" targetId="0af7-d1d3-b5b5-979a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b0f-2a47-1fff-3b9b" name="Virtue of Noble Disdain (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5459-9da3-8fb0-104f" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9edc-91d0-cd37-42f9" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c9a-680b-c9e4-7092" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bf6f-11d4-bfc6-1787" name="Virtue of Noble Disdain" hidden="false" targetId="0af7-d1d3-b5b5-979a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cebe-d410-bfc9-68d3" name="Virtue of Noble Disdain (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2b0f-2a47-1fff-3b9b" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="279f-16d4-62b3-82e8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ddec-187b-43c2-eadf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f0a1-8a42-9aea-3632" name="Virtue of Noble Disdain" hidden="false" targetId="0af7-d1d3-b5b5-979a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de71-f87f-67f2-e849" name="Virtue of Noble Disdain (5th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="cebe-d410-bfc9-68d3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f397-593c-0303-9c27" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e547-4c7d-2049-65d9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1e4a-fb16-623c-602b" name="Virtue of Noble Disdain" hidden="false" targetId="0af7-d1d3-b5b5-979a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="4f1a-9971-1270-6a3b" name="Virtue of Purity" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="beed-d240-0d5a-790d" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="888a-afa1-15de-4d0b" type="max"/>
       </constraints>
       <infoLinks>
@@ -3689,8 +4122,93 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6fb6-13cb-1da3-1911" name="Virtue of Purity (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f1a-9971-1270-6a3b" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e280-1aa7-e5c1-89b7" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a811-080d-99da-d4fa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a9fc-9f3b-b98c-f5c4" name="Virtue of Purity" hidden="false" targetId="992a-588a-a709-ce27" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d1d-ded8-c26f-92aa" name="Virtue of Purity (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6fb6-13cb-1da3-1911" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef0-cda7-d759-f799" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1936-ffc9-a438-77db" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="02ba-e114-0513-051a" name="Virtue of Purity" hidden="false" targetId="992a-588a-a709-ce27" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45a7-6241-0f65-0737" name="Virtue of Purity (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5d1d-ded8-c26f-92aa" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-2565-6702-9866" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f39-80b5-c656-cf8d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2c25-56fe-9c37-4dd7" name="Virtue of Purity" hidden="false" targetId="992a-588a-a709-ce27" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f69f-b716-e22e-0a56" name="Virtue of Purity (5th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="45a7-6241-0f65-0737" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="559c-6905-7201-9686" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad2d-7efd-c7dd-76f2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5594-a6a8-88e8-ed49" name="Virtue of Purity" hidden="false" targetId="992a-588a-a709-ce27" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="95b8-f74e-dcc8-aaf3" name="Virtue of Discipline " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bea0-fbe1-9433-8bb9" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6378-b3fd-aceb-918e" type="max"/>
       </constraints>
       <infoLinks>
@@ -3702,8 +4220,114 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b2cb-1a38-340f-16d2" name="Virtue of Discipline (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="95b8-f74e-dcc8-aaf3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2917-16bf-8a39-685e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70c8-6616-093a-74ba" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d476-b743-1d61-b577" name="Virtue of Discipline " hidden="false" targetId="0820-ae72-16b4-d045" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf0e-9e00-b7f1-b3c4" name="Virtue of Discipline (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="b2cb-1a38-340f-16d2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d94e-c5d1-bea6-0d39" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5acc-1e75-3124-99d1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8ae5-86b3-094b-1da5" name="Virtue of Discipline " hidden="false" targetId="0820-ae72-16b4-d045" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6623-f13a-71e8-186d" name="Virtue of Discipline (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bf0e-9e00-b7f1-b3c4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5782-24ff-0af8-913f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f14f-463e-c9f1-d37c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="738a-0c61-5993-bef6" name="Virtue of Discipline " hidden="false" targetId="0820-ae72-16b4-d045" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b565-5f98-5268-bef4" name="Virtue of Discipline (5th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6623-f13a-71e8-186d" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ad-c3e0-6d2d-80ce" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5aa-e926-ab87-f8ee" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="12f0-1418-0e40-162f" name="Virtue of Discipline " hidden="false" targetId="0820-ae72-16b4-d045" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40c2-17a4-7d27-4cd7" name="Virtue of Discipline (6th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="b565-5f98-5268-bef4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9462-b6cd-ead8-249d" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="524b-19e4-188b-a613" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="02d0-5c8a-5727-3b7b" name="Virtue of Discipline " hidden="false" targetId="0820-ae72-16b4-d045" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="7253-c4c4-e42b-fc1a" name="Virtue of Empathy " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
+      <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="048f-68e7-9c01-9b1d" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc2d-20a3-a602-2b3f" type="max"/>
       </constraints>
       <infoLinks>
@@ -3711,6 +4335,195 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac48-66e3-672b-ec29" name="Virtue of Empathy (2nd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7253-c4c4-e42b-fc1a" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5d-a5ed-64b0-3ee0" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="057e-cd5b-20f8-a9c5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a762-f64c-57c9-3014" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9da-d03c-5270-1439" name="Virtue of Empathy (3rd character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="ac48-66e3-672b-ec29" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33be-0b9f-8b34-4cd5" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6fee-3e85-7bb3-fe15" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4349-e247-cc47-8c6a" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2987-ef58-cbca-b74f" name="Virtue of Empathy (4th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d9da-d03c-5270-1439" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6edc-3278-1c68-e2a2" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ddc1-c10c-f6c9-ea75" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d667-9686-6b6f-968c" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e695-eb53-1271-b5e5" name="Virtue of Empathy (5th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2987-ef58-cbca-b74f" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ee-693b-0395-dc1e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78be-1e2e-8192-f50f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3f8e-eb45-f784-036f" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7cef-af30-6120-06cb" name="Virtue of Empathy (6th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e695-eb53-1271-b5e5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7279-e1b6-6b93-9028" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8c0-f50b-82bd-6ea7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3487-d934-41d4-44a3" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e24-7930-0aff-52f4" name="Virtue of Empathy (7th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7cef-af30-6120-06cb" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef21-3e2c-ca9e-4eed" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fde8-66ed-64e3-e59a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bd5e-f9ff-b8ac-80cd" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f5b-c219-b5bf-ff6b" name="Virtue of Empathy (8th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="0e24-7930-0aff-52f4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f6-717a-1815-7678" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6e67-a6ed-6fc0-43ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0728-7653-faad-ceb9" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="510e-8991-7961-b196" name="Virtue of Empathy (9th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="0f5b-c219-b5bf-ff6b" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7b-53bf-66a3-81fc" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a241-be85-c3f7-a65b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dad3-9f25-dc4a-1490" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="90"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b3a-64bc-4cba-6015" name="Virtue of Empathy (10th character)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="510e-8991-7961-b196" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5c-8950-9b7e-d34c" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c24-92c2-84a8-0ce5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="11c6-4df5-8baf-ba87" name="Virtue of Empathy " hidden="false" targetId="0842-2dde-c723-fb43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0"/>
       </costs>
@@ -4482,19 +5295,57 @@ Grail Knights will often join the ranks of the young Knights Errant to give them
       </constraints>
       <entryLinks>
         <entryLink id="00bf-b92d-7407-13fd" name="Virtue of Audacity " hidden="false" collective="false" import="true" targetId="5741-37f3-a128-406f" type="selectionEntry"/>
+        <entryLink id="2e23-8b4f-127c-7ee0" name="Virtue of Audacity (2nd character)" hidden="false" collective="false" import="true" targetId="7c69-6a15-3243-45f7" type="selectionEntry"/>
+        <entryLink id="e724-f99f-bc9d-4b83" name="Virtue of Audacity (3rd character)" hidden="false" collective="false" import="true" targetId="7b05-0f54-d81b-1554" type="selectionEntry"/>
         <entryLink id="3202-2688-8402-03d3" name="Virtue of Confidence " hidden="false" collective="false" import="true" targetId="d978-9cf1-a186-81bb" type="selectionEntry"/>
+        <entryLink id="dc50-176e-4e06-038d" name="Virtue of Confidence (2nd character)" hidden="false" collective="false" import="true" targetId="aeb9-c5e7-55b2-027e" type="selectionEntry"/>
+        <entryLink id="bbc2-9dc9-ba26-6586" name="Virtue of Confidence (3rd character)" hidden="false" collective="false" import="true" targetId="1bd7-2a6b-1ad0-6cee" type="selectionEntry"/>
+        <entryLink id="8bfa-4f69-0658-c270" name="Virtue of Confidence (4th character)" hidden="false" collective="false" import="true" targetId="09d7-76a3-c60a-a2b8" type="selectionEntry"/>
         <entryLink id="d50a-140f-9948-bbc6" name="Virtue of Discipline " hidden="false" collective="false" import="true" targetId="95b8-f74e-dcc8-aaf3" type="selectionEntry"/>
+        <entryLink id="62c6-1f2d-5b12-d9ae" name="Virtue of Discipline (2nd character)" hidden="false" collective="false" import="true" targetId="b2cb-1a38-340f-16d2" type="selectionEntry"/>
+        <entryLink id="3f9d-1a9f-b812-7f83" name="Virtue of Discipline (3rd character)" hidden="false" collective="false" import="true" targetId="bf0e-9e00-b7f1-b3c4" type="selectionEntry"/>
+        <entryLink id="6341-9653-0a36-8751" name="Virtue of Discipline (4th character)" hidden="false" collective="false" import="true" targetId="6623-f13a-71e8-186d" type="selectionEntry"/>
+        <entryLink id="79a5-2ada-00fb-2c27" name="Virtue of Discipline (5th character)" hidden="false" collective="false" import="true" targetId="b565-5f98-5268-bef4" type="selectionEntry"/>
+        <entryLink id="f319-c272-8003-523b" name="Virtue of Discipline (6th character)" hidden="false" collective="false" import="true" targetId="40c2-17a4-7d27-4cd7" type="selectionEntry"/>
         <entryLink id="8955-a28a-b86a-dd67" name="Virtue of Duty" hidden="false" collective="false" import="true" targetId="e650-2a76-133b-dd93" type="selectionEntry"/>
+        <entryLink id="2960-5b3a-8151-b4a8" name="Virtue of Duty (2nd character)" hidden="false" collective="false" import="true" targetId="2967-610a-ec88-b32a" type="selectionEntry"/>
+        <entryLink id="bed1-6187-464e-42a7" name="Virtue of Duty (3rd character)" hidden="false" collective="false" import="true" targetId="f45d-b328-4dba-ec7e" type="selectionEntry"/>
         <entryLink id="ed37-f00e-b8cf-018a" name="Virtue of Empathy " hidden="false" collective="false" import="true" targetId="7253-c4c4-e42b-fc1a" type="selectionEntry"/>
+        <entryLink id="3ef4-a145-c663-8146" name="Virtue of Empathy (2nd character)" hidden="false" collective="false" import="true" targetId="ac48-66e3-672b-ec29" type="selectionEntry"/>
+        <entryLink id="6c10-ac7b-68df-3bab" name="Virtue of Empathy (3rd character)" hidden="false" collective="false" import="true" targetId="d9da-d03c-5270-1439" type="selectionEntry"/>
+        <entryLink id="3bc3-218d-db6e-0673" name="Virtue of Empathy (4th character)" hidden="false" collective="false" import="true" targetId="2987-ef58-cbca-b74f" type="selectionEntry"/>
+        <entryLink id="6370-4ad6-f611-1ba0" name="Virtue of Empathy (5th character)" hidden="false" collective="false" import="true" targetId="e695-eb53-1271-b5e5" type="selectionEntry"/>
+        <entryLink id="e332-d7ce-dd47-767d" name="Virtue of Empathy (6th character)" hidden="false" collective="false" import="true" targetId="7cef-af30-6120-06cb" type="selectionEntry"/>
+        <entryLink id="bc52-cc6b-7d86-dc5f" name="Virtue of Empathy (7th character)" hidden="false" collective="false" import="true" targetId="0e24-7930-0aff-52f4" type="selectionEntry"/>
+        <entryLink id="e3ab-5a63-f5a2-7cd4" name="Virtue of Empathy (8th character)" hidden="false" collective="false" import="true" targetId="0f5b-c219-b5bf-ff6b" type="selectionEntry"/>
+        <entryLink id="22af-216c-abab-af96" name="Virtue of Empathy (9th character)" hidden="false" collective="false" import="true" targetId="510e-8991-7961-b196" type="selectionEntry"/>
+        <entryLink id="91e7-0940-c870-9711" name="Virtue of Empathy (10th character)" hidden="false" collective="false" import="true" targetId="2b3a-64bc-4cba-6015" type="selectionEntry"/>
         <entryLink id="98ed-35c1-32cf-67d8" name="Virtue of Heroism " hidden="false" collective="false" import="true" targetId="29c0-5cad-b02c-866f" type="selectionEntry"/>
+        <entryLink id="d91c-ac67-f2bc-b096" name="Virtue of Heroism (2nd character)" hidden="false" collective="false" import="true" targetId="9737-15de-9536-1037" type="selectionEntry"/>
         <entryLink id="93e0-8d7f-18cb-acc1" name="Virtue of Knightly Temper" hidden="false" collective="false" import="true" targetId="dd07-e19c-a7f2-ebec" type="selectionEntry"/>
+        <entryLink id="5ce5-98c6-da66-560a" name="Virtue of Knightly Temper (2nd character)" hidden="false" collective="false" import="true" targetId="8a98-1572-aa62-d496" type="selectionEntry"/>
         <entryLink id="b3c1-20db-51ac-c9fb" name="Virtue of Noble Disdain" hidden="false" collective="false" import="true" targetId="b476-0bc1-a611-48b9" type="selectionEntry"/>
+        <entryLink id="ad7e-c201-e7d1-3983" name="Virtue of Noble Disdain (2nd character)" hidden="false" collective="false" import="true" targetId="5459-9da3-8fb0-104f" type="selectionEntry"/>
+        <entryLink id="7419-6155-6e4d-59d7" name="Virtue of Noble Disdain (3rd character)" hidden="false" collective="false" import="true" targetId="2b0f-2a47-1fff-3b9b" type="selectionEntry"/>
+        <entryLink id="a0c7-0d32-eded-c644" name="Virtue of Noble Disdain (4th character)" hidden="false" collective="false" import="true" targetId="cebe-d410-bfc9-68d3" type="selectionEntry"/>
+        <entryLink id="f990-a83f-d1c8-eb37" name="Virtue of Noble Disdain (5th character)" hidden="false" collective="false" import="true" targetId="de71-f87f-67f2-e849" type="selectionEntry"/>
         <entryLink id="b621-d671-236c-c63c" name="Virtue of Purity" hidden="false" collective="false" import="true" targetId="4f1a-9971-1270-6a3b" type="selectionEntry"/>
+        <entryLink id="81b9-1291-a444-b3d2" name="Virtue of Purity (2nd character)" hidden="false" collective="false" import="true" targetId="6fb6-13cb-1da3-1911" type="selectionEntry"/>
+        <entryLink id="5255-aa4a-b8dd-952b" name="Virtue of Purity (3rd character)" hidden="false" collective="false" import="true" targetId="5d1d-ded8-c26f-92aa" type="selectionEntry"/>
+        <entryLink id="c18c-28b0-d430-b021" name="Virtue of Purity (4th character)" hidden="false" collective="false" import="true" targetId="45a7-6241-0f65-0737" type="selectionEntry"/>
+        <entryLink id="cba2-b4e4-a8d7-c11b" name="Virtue of Purity (5th character)" hidden="false" collective="false" import="true" targetId="f69f-b716-e22e-0a56" type="selectionEntry"/>
         <entryLink id="7587-1d75-bfb4-1472" name="Virtue of Stoicism " hidden="false" collective="false" import="true" targetId="00c2-9072-a600-c111" type="selectionEntry"/>
+        <entryLink id="711d-f362-a307-c6a6" name="Virtue of Stoicism (2nd character)" hidden="false" collective="false" import="true" targetId="2b00-7883-9253-1b16" type="selectionEntry"/>
         <entryLink id="8a8a-45d7-1cb6-d6bb" name="Virtue of the Ideal" hidden="false" collective="false" import="true" targetId="eaff-5d8c-7281-54e0" type="selectionEntry"/>
+        <entryLink id="1ef7-5912-49b8-b72d" name="Virtue of the Ideal (2nd character)" hidden="false" collective="false" import="true" targetId="9cba-0c52-7b14-6ffd" type="selectionEntry"/>
         <entryLink id="ed40-6432-2057-b6c1" name="Virtue of the Impetuous Knight " hidden="false" collective="false" import="true" targetId="324d-b75a-577f-15e8" type="selectionEntry"/>
+        <entryLink id="7869-0d1e-2229-6603" name="Virtue of the Impetuous Knight (2nd character)" hidden="false" collective="false" import="true" targetId="3525-f00d-cb6f-9aa3" type="selectionEntry"/>
         <entryLink id="ba96-4722-5517-519b" name="Virtue of the Joust " hidden="false" collective="false" import="true" targetId="2aaa-4e48-627f-ede0" type="selectionEntry"/>
+        <entryLink id="d20d-094f-309d-09cc" name="Virtue of the Joust (2nd character)" hidden="false" collective="false" import="true" targetId="bf89-0c97-e69b-7699" type="selectionEntry"/>
+        <entryLink id="bed2-29e0-1147-5c46" name="Virtue of the Joust (3rd character)" hidden="false" collective="false" import="true" targetId="f16c-bb0f-7577-bad6" type="selectionEntry"/>
+        <entryLink id="e5c0-a382-dc87-4b6c" name="Virtue of the Joust (4th character)" hidden="false" collective="false" import="true" targetId="5c9d-d222-2547-ef89" type="selectionEntry"/>
         <entryLink id="5928-a720-1d4c-e992" name="Virtue of the Penitent " hidden="false" collective="false" import="true" targetId="5659-1b83-4d3a-ffee" type="selectionEntry"/>
+        <entryLink id="9c6e-d45f-c4ca-1dfb" name="Virtue of the Penitent (2nd character)" hidden="false" collective="false" import="true" targetId="0f1d-3517-af1d-28f9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f6ea-09d5-9cfb-d988" name="Magic Weapons (BR-AB)" hidden="false" collective="false" import="true" collapsible="true">
